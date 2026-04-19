@@ -15,6 +15,7 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
   const [hovered, setHovered] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isPosterLoaded, setIsPosterLoaded] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const [showWorkoutPopup, setShowWorkoutPopup] = useState(false);
   const [notification, setNotification] = useState(null);
   const [workoutDetails, setWorkoutDetails] = useState({
@@ -117,6 +118,36 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
     }
   };
 
+  const handleFullscreen = () => {
+    if (!videoRef.current) return;
+
+    if (!isFullscreen) {
+      if (videoRef.current.requestFullscreen) {
+        videoRef.current.requestFullscreen();
+      } else if (videoRef.current.webkitRequestFullscreen) {
+        videoRef.current.webkitRequestFullscreen();
+      } else if (videoRef.current.mozRequestFullScreen) {
+        videoRef.current.mozRequestFullScreen();
+      } else if (videoRef.current.msRequestFullscreen) {
+        videoRef.current.msRequestFullscreen();
+      }
+      setIsFullscreen(true);
+    } else {
+      if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+          document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+          document.msExitFullscreen();
+        }
+      }
+      setIsFullscreen(false);
+    }
+  };
+
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
@@ -149,6 +180,7 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
         <button onClick={handleAddToWorkout} className="add-to-workout-button" disabled={!currentWorkout}>
           ➕ 
         </button>
+        <button onClick={handleFullscreen} className="fullscreen-button" aria-label="Fullscreen">⛶</button>
         <select id="quality-select" value={quality} onChange={handleQualityChange} className="quality-select">
           <option value="360p">360p</option>
           <option value="original">Original</option>

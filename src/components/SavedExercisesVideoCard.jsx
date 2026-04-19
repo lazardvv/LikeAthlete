@@ -10,6 +10,7 @@ const SavedExercisesVideoCard = ({ exercise, onRemove, onBoardUpdate, showBoardM
   const [quality, setQuality] = useState('360p');
   const [hovered, setHovered] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   const handleMouseEnter = () => {
     setHovered(true);
@@ -35,6 +36,36 @@ const SavedExercisesVideoCard = ({ exercise, onRemove, onBoardUpdate, showBoardM
         videoRef.current.load();
         loadedVideos.current[newSrc] = true;
       }
+    }
+  };
+
+  const handleFullscreen = () => {
+    if (!videoRef.current) return;
+
+    if (!isFullscreen) {
+      if (videoRef.current.requestFullscreen) {
+        videoRef.current.requestFullscreen();
+      } else if (videoRef.current.webkitRequestFullscreen) {
+        videoRef.current.webkitRequestFullscreen();
+      } else if (videoRef.current.mozRequestFullScreen) {
+        videoRef.current.mozRequestFullScreen();
+      } else if (videoRef.current.msRequestFullscreen) {
+        videoRef.current.msRequestFullscreen();
+      }
+      setIsFullscreen(true);
+    } else {
+      if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+          document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+          document.msExitFullscreen();
+        }
+      }
+      setIsFullscreen(false);
     }
   };
 
@@ -92,23 +123,13 @@ const SavedExercisesVideoCard = ({ exercise, onRemove, onBoardUpdate, showBoardM
         Your browser does not support the video tag.
       </video>
 
-      <div className={`quality-dropdown ${hovered ? 'visible' : ''}`}>
-        <button onClick={handleRemove} className="save-button">
+      {/* Delete and Fullscreen buttons in top-right corner */}
+      <div className={`quality-dropdown ${hovered ? 'visible' : ''}`} style={{ flexDirection: 'row-reverse' }}>
+        <button onClick={handleRemove} className="save-button" aria-label="Obriši">
           ❌ 
         </button>
 
-        <label htmlFor="quality-select" style={{ marginRight: '0.5rem' }}>
-          
-        </label>
-        <select
-          id="quality-select"
-          value={quality}
-          onChange={handleQualityChange}
-          className="quality-select"
-        >
-          <option value="360p">360p</option>
-          <option value="original">Original</option>
-        </select>
+        <button onClick={handleFullscreen} className="fullscreen-button" aria-label="Fullscreen">⛶</button>
       </div>
 
       {showBoardManager && (

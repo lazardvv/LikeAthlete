@@ -12,9 +12,9 @@ const VideoCard = ({ exercise }) => {
   const loadedVideos = useRef({});
   const [quality, setQuality] = useState('360p');
   const [hovered, setHovered] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isPosterLoaded, setIsPosterLoaded] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   useEffect(() => {
     const checkIfSaved = async () => {
@@ -87,6 +87,36 @@ const VideoCard = ({ exercise }) => {
     }
   };
 
+  const handleFullscreen = () => {
+    if (!videoRef.current) return;
+
+    if (!isFullscreen) {
+      if (videoRef.current.requestFullscreen) {
+        videoRef.current.requestFullscreen();
+      } else if (videoRef.current.webkitRequestFullscreen) {
+        videoRef.current.webkitRequestFullscreen();
+      } else if (videoRef.current.mozRequestFullScreen) {
+        videoRef.current.mozRequestFullScreen();
+      } else if (videoRef.current.msRequestFullscreen) {
+        videoRef.current.msRequestFullscreen();
+      }
+      setIsFullscreen(true);
+    } else {
+      if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement) {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+          document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+          document.msExitFullscreen();
+        }
+      }
+      setIsFullscreen(false);
+    }
+  };
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -119,17 +149,8 @@ const VideoCard = ({ exercise }) => {
       className="exercise-card"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onTouchStart={() => { setHovered(true); setMenuOpen(true); }}
+      onTouchStart={() => { setHovered(true); }}
     >
-      <button
-        type="button"
-        className="quality-menu-toggle"
-        aria-label="Otvori meni za kontrole"
-        onClick={() => setMenuOpen((v) => !v)}
-      >
-        ⋮
-      </button>
-
       {/* Video element */}
       <video
         ref={videoRef}
@@ -161,13 +182,14 @@ const VideoCard = ({ exercise }) => {
       )}
 
       {/* Controls */}
-      <div className={`quality-dropdown ${(hovered || menuOpen) ? 'visible' : ''}`}>
+      <div className={`quality-dropdown ${hovered ? 'visible' : ''}`}>
         <NavLink to={`/exercise/${exercise.id}`} className="exercise-detail-link">🔍</NavLink>
         {isSaved ? (
           <button disabled className="saved-button" aria-label="Sačuvano">✅</button>
         ) : (
           <button onClick={handleSave} className="save-button" aria-label="Sačuvaj vježbu">💾</button>
         )}
+        <button onClick={handleFullscreen} className="fullscreen-button" aria-label="Fullscreen">⛶</button>
         <label htmlFor="quality-select" className="sr-only">Kvalitet videa</label>
         <select
           id="quality-select"
