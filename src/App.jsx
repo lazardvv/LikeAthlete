@@ -2,7 +2,7 @@ import { createBrowserRouter, createRoutesFromChildren, createRoutesFromElements
 import Navbar from "./components/Navbar";
 import RootLayout from "./layout/RootLayout";
 import About from "./pages/About";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import ExploreAthletes from "./pages/ExploreAthletes";
 import Overview from "./pages/Overview";
 import SavedExercisess from "./pages/SavedExercises";
