@@ -1,0 +1,2620 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+/*=============== IMPORT AUTH STYLES ===============*/
+@import url("./assets/auth.css");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --black-color: hsl(220, 24%, 12%);
+  --black-color-light: hsl(220, 24%, 15%);
+  --black-color-lighten: hsl(220, 20%, 18%);
+  --white-color: #fff;
+  --body-color: hsl(220, 100%, 97%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Montserrat", sans-serif;
+  --normal-font-size: .938rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+
+}
+
+ul,
+li {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*=========REUSABLE CSS CLASES======*/
+
+.container {
+  margin-inline: 1.5rem;
+}
+
+/*=========HEADER======*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--black-color);
+  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  z-index: var(--z-fixed);
+}
+
+/*=========NAV======*/
+.nav {
+  height: var(--header-height);
+}
+
+.nav__logo,
+.nav__burger,
+.nav__close {
+  color: var(--white-color);
+}
+
+.nav__data {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  font-weight: var(--font-semi-bold);
+}
+
+.nav__logo i {
+  font-weight: initial;
+  font-size: 1.25rem;
+}
+
+.nav__toogle {
+
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.nav__burger,
+.nav__close {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  inset: 0;
+  margin: auto;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: opacity .1s, transform .4s;
+}
+
+.nav__close {
+  opacity: 0;
+}
+
+@media screen and (max-width:1118px) {
+  .nav__menu {
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    overflow: auto;
+    pointer-events: none;
+    opacity: 0;
+    transition: top .4s, opacity .3s;
+  }
+}
+
+.nav__menu::-webkit-scrollbar {
+  width: 0;
+}
+
+.nav__list {
+  background-color: var(--black-color);
+  padding-top: 1rem;
+}
+
+.nav__link {
+  color: var(--white-color);
+  background-color: var(--black-color);
+  font-weight: var(--font-semi-bold);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color .3s;
+}
+
+.nav__link:hover {
+  background-color: var(--black-color-light);
+}
+
+.show-menu {
+  opacity: 1;
+  top: 3.5rem;
+  pointer-events: initial;
+}
+
+.show-icon .nav__burger {
+  opacity: 0;
+  transform: rotate(90deg);
+}
+
+.show-icon .nav__close {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+.dropdown__item {
+  cursor: poiner;
+}
+
+.dropdown__arrow {
+  font-size: 1.25rem;
+  font-weight: initial;
+  transition: transform .4s;
+}
+
+.dropdown__link,
+.dropdown__sublink {
+  padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+  color: var(--white-color);
+  background-color: var(--black-color-light);
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-weight: var(--font-semi-bold);
+  transition: background-color .3s;
+}
+
+.dropdown__link i,
+.dropdown__sublink i {
+  font-size: 1.25rem;
+  font-weight: initial;
+}
+
+.dropdown__link:hover,
+.dropdown__sublink:hover {
+  background-color: var(--black-color);
+}
+
+.dropdown__menu,
+.dropdown__submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .4s ease-out;
+}
+
+.dropdown__item:hover .dropdown__menu,
+.dropdown__subitem:hover>.dropdown__submenu {
+  max-height: 1000px;
+  transition: max-height .4s ease-in;
+}
+
+.dropdown__item:hover .dropdown__arrow {
+  transform: rotate(180deg);
+}
+
+.dropdown__add {
+  margin-left: auto;
+}
+
+.dropdown__sublink {
+  background-color: var(--black-color-lighten);
+}
+
+
+@media screen and (max-width:340px) {
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .nav__link {
+    padding-inline: 1rem;
+  }
+}
+
+@media screen and (min-width:1118px) {
+  .container {
+    margin-inline: auto;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav__toogle {
+    display: none;
+  }
+
+  .nav__list {
+    height: 100%;
+    display: flex;
+    column-gap: 3rem;
+  }
+
+  .nav__link {
+    height: 100%;
+    padding: 0;
+    justify-content: initial;
+    column-gap: .25rem;
+  }
+
+  .nav__link:hover {
+    background-color: transparent;
+  }
+
+  .dropdown__item,
+  .dropdown__subitem {
+    position: relative;
+  }
+
+  .dropdown__menu,
+  .dropdown__submenu {
+    max-height: initial;
+    overflow: initial;
+    position: absolute;
+    left: 0;
+    top: 6rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s, top .3s;
+  }
+
+  .dropdown__link,
+  .dropdown__sublink {
+    padding-inline: 1rem, 3.5rem;
+  }
+
+  .dropdown__subitem .dropdown_-link {
+    padding-inline: 1rem;
+  }
+
+  .dropdown__submenu {
+    position: absolute;
+    left: 100%;
+    top: .5rem;
+  }
+
+  .dropdown__item:hover .dropdown__menu {
+    opacity: 1;
+    top: 4.5rem;
+    pointer-events: initial;
+    transition: top .3s;
+  }
+
+  .dropdown__subitem:hover>.dropdown__submenu {
+    opacity: 1;
+    top: 0;
+    pointer-events: initial;
+    transition: top .3s;
+  }
+}
+
+.outlet__container {
+  justify-content: center;
+  margin-top: 5.5rem;
+  height: 90vh;
+  position: relative;
+}
+
+
+@media screen and (max-width:600px) {
+  .outlet__container {
+    justify-content: center;
+    top: -2rem;
+    height: 90vh;
+  }
+}
+
+
+
+
+.hero {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'poppins', sans-serif;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  color: red;
+  font-size: 4rem;
+}
+
+.slide {
+  animation: fadeIn 1 ease-in-out;
+}
+
+.like__athlete {
+  color: red;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero {
+  position: relative;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+
+  font-family: 'poppins', sans-serif;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero__background {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  z-index: -1;
+  opacity: 0.5;
+
+
+}
+
+.hero__background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Masonry layout styles */
+.masonry-grid {
+  display: flex;
+  margin-left: -16px;
+  /* gutter size offset */
+  width: auto;
+  background-color: bla;
+}
+
+.masonry-grid_column {
+  padding-left: 16px;
+  /* gutter size */
+  background-clip: padding-box;
+}
+
+.masonry-grid_column>div {
+  margin-bottom: 5px;
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+
+@media (max-width: 600px) {
+  .masonry-grid_column>div {
+    margin-bottom: 12px;
+  }
+}
+
+
+.exercise-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+.search-bar-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 0rem;
+  padding: 1rem 0;
+}
+
+.search-bar-input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar-input:focus {
+  border-color: #007bff;
+}
+
+
+.exercise-card {
+  position: relative;
+  margin-bottom: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.3rem;
+  overflow: hidden;
+}
+
+.video-element {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.quality-dropdown {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  transition: opacity 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  color: #fff;
+  z-index: 2;
+  opacity: 0;
+}
+
+.quality-dropdown.visible {
+  opacity: 1;
+}
+
+
+.exercise-info {
+  margin-top: 0.15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 450px) {
+  .exercise-info {
+    margin-top: 0.05rem;
+    flex-direction: column;
+    font-size: 0.5rem;
+  }
+  .athlete-link {
+  background-color: gold;
+  padding: 0.1rem;
+  border-radius: 10%;
+}
+}
+
+.exercise-title {
+  margin-right: 0.2rem;
+}
+
+.exercise-meta {
+  margin: 0;
+  color: #555;
+  
+}
+
+
+.athlete-link {
+  background-color: gold;
+  padding: 0.3rem;
+  border-radius: 10%;
+}
+.athlete-link:hover {
+  color: white;
+}
+
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -30px;
+  /* gutter size */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 30px;
+  /* gutter size */
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column>div {
+  margin-bottom: 30px;
+}
+
+.profile_container {
+  display: flex;
+  align-items: center;
+}
+
+
+.video-element,
+.image-element {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.athlete__media {
+  background-color: var(--black-color-light);
+  padding: 0.15rem 0.35rem;
+}
+
+
+.athlete__info__container {
+  background: linear-gradient(to bottom, gold, black);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.35rem;
+
+}
+
+.athlete__left {
+  /*background-color: aqua;*/
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile__photo__img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.athlete__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: yellow;*/
+
+  gap: 1rem;
+}
+
+.athlete__photoandsocial__name {
+  color: white;
+  font-weight: bold;
+  /*background-color: #ccc;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.athlete__photoandsocial__sport {
+  /*background-color: beige;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: gold;
+}
+
+.athlete__right {
+  /*background-color: gold;*/
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.athlete__firstandlastname {
+  /*background-color: #ccc;*/
+  display: flex;
+  gap: 2rem;
+}
+
+.athlete__info {
+ /* background-color: bisque;*/
+}
+
+/*----STYLE FOR MOBILES */
+@media (max-width: 450px) {
+  .athlete__photoandsocial__name {
+    font-size: 1.2rem;
+     background-color: black;
+     border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+  .athlete__firstandlastname {
+    display: none;
+  }
+
+  .athlete__info ul li {
+    font-size: 0.5rem;
+    background-color: rgb(255, 0, 64);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.25rem;
+    color: white;
+  }
+
+}
+
+/*----STYLE FOR LARGER DEVICES MOBILES */
+@media (min-width: 450px) {
+  .athlete__photoandsocial__name {
+    display: none;
+  }
+
+  .athlete__firstandlastname {
+    font-size: 5rem;
+    color: white;
+    background-color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+  }
+
+  .athlete__info ul li {
+    font-size: 1.25rem;
+    background-color: rgb(255, 0, 64);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.25rem;
+    color: white;
+    border-radius: 3px;
+  }
+
+  .profile__photo__img {
+    height: 200px;
+  }
+  .athlete__photoandsocial__sport{
+    font-size: 2rem;
+  }
+}
+
+/*=============== CONTACT PAGE STYLES ===============*/
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-header h1 {
+  font-size: 2.5rem;
+  color: var(--black-color);
+  margin-bottom: 1rem;
+}
+
+.contact-header p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info-item i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: gold;
+}
+
+.contact-info-item h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.contact-info-item p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.contact-form-container {
+  flex: 1;
+  min-width: 300px;
+  background-color: var(--white-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--black-color);
+  font-size: 1.8rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: var(--font-semi-bold);
+  color: var(--black-color);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: var(--body-font);
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: gold;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: var(--font-semi-bold);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: flex-start;
+}
+
+.submit-btn:hover {
+  background-color: var(--black-color-light);
+}
+
+.form-message {
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.form-message.success {
+  background-color: rgba(59, 255, 143, 0.2);
+  color: #0a8043;
+  border: 1px solid #0a8043;
+}
+
+.form-message.error {
+  background-color: rgba(255, 59, 59, 0.2);
+  color: #d32f2f;
+  border: 1px solid #d32f2f;
+}
+
+/* Exercise Detail Page Styles */
+.exercise-detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.exercise-detail-main {
+  flex: 1 1 200px;
+  top: 5.5rem;
+  height: fit-content;
+  background-color: gold;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 600px) {
+  .exercise-detail-main {
+    position: sticky;
+    flex: 1 2 600px;
+  }
+}
+
+.exercise-detail-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--black-color);
+  border-bottom: 2px solid gold;
+  padding-bottom: 0.5rem;
+}
+
+.exercise-detail-video-container {
+  position: relative;
+  margin-bottom: 1rem;
+  max-height: 600px;
+}
+
+.exercise-detail-video {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-height: 600px;
+}
+
+.exercise-detail-quality {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.exercise-detail-quality label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.exercise-detail-quality select {
+  background: transparent;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.exercise-detail-quality select option {
+  background-color: var(--black-color);
+  color: white;
+}
+
+.exercise-detail-info {
+  margin-top: 1rem;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-detail-info p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.exercise-detail-info i {
+  color: gold;
+  font-size: 1.2rem;
+}
+
+.exercise-detail-info strong {
+  margin-right: 0.5rem;
+  color: var(--black-color);
+}
+
+.exercise-detail-similar {
+  flex: 3 1 950px;
+  background-color: var(--white-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.25rem;
+}
+
+.exercise-detail-similar h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+  color: var(--black-color);
+  border-bottom: 2px solid gold;
+  padding-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.exercise-detail-similar h3 i {
+  color: gold;
+}
+
+.similar-exercise-item {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.similar-exercise-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form-container {
+    width: 100%;
+  }
+
+  .contact-header h1 {
+    font-size: 2rem;
+  }
+
+  .exercise-detail-container {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .exercise-detail-main {
+    position: relative;
+    top: 0;
+  }
+
+  .exercise-detail-title {
+    font-size: 1.5rem;
+  }
+
+  .exercise-detail-quality {
+    padding: 0.3rem 0.6rem;
+  }
+
+  .exercise-detail-quality label {
+    font-size: 0.8rem;
+  }
+
+  .exercise-detail-info {
+    padding: 0.75rem;
+  }
+
+  .exercise-detail-info p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .exercise-detail-container {
+    padding: 0.75rem;
+    gap: 1rem;
+  }
+
+  .exercise-detail-main, 
+  .exercise-detail-similar {
+    padding: 1rem;
+  }
+
+  .exercise-detail-title {
+    font-size: 1.3rem;
+  }
+
+  .exercise-detail-quality {
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .exercise-detail-quality label {
+    font-size: 0.7rem;
+  }
+
+  .exercise-detail-quality select {
+    padding: 0.1rem 0.2rem;
+    font-size: 0.7rem;
+  }
+
+  .exercise-detail-info {
+    padding: 0.5rem;
+  }
+
+  .exercise-detail-info p {
+    font-size: 0.9rem;
+  }
+
+  .exercise-detail-info i {
+    font-size: 1rem;
+  }
+
+  .exercise-detail-similar h3 {
+    font-size: 1.3rem;
+  }
+
+  .similar-exercise-item:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.exercise-detail-link {
+  position: absolute;
+  top: 0px;
+  left: -40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 11.5px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  z-index: 10;
+}
+.exercise-detail-link:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.exercise-card {
+  position: relative;
+}
+
+.media-card:hover .image-element,
+.media-card:hover .video-element {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.explore__media {
+  background-color: var(--black-color-light);
+}
+
+.poster-skeleton {
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  background-color: #ccc;
+  border-radius: 8px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+.profile-photo-skeleton {
+  width: 100%;
+  padding-top: 100%; /* Square aspect ratio */
+  background-color: #ccc;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+.board-manager {
+  margin-top: 0.25rem;
+}
+
+.board-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.board-tag {
+  background-color: #eee;
+  padding: 0.15rem 0.3rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.board-input-group {
+  margin-top: 0.25rem;
+  display: flex;
+  gap: 0.25rem;
+}
+
+.athlete-text {
+color:#d32f2f;
+}
+
+@media (max-width: 450px) {
+.board-input-text{
+  max-width: 150px;
+}
+}
+
+/*=============== WORKOUT CREATOR STYLES ===============*/
+.workout-creator-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  animation: slideInDown 0.5s ease-out;
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.workout-creator-title {
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.workout-selection {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.workout-select {
+  padding: 0.75rem 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.workout-select:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.workout-select:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: white;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
+}
+
+.workout-select option {
+  background-color: #667eea;
+  color: white;
+  padding: 0.75rem;
+}
+
+.create-workout-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.create-workout-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(76, 175, 80, 0.4);
+}
+
+.create-workout-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+}
+
+.current-workout {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 1.5rem;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.current-workout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.current-workout h3 {
+  color: white;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.workout-name-highlight {
+  color: #FFD700;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.workout-action-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.workout-action-btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rename-btn {
+  background-color: #2196F3;
+  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+}
+
+.rename-btn:hover:not(:disabled) {
+  background-color: #1976D2;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(33, 150, 243, 0.4);
+}
+
+.rename-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.delete-btn {
+  background-color: #f44336;
+  box-shadow: 0 4px 12px rgba(244, 67, 54, 0.3);
+}
+
+.delete-btn:hover:not(:disabled) {
+  background-color: #da190b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(244, 67, 54, 0.4);
+}
+
+.delete-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.workout-action-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.popup-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 90%;
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.popup-content h3 {
+  color: #333;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.popup-subtitle {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0 0 1rem 0;
+}
+
+.workout-name-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.workout-name-input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.workout-name-input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+.popup-buttons button {
+  padding: 0.6rem 1.4rem;
+  border-radius: 12px;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Primary dugme */
+.popup-buttons .btn-primary {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: white;
+}
+
+.popup-buttons .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(79, 70, 229, 0.3);
+}
+
+/* Secondary dugme */
+.popup-buttons .btn-secondary {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.popup-buttons .btn-secondary:hover {
+  background: #e5e7eb;
+  transform: translateY(-2px);
+}
+
+/* Danger dugme (ako ti treba) */
+.popup-buttons .btn-danger {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.popup-buttons .btn-danger:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(220, 38, 38, 0.3);
+}
+
+
+.popup-btn-create {
+  padding: 0.75rem 1.5rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.popup-btn-create:hover:not(:disabled) {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.popup-btn-create:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.popup-btn-create:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.popup-btn-cancel {
+  padding: 0.75rem 1.5rem;
+  background-color: #f5f5f5;
+  color: #333;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.popup-btn-cancel:hover:not(:disabled) {
+  background-color: #eeeeee;
+  border-color: #999;
+}
+
+.popup-btn-cancel:active:not(:disabled) {
+  background-color: #e8e8e8;
+}
+
+.popup-btn-cancel:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.workout-creator-container {
+  padding: 2rem 1rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.workout-exercises-container {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.workout-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.workout-header h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.workout-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.toggle-view-button,
+.start-workout-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.toggle-view-button:hover,
+.start-workout-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.start-workout-button:active,
+.toggle-view-button:active {
+  transform: translateY(-1px);
+}
+
+.workout-creator-exercises {
+  background-color: #f0f4ff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.1);
+}
+
+.workout-creator-exercises h2 {
+  color: #667eea;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .workout-creator-card {
+    padding: 1.5rem;
+  }
+
+  .workout-selection {
+    grid-template-columns: 1fr;
+  }
+
+  .workout-creator-title {
+    font-size: 1.5rem;
+  }
+
+  .current-workout-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .workout-action-buttons {
+    width: 100%;
+  }
+
+  .workout-action-btn {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .workout-exercises-container {
+    padding: 1.5rem;
+  }
+
+  .popup-content {
+    padding: 1.5rem;
+  }
+}
+
+.workout-creator-container {
+  padding: 20px;
+}
+
+.workout-exercises-container {
+  margin-top: 20px;
+}
+
+.workout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.workout-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.toggle-view-button,
+.start-workout-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.toggle-view-button {
+  background-color: #2196F3;
+}
+
+.start-workout-button {
+  background-color: #4CAF50;
+}
+
+.masonry-grid {
+  display: flex;
+  margin-left: -15px; /* gutter */
+  width: auto;
+}
+
+.masonry-grid_column {
+  padding-left: 15px; /* gutter */
+  background-clip: padding-box;
+}
+
+.workout-list-view ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.workout-list-item {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  cursor: grab;
+}
+
+.video-container {
+  width: 120px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.video-element {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.exercise-details {
+  flex: 1;
+}
+
+.exercise-details h3 {
+  margin: 0 0 5px 0;
+}
+
+.exercise-details p {
+  margin: 0 0 10px 0;
+}
+
+.edit-form {
+  margin-top: 10px;
+}
+
+.edit-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+.edit-form textarea {
+  min-height: 60px;
+}
+
+.edit-form-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.save-button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.exercise-attributes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.exercise-attributes div {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.exercise-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.edit-button {
+  padding: 5px 10px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.drag-handle {
+  margin-left: 10px;
+  color: #888;
+  font-size: 20px;
+  cursor: grab;
+}
+
+.workout-creator-exercises {
+  margin-top: 30px;
+}
+
+/* 🔔 WorkoutCreatorExercises */
+/* 🔔 Notification popup */
+.notification-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  z-index: 10000;
+  text-align: center;
+  max-width: 400px;
+  animation: fadeInOut 3s ease-in-out;
+}
+
+.notification-popup.success {
+  background-color: #4CAF50;
+}
+
+.notification-popup.error {
+  background-color: #f44336;
+}
+
+.notification-popup.info {
+  background-color: #2196F3;
+}
+
+.notification-popup p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+  10% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  90% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+}
+
+/* 📚 Exercise source buttons */
+.exercise-source-buttons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.exercise-source-toggle {
+  display: flex;
+  gap: 4px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+.source-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  white-space: nowrap;
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.source-button.active-all {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.source-button.active-saved {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+/* 🎛 Action bar */
+.exercise-actions-bar {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.add-break-button {
+  padding: 8px 12px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-standard-break-button {
+  padding: 8px 12px;
+  background-color: #9c27b0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.set-standard-break-button {
+  padding: 8px 12px;
+  background-color: #607d8b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* 🗂 Board filter */
+.board-filter {
+  margin-bottom: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.board-filter label {
+  font-weight: bold;
+}
+
+.board-button {
+  padding: 6px 12px;
+  background-color: #e0e0e0;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.board-button.active {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+/* ⏳ Loading & empty states */
+.loading-indicator {
+  text-align: center;
+  padding: 20px;
+}
+
+.no-exercises {
+  text-align: center;
+  padding: 40px 20px;
+  color: #999;
+}
+
+/* 🧱 Masonry grid */
+.masonry-grid {
+  display: flex;
+  margin-left: -15px;
+  width: auto;
+}
+
+.masonry-grid_column {
+  padding-left: 15px;
+  background-clip: padding-box;
+}
+
+.masonry-loader {
+  height: 20px;
+}
+
+/* 🪟 Modal overlay & content */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 16px;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.modal-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.modal-row label {
+  min-width: 70px;
+}
+
+.modal-row input {
+  flex: 1;
+  padding: 6px 8px;
+}
+
+.modal-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.save-button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  padding: 8px 12px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* 🪟 WorkoutExerciseCard */
+.workout-exercise-card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.exercise-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* 🎥 Video element */
+.video-element {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* 🟦 Poster skeleton */
+.poster-skeleton {
+  width: 100%;
+  height: 200px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+/* 🎛 Quality dropdown controls */
+.quality-dropdown {
+  display: none;
+  margin-top: 8px;
+  gap: 8px;
+  align-items: center;
+}
+
+.quality-dropdown.visible {
+  display: flex;
+}
+
+
+.edit-button,
+.delete-button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.exercise-detail-link {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+
+
+/* ℹ️ Exercise info */
+.exercise-info {
+  margin-top: 12px;
+}
+
+.exercise-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.exercise-meta {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.athlete-link {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.athlete-link:hover {
+  text-decoration: underline;
+}
+
+.exercise-details p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* ✏️ Edit form */
+.edit-form {
+  margin-top: 10px;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-form textarea {
+  min-height: 60px;
+}
+
+.edit-form .form-row {
+  margin-bottom: 8px;
+}
+
+.edit-form-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.save-button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Dugme Replace */
+.replace-button {
+  padding: 5px 10px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.replace-button:hover {
+  background-color: #1976D2;
+}
+
+/* Overlay za Replace */
+.replace-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5); /* zamagljena pozadina */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* da bude iznad svega */
+}
+
+/* Container unutar overlay-a */
+.replace-container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+/* Blur glavnog sadržaja dok je Replace aktivan */
+.workout-creator-container.blur {
+  filter: blur(4px);
+}
+
+.main-content.blur {
+  filter: blur(4px);
+  pointer-events: none; /* sprječava klikove na zamagljeni sadržaj */
+}
+
+.replace-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.replace-container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.close-overlay-button {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  transition: color 0.2s ease;
+}
+
+.close-overlay-button:hover {
+  color: #e74c3c; /* crvena boja na hover */
+}
+/* Modal skeleton (koristiš iste klase kao kod replace popupa) */
+/* Overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 10, 10, 0.75);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 60;
+}
+
+/* Modal box */
+.modal-content {
+  background: linear-gradient(145deg, #141414, #0e0e0e);
+  color: #fff;
+  border-radius: 14px;
+  width: min(680px, 94vw);
+  max-height: 90vh;
+  overflow: auto;
+  padding: 26px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  border: 1px solid #1f1f1f;
+  animation: fadeInScale 0.18s ease-out;
+}
+
+/* Title */
+.modal-content h3 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* Form layout */
+.workout-details-form .form-group {
+  margin-bottom: 14px;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 14px;
+  align-items: center;
+}
+
+.workout-details-form label {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Inputs */
+.modal-content input,
+.modal-content textarea {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.modal-content input:focus,
+.modal-content textarea:focus {
+  border-color: #0af;
+  box-shadow: 0 0 0 2px rgba(0, 170, 255, 0.25);
+}
+
+.modal-content textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+
+/* Placeholder */
+.modal-content input::placeholder,
+.modal-content textarea::placeholder {
+  color: #666;
+}
+
+/* Buttons */
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.save-button,
+.cancel-button,
+.replace-button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Save */
+.save-button {
+  background: #0af;
+  color: #fff;
+}
+
+.save-button:hover {
+  background: #0095dd;
+}
+
+/* Cancel */
+.cancel-button {
+  background: #222;
+  color: #ccc;
+}
+
+.cancel-button:hover {
+  background: #333;
+}
+
+/* Replace */
+.replace-button {
+  background: #222;
+  color: #0af;
+  border: 1px solid #0af;
+}
+
+.replace-button:hover {
+  background: #0af;
+  color: #fff;
+}
+
+/* Smooth animation */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Duplicate button - vizuelno između Edit i Delete */
+.duplicate-button {
+  background-color: #3498db;      /* plava - neutralna */
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin-left: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.25s ease, transform 0.1s ease;
+}
+
+.duplicate-button:hover {
+  background-color: #2c81ba;
+  transform: translateY(-1px);
+}
+
+.duplicate-button:active {
+  transform: translateY(0px);
+}
+
+/* Smooth animation 
+.quality-select {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.2rem;
+  outline: none;
+}
+.quality-select {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}*/
+.quality-select {
+  appearance: none; /* uklanja default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-color: #1e1e1e;
+  color: #fff;
+
+  padding: 8px 38px 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #2e2e2e;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  /* custom arrow */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5.5l6 6 6-6' stroke='white' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 14px;
+}
+
+.quality-select:hover {
+  border-color: #4f8cff;
+}
+
+.quality-select:focus {
+  border-color: #4f8cff;
+  box-shadow: 0 0 0 3px rgba(79, 140, 255, 0.25);
+}
+
+.quality-select option {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+/* === Mobile/touch accessibility helpers === */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Toggle button to open quality/actions menu on touch devices */
+.quality-menu-toggle {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* Hide the toggle on desktop until hover for cleaner look */
+@media (hover: hover) and (pointer: fine) {
+  .quality-menu-toggle {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  .exercise-card:hover .quality-menu-toggle {
+    opacity: 1;
+  }
+}
+
+/* Improve tap targets and layout on small screens */
+@media (max-width: 768px) {
+  .quality-dropdown {
+    top: 3.25rem; /* make room for the toggle button */
+    right: 0.5rem;
+  }
+  .quality-dropdown button,
+  .quality-dropdown .save-button,
+  .quality-dropdown .delete-button,
+  .quality-dropdown .edit-button,
+  .quality-dropdown .duplicate-button {
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 18px;
+  }
+  .quality-select {
+    font-size: 16px;
+    padding: 0.4rem 0.5rem;
+  }
+}
