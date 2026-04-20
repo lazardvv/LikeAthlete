@@ -2466,6 +2466,372 @@ margin-bottom: 6px;
 .edit-form input,
 .edit-form textarea {
   width: 100%;
+}
+
+/* ==========================================
+   MODERN WORKOUT CREATOR VIDEO CARD STYLES
+   ========================================== */
+
+/* Modern exercise card container */
+.exercise-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.exercise-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Video element styling */
+.video-element {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #000;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Modern quality dropdown - Compact & Elegant */
+.quality-dropdown {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.55) 100%);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 6px 8px;
+  border-radius: 8px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.2s ease;
+  flex-wrap: wrap;
+  max-width: 90%;
+}
+
+.quality-dropdown.visible {
+  opacity: 1;
+}
+
+/* Control buttons - Modern style */
+.quality-dropdown button,
+.exercise-detail-link {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.quality-dropdown button:hover,
+.exercise-detail-link:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.05);
+}
+
+.quality-dropdown button:active,
+.exercise-detail-link:active {
+  transform: scale(0.95);
+}
+
+/* Quality select - Modern dropdown */
+.quality-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 6px 24px 6px 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='white' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='white' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 6px center;
+  background-size: 12px;
+  padding-right: 22px;
+  flex-shrink: 0;
+}
+
+.quality-select:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.quality-select:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.quality-select option {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 8px;
+}
+
+/* Exercise info section */
+.exercise-info {
+  padding: 10px 10px;
+  background: #fff;
+}
+
+.exercise-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin: 0 0 4px 0;
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+.exercise-meta {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.athlete-link {
+  color: #2196F3;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.athlete-link:hover {
+  text-decoration: underline;
+}
+
+/* Poster skeleton animation */
+.poster-skeleton {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 12px;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Notification popup */
+.notification-popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 1000;
+  animation: slideIn 0.3s ease, slideOut 0.3s ease 2.7s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.notification-popup.success {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #fff;
+}
+
+.notification-popup.error {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: #fff;
+}
+
+.notification-popup.info {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: #fff;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN FOR TABLETS (768px)
+   ========================================== */
+@media (max-width: 768px) {
+  .exercise-card {
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  }
+
+  .quality-dropdown {
+    top: 6px;
+    right: 6px;
+    padding: 5px 6px;
+    gap: 3px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+  }
+
+  .quality-dropdown button,
+  .exercise-detail-link {
+    padding: 5px 6px;
+    font-size: 13px;
+  }
+
+  .quality-select {
+    padding: 5px 20px 5px 6px;
+    font-size: 12px;
+    background-position: right 5px center;
+    padding-right: 20px;
+  }
+
+  .exercise-info {
+    padding: 8px 8px;
+  }
+
+  .exercise-title {
+    font-size: 12px;
+    margin: 0 0 3px 0;
+  }
+
+  .exercise-meta {
+    font-size: 11px;
+  }
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN FOR MOBILE (480px)
+   ========================================== */
+@media (max-width: 480px) {
+  .exercise-card {
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 0.8rem;
+  }
+
+  .video-element {
+    border-radius: 8px;
+  }
+
+  .quality-dropdown {
+    top: 4px;
+    right: 4px;
+    padding: 4px 4px;
+    gap: 2px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.65) 100%);
+    border-radius: 6px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .quality-dropdown::-webkit-scrollbar {
+    display: none;
+  }
+
+  .quality-dropdown button,
+  .exercise-detail-link {
+    padding: 4px 5px;
+    font-size: 12px;
+    min-width: 28px;
+    min-height: 28px;
+    flex-shrink: 0;
+  }
+
+  .quality-select {
+    display: none !important;
+  }
+
+  .exercise-info {
+    padding: 6px 6px;
+  }
+
+  .exercise-title {
+    font-size: 11px;
+    margin: 0 0 2px 0;
+  }
+
+  .exercise-meta {
+    font-size: 10px;
+  }
+
+  .athlete-link {
+    font-size: 10px;
+  }
+
+  .notification-popup {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+}
+
+/* ==========================================
+   EXTRA SMALL DEVICES (360px)
+   ========================================== */
+@media (max-width: 360px) {
+  .quality-dropdown {
+    top: 3px;
+    right: 3px;
+    padding: 3px 3px;
+    gap: 1px;
+  }
+
+  .quality-dropdown button,
+  .exercise-detail-link {
+    padding: 3px 4px;
+    font-size: 11px;
+    min-width: 24px;
+    min-height: 24px;
+  }
+
+  .exercise-title {
+    font-size: 10px;
+  }
+
+  .exercise-meta {
+    font-size: 9px;
+  }
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
