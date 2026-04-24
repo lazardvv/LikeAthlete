@@ -2,10 +2,13 @@ import React from 'react'
 
 const WorkoutHeader = ({ currentWorkout, viewMode, onToggleView, onStartWorkout, durationText, onDuplicateWorkout }) => (
   <div className="workout-header">
-    <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: '10px', width: '100%' }}>
-      <h2 style={{ margin: 0 }}>Exercises in {currentWorkout}</h2>
+    <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: '10px', width: '100%', flexWrap: 'wrap' }}>
+      <h2 style={{ margin: 0, flex: 1, minWidth: '200px' }}>Exercises in {currentWorkout}</h2>
       {durationText && (
-        <div style={{ fontSize: '14px', color: '#555' }}>Estimated duration: <strong>{durationText}</strong></div>
+        <div className="workout-duration-display">
+          <span className="workout-duration-label">⏱️ Estimated:</span>
+          <span className="workout-duration-value">{durationText}</span>
+        </div>
       )}
     </div>
     <div className="workout-buttons">
@@ -16,7 +19,7 @@ const WorkoutHeader = ({ currentWorkout, viewMode, onToggleView, onStartWorkout,
         Start Workout
       </button>
       <button className="duplicate-workout-button" onClick={onDuplicateWorkout}>
-        Duplicate Workout
+        📋 Duplicate Workout
       </button>
     </div>
   </div>

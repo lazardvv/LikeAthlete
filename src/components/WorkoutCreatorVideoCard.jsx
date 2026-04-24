@@ -167,35 +167,54 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
   }, [isVisible, exercise.videoURL_360p]);
 
   return (
-    <div className="exercise-card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <video ref={videoRef} className="video-element" muted preload="metadata" poster={exercise.poster}>
-        Your browser does not support the video tag.
-      </video>
+    <>
+      <div className="exercise-card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <video ref={videoRef} className="video-element" muted preload="metadata" poster={exercise.poster}>
+          Your browser does not support the video tag.
+        </video>
 
-      <img src={exercise.poster} alt="poster loader" style={{ display: 'none' }} onLoad={() => setIsPosterLoaded(true)} />
-      {!isPosterLoaded && <div className="poster-skeleton" />}
+        <img src={exercise.poster} alt="poster loader" style={{ display: 'none' }} onLoad={() => setIsPosterLoaded(true)} />
+        {!isPosterLoaded && <div className="poster-skeleton" />}
 
-      <div className={`quality-dropdown ${hovered ? 'visible' : ''}`}>
-        <NavLink to={`/exercise/${exercise.id}`} className="exercise-detail-link">🔍</NavLink>
-        <button onClick={handleAddToWorkout} className="add-to-workout-button" disabled={!currentWorkout}>
-          ➕ 
-        </button>
-        <button onClick={handleFullscreen} className="fullscreen-button" aria-label="Fullscreen">⛶</button>
-        <select id="quality-select" value={quality} onChange={handleQualityChange} className="quality-select">
-          <option value="360p">360p</option>
-          <option value="original">Original</option>
-        </select>
+        <div className={`quality-dropdown ${hovered ? 'visible' : ''}`}>
+          <NavLink to={`/exercise/${exercise.id}`} className="exercise-detail-link">🔍</NavLink>
+          <button onClick={handleAddToWorkout} className="add-to-workout-button" disabled={!currentWorkout}>
+            ➕ 
+          </button>
+          <button onClick={handleFullscreen} className="fullscreen-button" aria-label="Fullscreen">⛶</button>
+          <select id="quality-select" value={quality} onChange={handleQualityChange} className="quality-select">
+            <option value="360p">360p</option>
+            <option value="original">Original</option>
+          </select>
+        </div>
+
+        {notification && (
+          <div className={`notification-popup ${notification.type}`}>
+            <p>{notification.message}</p>
+          </div>
+        )}
+
+        <div className="exercise-info">
+          <p className="exercise-title">{exercise.title}</p>
+          {(() => {
+            const athleteObj = athletes.find((a) => `${a.firstName} ${a.lastName}` === exercise.athlete);
+            return athleteObj ? (
+              <Link to={`/athlete/${athleteObj.slug}`} className="exercise-meta athlete-link">
+                {exercise.athlete} - {exercise.athletesSports}
+              </Link>
+            ) : (
+              <p className="exercise-meta">{exercise.athlete} - {exercise.athletesSports}</p>
+            );
+          })()}
+        </div>
       </div>
 
-      {notification && (
-        <div className={`notification-popup ${notification.type}`}>
-          <p>{notification.message}</p>
-        </div>
-      )}
-
       {showWorkoutPopup && (
-        <div className="popup-overlay">
-          <div className="popup-content workout-details-popup">
+        <div className="modal-overlay" onClick={() => setShowWorkoutPopup(false)}>
+          <div
+            className="modal-content workout-details-popup"
+            onClick={(e) => e.stopPropagation()}
+          >
             <h3>Add to Workout: {currentWorkout}</h3>
             <div className="workout-details-form">
               <div className="form-group"><label>Reps:</label><input type="number" name="reps" value={workoutDetails.reps} onChange={handleWorkoutDetailChange} /></div>
@@ -204,28 +223,14 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
               <div className="form-group"><label>Equipment:</label><input type="text" name="equipment" value={workoutDetails.equipment} onChange={handleWorkoutDetailChange} /></div>
               <div className="form-group"><label>Notes:</label><textarea name="notes" value={workoutDetails.notes} onChange={handleWorkoutDetailChange}></textarea></div>
             </div>
-            <div className="popup-buttons">
-              <button onClick={handleAddExerciseToWorkout}>Add to Workout</button>
-              <button onClick={() => setShowWorkoutPopup(false)}>Cancel</button>
+            <div className="modal-actions">
+              <button className="save-button" onClick={handleAddExerciseToWorkout}>Add to Workout</button>
+              <button className="cancel-button" onClick={() => setShowWorkoutPopup(false)}>Cancel</button>
             </div>
           </div>
         </div>
       )}
-
-      <div className="exercise-info">
-        <p className="exercise-title">{exercise.title}</p>
-        {(() => {
-          const athleteObj = athletes.find((a) => `${a.firstName} ${a.lastName}` === exercise.athlete);
-          return athleteObj ? (
-            <Link to={`/athlete/${athleteObj.slug}`} className="exercise-meta athlete-link">
-              {exercise.athlete} - {exercise.athletesSports}
-            </Link>
-          ) : (
-            <p className="exercise-meta">{exercise.athlete} - {exercise.athletesSports}</p>
-          );
-        })()}
-      </div>
-    </div>
+    </>
   );
 };
 

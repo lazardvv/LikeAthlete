@@ -477,21 +477,20 @@ const WorkoutCreator = () => {
             />
 
             {/* Rest controls */}
-            <div className="rest-controls" style={{ display: 'flex', alignItems: 'center', gap: '10px', margin: '10px 0 20px' }}>
-              <label htmlFor="rest-seconds">Pauza (sekunde):</label>
+            <div className="rest-controls">
+              <label htmlFor="rest-seconds">⏸️ Pauza (sekunde):</label>
               <input
                 id="rest-seconds"
                 type="number"
                 min="0"
                 value={restSeconds}
                 onChange={(e) => setRestSeconds(parseInt(e.target.value || '0', 10))}
-                style={{ width: '90px' }}
               />
               <button onClick={handleApplyRestsBetween} className="apply-rests-button">
-                Dodaj pauzu između vježbi
+                ✅ Dodaj pauzu između vježbi
               </button>
-              <button onClick={handleRemoveRests} className="remove-rests-button" style={{ marginLeft: '6px' }}>
-                Ukloni sve pauze
+              <button onClick={handleRemoveRests} className="remove-rests-button">
+                ❌ Ukloni sve pauze
               </button>
             </div>
 
