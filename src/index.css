@@ -2684,7 +2684,7 @@ margin-bottom: 6px;
   }
 
   .mobile-controls {
-    display: flex;
+    display: none;
     gap: 3px;
     align-items: center;
   }
@@ -2750,7 +2750,9 @@ margin-bottom: 6px;
   }
 
   .desktop-controls {
-    display: none;
+    display: flex;
+    gap: 2px;
+    align-items: center;
   }
 
   .mobile-controls {
