@@ -93,7 +93,9 @@ const WorkoutExerciseCard = ({
         videoRef={videoRef} 
         poster={exercise.poster} 
         isPosterLoaded={isPosterLoaded} 
-        setIsPosterLoaded={setIsPosterLoaded} 
+        setIsPosterLoaded={setIsPosterLoaded}
+        autoplay={true}
+        loop={true}
       />
 
       <QualityControls 

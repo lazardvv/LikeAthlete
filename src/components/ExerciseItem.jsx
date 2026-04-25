@@ -22,7 +22,7 @@ const ExerciseItem = ({
     onDrop={(e) => handleDrop(e, index)}
   >
     <div className="video-container">
-      <video className="video-element" muted preload="metadata" poster={exercise.poster} controls>
+      <video className="video-element" muted preload="metadata" poster={exercise.poster} controls autoPlay loop>
         <source src={exercise.videoURL_360p} type="video/mp4" />
       </video>
     </div>

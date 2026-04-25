@@ -1,13 +1,16 @@
 // VideoPlayer.jsx
 import React from 'react'
 
-const VideoPlayer = ({ videoRef, poster, isPosterLoaded, setIsPosterLoaded }) => (
+const VideoPlayer = ({ videoRef, poster, isPosterLoaded, setIsPosterLoaded, autoplay = false, loop = false }) => (
   <>
     <video
       ref={videoRef}
       muted
       preload="metadata"
       poster={poster}
+      autoPlay={autoplay}
+      loop={loop}
+      controls={autoplay}
       style={{
         width: '100%',
         height: 'auto',
