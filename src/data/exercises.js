@@ -6001,14 +6001,14 @@ const exercises = [ /*
     videoURL: '/videos/exercises/Yohan Blake_100m_Lunges.mp4',
     videoURL_360p: '/videos/exercises/Yohan Blake_100m_Lunges.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Lunges_thumb.jpg'
-  },
+  },*/
   {
     id: 668,
     athlete: 'Yohan Blake',
     title: 'Medicine Ball Wall Throw Backwards',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Medicine Ball Wall Throw Backwards.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Medicine Ball Wall Throw Backwards.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/c25b1ab0.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/c25b1ab0.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Medicine Ball Wall Throw Backwards_thumb.jpg'
   },
   {
@@ -6016,8 +6016,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Medicine Ball Wall Throws',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Medicine Ball Wall Throws.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Medicine Ball Wall Throws.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/a82c1df4.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/a82c1df4.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Medicine Ball Wall Throws_thumb.jpg'
   },
   {
@@ -6025,8 +6025,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Nordic Hamstring Curls',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Nordic Hamstring Curls.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Nordic Hamstring Curls.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/b885e820.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/b885e820.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Nordic Hamstring Curls_thumb.jpg'
   },
   {
@@ -6034,8 +6034,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Quarter Leg Press',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Quarter Leg Press.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Quarter Leg Press.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/af0656a0.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/af0656a0.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Quarter Leg Press_thumb.jpg'
   },
   {
@@ -6043,8 +6043,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Resisted Sprinting',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Resisted Sprinting.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Resisted Sprinting.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/3135891d.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/3135891d.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Resisted Sprinting_thumb.jpg'
   },
   {
@@ -6052,8 +6052,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Seated Medicine Ball Throw Backwards',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Seated Medicine Ball Throw Backwards.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Seated Medicine Ball Throw Backwards.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/7a2549ac.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/7a2549ac.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Seated Medicine Ball Throw Backwards_thumb.jpg'
   },
   {
@@ -6061,8 +6061,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Seated Resisted Jumps',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Seated Resisted Jumps.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Seated Resisted Jumps.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/a3a2453c.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/a3a2453c.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Seated Resisted Jumps_thumb.jpg'
   },
   {
@@ -6070,10 +6070,10 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Shoulder Press',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Shoulder Press.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Shoulder Press.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/2f6f655d.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/2f6f655d.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Shoulder Press_thumb.jpg'
-  },*/
+  },
   {
     id: 676,
     athlete: 'Yohan Blake',
