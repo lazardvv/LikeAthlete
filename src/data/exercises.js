@@ -5848,14 +5848,14 @@ const exercises = [ /*
     videoURL: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps Scissor.mp4',
     videoURL_360p: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps Scissor.mp4',
     poster: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps Scissor_thumb.jpg'
-  },
+  },*/
   {
     id: 651,
     athlete: 'Yohan Blake',
     title: 'Back Extension on Roman Chair 1',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Back Extension on Roman Chair 1.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Back Extension on Roman Chair 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/3c01f8f3.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/3c01f8f3.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Back Extension on Roman Chair 1_thumb.jpg'
   },
   {
@@ -5863,8 +5863,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Back Extension on Roman Chair 2',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Back Extension on Roman Chair 2.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Back Extension on Roman Chair 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/20d34681.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/20d34681.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Back Extension on Roman Chair 2_thumb.jpg'
   },
   {
@@ -5872,8 +5872,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Back Extension on Roman Chair',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Back Extension on Roman Chair.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Back Extension on Roman Chair.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/a2411c57.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/a2411c57.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Back Extension on Roman Chair_thumb.jpg'
   },
   {
@@ -5881,8 +5881,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Bar Knee Raises',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Bar Knee Raises.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Bar Knee Raises.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/674396f6.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/674396f6.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Bar Knee Raises_thumb.jpg'
   },
   {
@@ -5890,8 +5890,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Calv Raises on Machine',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Calv Raises on Machine.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Calv Raises on Machine.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/8b270c51.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/8b270c51.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Calv Raises on Machine_thumb.jpg'
   },
   {
@@ -5899,8 +5899,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Deadlift 1',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Deadlift 1.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Deadlift 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/d162c146.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/d162c146.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Deadlift 1_thumb.jpg'
   },
   {
@@ -5908,8 +5908,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Deadlift',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Deadlift.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Deadlift.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/6462c3c3.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/6462c3c3.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Deadlift_thumb.jpg'
   },
   {
@@ -5917,8 +5917,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Donkey kick on Machine',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Donkey kick on Machine.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Donkey kick on Machine.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/7ea44ed0.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/7ea44ed0.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Donkey kick on Machine_thumb.jpg'
   },
   {
@@ -5926,8 +5926,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Dumbell Row 1',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Dumbell Row 1.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Dumbell Row 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/8bf0ed42.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/8bf0ed42.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Dumbell Row 1_thumb.jpg'
   },
   {
@@ -5935,8 +5935,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Dumbell Row',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Dumbell Row.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Dumbell Row.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/0ce4c065.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/0ce4c065.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Dumbell Row_thumb.jpg'
   },
   {
@@ -5944,8 +5944,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Hip Flexor Knee Drives',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Hip Flexor Knee Drives.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Hip Flexor Knee Drives.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/367a1c84.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/367a1c84.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Hip Flexor Knee Drives_thumb.jpg'
   },
   {
@@ -5953,8 +5953,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Hip Thrusts',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Hip Thrusts.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Hip Thrusts.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/1fb9f0df.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/1fb9f0df.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Hip Thrusts_thumb.jpg'
   },
   {
@@ -5962,8 +5962,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Hurdle Jumps',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Hurdle Jumps.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Hurdle Jumps.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/cd6252ef.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/cd6252ef.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Hurdle Jumps_thumb.jpg'
   },
   {
@@ -5971,8 +5971,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Incline Bench Press',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Incline Bench Press.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Incline Bench Press.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/7ede3c90.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/7ede3c90.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Incline Bench Press_thumb.jpg'
   },
   {
@@ -5980,8 +5980,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Knee Raises Dip Bar',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Knee Raises Dip Bar.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Knee Raises Dip Bar.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/50472938.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/50472938.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Knee Raises Dip Bar_thumb.jpg'
   },
   {
@@ -5989,8 +5989,8 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Kneeling Jumps to Box Jump',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Kneeling Jumps to Box Jump.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Kneeling Jumps to Box Jump.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/bf998fbe.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/bf998fbe.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Kneeling Jumps to Box Jump_thumb.jpg'
   },
   {
@@ -5998,10 +5998,10 @@ const exercises = [ /*
     athlete: 'Yohan Blake',
     title: 'Lunges',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Yohan Blake_100m_Lunges.mp4',
-    videoURL_360p: '/videos/exercises/Yohan Blake_100m_Lunges.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/1c62c3f2.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/1c62c3f2.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Lunges_thumb.jpg'
-  },*/
+  },
   {
     id: 668,
     athlete: 'Yohan Blake',
