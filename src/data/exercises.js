@@ -5641,7 +5641,7 @@ const exercises = [ /*
     videoURL: '/videos/exercises/Usain Bolt_100m_Step up Knee Drives.mp4',
     videoURL_360p: '/videos/exercises/Usain Bolt_100m_Step up Knee Drives.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Step up Knee Drives_thumb.jpg'
-  },
+  },*/
   {
     id: 628,
     athlete: 'Usain Bolt',
@@ -5848,7 +5848,7 @@ const exercises = [ /*
     videoURL: 'https://stream.vidhosting.in/videos/172d8ca1.mp4',
     videoURL_360p: 'https://stream.vidhosting.in/videos/172d8ca1.mp4',
     poster: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps Scissor_thumb.jpg'
-  },*/
+  },
   {
     id: 651,
     athlete: 'Yohan Blake',
