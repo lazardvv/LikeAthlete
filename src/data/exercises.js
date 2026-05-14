@@ -5647,8 +5647,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Techincal Skips Over Cones',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Techincal Skips Over Cones.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Techincal Skips Over Cones.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/6343092e.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/6343092e.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Techincal Skips Over Cones_thumb.jpg'
   },
   {
@@ -5656,8 +5656,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'TRX Plank Knee Drives',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_TRX Plank Knee Drives.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_TRX Plank Knee Drives.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/43ad2471.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/43ad2471.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_TRX Plank Knee Drives_thumb.jpg'
   },
   {
@@ -5665,8 +5665,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Yoga Ball Crunches',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Yoga Ball Crunches.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Yoga Ball Crunches.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/3d888d87.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/3d888d87.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Yoga Ball Crunches_thumb.jpg'
   },
   {
@@ -5674,8 +5674,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: '20kg barbell Rotations',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_20kg barbell Rotations.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_20kg barbell Rotations.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/8a5bb977.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/8a5bb977.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_20kg barbell Rotations_thumb.jpg'
   },
   {
@@ -5683,8 +5683,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Barbell Directs',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Barbell Directs.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Barbell Directs.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/b967e0b1.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/b967e0b1.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Barbell Directs_thumb.jpg'
   },
   {
@@ -5692,8 +5692,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Barbell Uppercuts to the body',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Barbell Uppercuts to the body.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Barbell Uppercuts to the body.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/37535979.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/37535979.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Barbell Uppercuts to the body_thumb.jpg'
   },
   {
@@ -5701,8 +5701,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Barbell Uppercuts to the head',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Barbell Uppercuts to the head.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Barbell Uppercuts to the head.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/842baa31.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/842baa31.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Barbell Uppercuts to the head_thumb.jpg'
   },
   {
@@ -5710,8 +5710,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Cross 2kg Drill',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Cross 2kg Drill.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Cross 2kg Drill.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/5319ba4d.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/5319ba4d.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Cross 2kg Drill_thumb.jpg'
   },
   {
@@ -5719,8 +5719,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Directs 2kg Drill',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Directs 2kg Drill.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Directs 2kg Drill.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/58d83b9f.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/58d83b9f.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Directs 2kg Drill_thumb.jpg'
   },
   {
@@ -5728,8 +5728,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Jumps on plate',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Jumps on plate.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Jumps on plate.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/0908451b.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/0908451b.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Jumps on plate_thumb.jpg'
   },
   {
@@ -5737,8 +5737,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Kettlbell semi-squat and jump',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Kettlbell semi-squat and jump.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Kettlbell semi-squat and jump.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/4d3f8dd9.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/4d3f8dd9.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Kettlbell semi-squat and jump_thumb.jpg'
   },
   {
@@ -5746,8 +5746,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Lateral jumps on plate',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Lateral jumps on plate.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Lateral jumps on plate.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/f858e961.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/f858e961.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Lateral jumps on plate_thumb.jpg'
   },
   {
@@ -5755,8 +5755,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Plate Defense',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Plate Defense.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Plate Defense.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/5efa1641.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/5efa1641.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Plate Defense_thumb.jpg'
   },
   {
@@ -5764,8 +5764,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Plate Shadow Boxing',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Plate Shadow Boxing.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Plate Shadow Boxing.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/a391797d.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/a391797d.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Plate Shadow Boxing_thumb.jpg'
   },
   {
@@ -5773,8 +5773,8 @@ const exercises = [ /*
     athlete: 'Viktor Pyshkin',
     title: 'Tennis Ball Shadow Boxing',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Viktor Pyshkin_Boxing_Tennis Ball Shadow Boxing.mp4',
-    videoURL_360p: '/videos/exercises/Viktor Pyshkin_Boxing_Tennis Ball Shadow Boxing.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/29140f65.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/29140f65.mp4',
     poster: '/videos/exercises/Viktor Pyshkin_Boxing_Tennis Ball Shadow Boxing_thumb.jpg'
   },
   {
@@ -5782,8 +5782,8 @@ const exercises = [ /*
     athlete: 'Xiong Zhengqi',
     title: 'Back Step Lead Hook',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Xiong Zhengqi_Boxing_Back Step Lead Hook.mp4',
-    videoURL_360p: '/videos/exercises/Xiong Zhengqi_Boxing_Back Step Lead Hook.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/b2272d11.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/b2272d11.mp4',
     poster: '/videos/exercises/Xiong Zhengqi_Boxing_Back Step Lead Hook_thumb.jpg'
   },
   {
@@ -5791,8 +5791,8 @@ const exercises = [ /*
     athlete: 'Xiong Zhengqi',
     title: 'Single Punch Push Up for Back Advanced',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Xiong Zhengqi_Boxing_Single Punch Push Up for Back Advanced.mp4',
-    videoURL_360p: '/videos/exercises/Xiong Zhengqi_Boxing_Single Punch Push Up for Back Advanced.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/9d982e42.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/9d982e42.mp4',
     poster: '/videos/exercises/Xiong Zhengqi_Boxing_Single Punch Push Up for Back Advanced_thumb.jpg'
   },
   {
@@ -5800,8 +5800,8 @@ const exercises = [ /*
     athlete: 'Xiong Zhengqi',
     title: 'Single Punch Push Up for Back Medium',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Xiong Zhengqi_Boxing_Single Punch Push Up for Back Medium.mp4',
-    videoURL_360p: '/videos/exercises/Xiong Zhengqi_Boxing_Single Punch Push Up for Back Medium.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/3dfdee45.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/3dfdee45.mp4',
     poster: '/videos/exercises/Xiong Zhengqi_Boxing_Single Punch Push Up for Back Medium_thumb.jpg'
   },
   {
@@ -5809,8 +5809,8 @@ const exercises = [ /*
     athlete: 'Xiong Zhengqi',
     title: 'Slow To Power Straight Punch Drill',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Xiong Zhengqi_Boxing_Slow To Power Straight Punch Drill.mp4',
-    videoURL_360p: '/videos/exercises/Xiong Zhengqi_Boxing_Slow To Power Straight Punch Drill.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/8fd45497.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/8fd45497.mp4',
     poster: '/videos/exercises/Xiong Zhengqi_Boxing_Slow To Power Straight Punch Drill_thumb.jpg'
   },
   {
@@ -5818,8 +5818,8 @@ const exercises = [ /*
     athlete: 'Xiong Zhengqi',
     title: 'Upper Body PushUps Hand to Fist',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps Hand to Fist.mp4',
-    videoURL_360p: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps Hand to Fist.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/ff94322d.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/ff94322d.mp4',
     poster: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps Hand to Fist_thumb.jpg'
   },
   {
@@ -5827,8 +5827,8 @@ const exercises = [ /*
     athlete: 'Xiong Zhengqi',
     title: 'Upper Body PushUps on Fists',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps on Fists.mp4',
-    videoURL_360p: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps on Fists.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/c0820bd0.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/c0820bd0.mp4',
     poster: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps on Fists_thumb.jpg'
   },
   {
@@ -5836,8 +5836,8 @@ const exercises = [ /*
     athlete: 'Xiong Zhengqi',
     title: 'Upper Body PushUps on Hands',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps on Hands.mp4',
-    videoURL_360p: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps on Hands.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/1b9ee7a8.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/1b9ee7a8.mp4',
     poster: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps on Hands_thumb.jpg'
   },
   {
@@ -5845,8 +5845,8 @@ const exercises = [ /*
     athlete: 'Xiong Zhengqi',
     title: 'Upper Body PushUps Scissor',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps Scissor.mp4',
-    videoURL_360p: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps Scissor.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/172d8ca1.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/172d8ca1.mp4',
     poster: '/videos/exercises/Xiong Zhengqi_Boxing_Upper Body PushUps Scissor_thumb.jpg'
   },*/
   {
