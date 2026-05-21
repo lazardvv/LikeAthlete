@@ -5227,14 +5227,14 @@ const exercises = [ /*
     videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercuts.mp4',
     videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercuts.mp4',
     poster: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercuts_thumb.jpg'
-  },
+  },*/
   {
     id: 582,
     athlete: 'Sergei Raab',
     title: 'Kettlebel Straight Punch Drill',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Sergei Raab_Boxing_Kettlebel Straight Punch Drill.mp4',
-    videoURL_360p: '/videos/exercises/Sergei Raab_Boxing_Kettlebel Straight Punch Drill.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/8b3c28f9.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/8b3c28f9.mp4',
     poster: '/videos/exercises/Sergei Raab_Boxing_Kettlebel Straight Punch Drill_thumb.jpg'
   },
   {
@@ -5242,8 +5242,8 @@ const exercises = [ /*
     athlete: 'Spencer Dinwiddie',
     title: 'Smith Machine Eccentric single leg box squat',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Spencer Dinwiddie_Basketball_Smith Machine Eccentric single leg box squat.mp4',
-    videoURL_360p: '/videos/exercises/Spencer Dinwiddie_Basketball_Smith Machine Eccentric single leg box squat.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/b4f2e866.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/b4f2e866.mp4',
     poster: '/videos/exercises/Spencer Dinwiddie_Basketball_Smith Machine Eccentric single leg box squat_thumb.jpg'
   },
   {
@@ -5251,8 +5251,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: '2 1 3 2',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_2 1 3 2.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_2 1 3 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/cab8e1b7.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/cab8e1b7.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_2 1 3 2_thumb.jpg'
   },
   {
@@ -5260,8 +5260,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: '3 2 and 2 3',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_3 2 and 2 3.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_3 2 and 2 3.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/7ef4b143.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/7ef4b143.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_3 2 and 2 3_thumb.jpg'
   },
   {
@@ -5269,8 +5269,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: '3 3 6',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_3 3 6.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_3 3 6.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/f3dddda0.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/f3dddda0.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_3 3 6_thumb.jpg'
   },
   {
@@ -5278,8 +5278,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: '6 3 3',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_6 3 3.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_6 3 3.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/4b20cace.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/4b20cace.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_6 3 3_thumb.jpg'
   },
   {
@@ -5287,8 +5287,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: '6B 5B Roll 3 2',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_6B 5B Roll 3 2.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_6B 5B Roll 3 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/ded552f2.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/ded552f2.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_6B 5B Roll 3 2_thumb.jpg'
   },
   {
@@ -5296,8 +5296,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: 'Constant light 1 2s between hard body punches',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_Constant light 1 2s between hard body punches.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_Constant light 1 2s between hard body punches.mp4',
+    videoURL: '/videos/exercises/Terence Crawford_Boxing_Constant light 1 2s between hard body punches.mphttps://stream.vidhosting.in/videos/cdd64a4c.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/cdd64a4c.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_Constant light 1 2s between hard body punches_thumb.jpg'
   },
   {
@@ -5305,8 +5305,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: 'Constant Up and Down Punches',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_Constant Up and Down Punches.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_Constant Up and Down Punches.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/1c146628.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/1c146628.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_Constant Up and Down Punches_thumb.jpg'
   },
   {
@@ -5314,8 +5314,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: 'Keep changing position while throwing uppercuts',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_Keep changing position while throwing uppercuts.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_Keep changing position while throwing uppercuts.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/2ce71608.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/2ce71608.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_Keep changing position while throwing uppercuts_thumb.jpg'
   },
   {
@@ -5323,8 +5323,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: 'Pivot Off after Double Right hand',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_Pivot Off after Double Right hand.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_Pivot Off after Double Right hand.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/084274e3.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/084274e3.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_Pivot Off after Double Right hand_thumb.jpg'
   },
   {
@@ -5332,8 +5332,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: 'Pivot off throw multiple jabs',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_Pivot off throw multiple jabs.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_Pivot off throw multiple jabs.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/026100c6.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/026100c6.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_Pivot off throw multiple jabs_thumb.jpg'
   },
   {
@@ -5341,8 +5341,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: 'Slight Shift after lead hook',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_Slight Shift after lead hook.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_Slight Shift after lead hook.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/1c285879.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/1c285879.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_Slight Shift after lead hook_thumb.jpg'
   },
   {
@@ -5350,8 +5350,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: 'Slip Roll Pivot Hook Drill',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_Slip Roll Pivot Hook Drill.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_Slip Roll Pivot Hook Drill.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/c744f321.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/c744f321.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_Slip Roll Pivot Hook Drill_thumb.jpg'
   },
   {
@@ -5359,8 +5359,8 @@ const exercises = [ /*
     athlete: 'Terence Crawford',
     title: 'Triple a side after bag swing',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Terence Crawford_Boxing_Triple a side after bag swing.mp4',
-    videoURL_360p: '/videos/exercises/Terence Crawford_Boxing_Triple a side after bag swing.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/b858baf9.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/b858baf9.mp4',
     poster: '/videos/exercises/Terence Crawford_Boxing_Triple a side after bag swing_thumb.jpg'
   },
   {
@@ -5368,8 +5368,8 @@ const exercises = [ /*
     athlete: 'Unknown Athlete',
     title: 'Inside Slip Left Hook Counter',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Unknown Athlete_Boxing_Inside Slip Left Hook Counter.mp4',
-    videoURL_360p: '/videos/exercises/Unknown Athlete_Boxing_Inside Slip Left Hook Counter.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/2c19bb38.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/2c19bb38.mp4',
     poster: '/videos/exercises/Unknown Athlete_Boxing_Inside Slip Left Hook Counter_thumb.jpg'
   },
   {
@@ -5377,8 +5377,8 @@ const exercises = [ /*
     athlete: 'Unknown',
     title: '1 2 5 2 1 6',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Unknown_Boxing_1 2 5 2 1 6.mp4',
-    videoURL_360p: '/videos/exercises/Unknown_Boxing_1 2 5 2 1 6.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/e16ffaea.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/e16ffaea.mp4',
     poster: '/videos/exercises/Unknown_Boxing_1 2 5 2 1 6_thumb.jpg'
   },
   {
@@ -5386,8 +5386,8 @@ const exercises = [ /*
     athlete: 'Unknown',
     title: 'Angle Changes',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Unknown_Boxing_Angle Changes.mp4',
-    videoURL_360p: '/videos/exercises/Unknown_Boxing_Angle Changes.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/9a1fb0db.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/9a1fb0db.mp4',
     poster: '/videos/exercises/Unknown_Boxing_Angle Changes_thumb.jpg'
   },
   {
@@ -5395,8 +5395,8 @@ const exercises = [ /*
     athlete: 'Unknown',
     title: 'In and Out drill',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Unknown_Boxing_In and Out drill.mp4',
-    videoURL_360p: '/videos/exercises/Unknown_Boxing_In and Out drill.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/3dbd5a2a.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/3dbd5a2a.mp4',
     poster: '/videos/exercises/Unknown_Boxing_In and Out drill_thumb.jpg'
   },
   {
@@ -5404,8 +5404,8 @@ const exercises = [ /*
     athlete: 'Unknown',
     title: 'Repetitive Lead Hooks',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Unknown_Boxing_Repetitive Lead Hooks.mp4',
-    videoURL_360p: '/videos/exercises/Unknown_Boxing_Repetitive Lead Hooks.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/f86c33d0.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/f86c33d0.mp4',
     poster: '/videos/exercises/Unknown_Boxing_Repetitive Lead Hooks_thumb.jpg'
   },
   {
@@ -5413,8 +5413,8 @@ const exercises = [ /*
     athlete: 'Unknown',
     title: '',
     athletesSports: 'Track and field',
-    videoURL: '/videos/exercises/Unknown_Track and field_.mp4',
-    videoURL_360p: '/videos/exercises/Unknown_Track and field_.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/dbaf0a59.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/dbaf0a59.mp4',
     poster: '/videos/exercises/Unknown_Track and field__thumb.jpg'
   },
   {
@@ -5422,8 +5422,8 @@ const exercises = [ /*
     athlete: 'Unknown',
     title: '1',
     athletesSports: 'Track and field',
-    videoURL: '/videos/exercises/Unknown_Track and field_1.mp4',
-    videoURL_360p: '/videos/exercises/Unknown_Track and field_1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/e762729f.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/e762729f.mp4',
     poster: '/videos/exercises/Unknown_Track and field_1_thumb.jpg'
   },
   {
@@ -5431,8 +5431,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Abs crunch on machine',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Abs crunch on machine.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Abs crunch on machine.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/4b42cdbb.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/4b42cdbb.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Abs crunch on machine_thumb.jpg'
   },
   {
@@ -5440,8 +5440,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Back Extension on Roman Chair 1',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Back Extension on Roman Chair 1.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Back Extension on Roman Chair 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/d31f4800.mp4ir 1.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/d31f4800.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Back Extension on Roman Chair 1_thumb.jpg'
   },
   {
@@ -5449,8 +5449,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Back Raise Medicine Balll Throw',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Back Raise Medicine Balll Throw.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Back Raise Medicine Balll Throw.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/d31f4800.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/d31f4800.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Back Raise Medicine Balll Throw_thumb.jpg'
   },
   {
@@ -5458,8 +5458,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Calv raises',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Calv raises.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Calv raises.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/28a15daa.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/28a15daa.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Calv raises_thumb.jpg'
   },
   {
@@ -5467,8 +5467,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Crunch Knee Drives',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Crunch Knee Drives.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Crunch Knee Drives.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/2c5082ac.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/2c5082ac.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Crunch Knee Drives_thumb.jpg'
   },
   {
@@ -5476,8 +5476,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Crunch Medicine Ball Throws',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Crunch Medicine Ball Throws.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Crunch Medicine Ball Throws.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/2c5082ac.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/2c5082ac.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Crunch Medicine Ball Throws_thumb.jpg'
   },
   {
@@ -5485,8 +5485,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Crunches Single Leg Knee Raises',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Crunches Single Leg Knee Raises.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Crunches Single Leg Knee Raises.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/d6250c7d.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/d6250c7d.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Crunches Single Leg Knee Raises_thumb.jpg'
   },
   {
@@ -5494,8 +5494,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Crunches',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Crunches.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Crunches.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/7ce69fcc.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/7ce69fcc.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Crunches_thumb.jpg'
   },
   {
@@ -5503,8 +5503,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Donkey Kicks on machine',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Donkey Kicks on machine.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Donkey Kicks on machine.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/bb5215d4.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/bb5215d4.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Donkey Kicks on machine_thumb.jpg'
   },
   {
@@ -5512,8 +5512,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Hip Flexor Knee Drives',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Hip Flexor Knee Drives.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Hip Flexor Knee Drives.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/e064d0e9.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/e064d0e9.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Hip Flexor Knee Drives_thumb.jpg'
   },
   {
@@ -5521,8 +5521,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Hurdle Stepovers',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Hurdle Stepovers.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Hurdle Stepovers.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/fcd10f9d.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/fcd10f9d.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Hurdle Stepovers_thumb.jpg'
   },
   {
@@ -5530,8 +5530,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Knee extension on machine',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Knee extension on machine.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Knee extension on machine.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/289520e6.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/289520e6.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Knee extension on machine_thumb.jpg'
   },
   {
@@ -5539,8 +5539,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Leg press',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Leg press.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Leg press.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/5abdbd44.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/5abdbd44.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Leg press_thumb.jpg'
   },
   {
@@ -5548,8 +5548,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Mountain Climbers',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Mountain Climbers.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Mountain Climbers.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/49647ead.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/49647ead.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Mountain Climbers_thumb.jpg'
   },
   {
@@ -5557,8 +5557,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Plank',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Plank.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Plank.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/7033e1bc.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/7033e1bc.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Plank_thumb.jpg'
   },
   {
@@ -5566,8 +5566,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Repetetive Hang Cleans',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Repetetive Hang Cleans.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Repetetive Hang Cleans.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/49bb1efa.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/49bb1efa.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Repetetive Hang Cleans_thumb.jpg'
   },
   {
@@ -5575,8 +5575,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Reverse crunch knee drives',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Reverse crunch knee drives.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Reverse crunch knee drives.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/f701d27e.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/f701d27e.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Reverse crunch knee drives_thumb.jpg'
   },
   {
@@ -5584,8 +5584,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Russian Twists 1',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Russian Twists 1.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Russian Twists 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/a73192dc.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/a73192dc.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Russian Twists 1_thumb.jpg'
   },
   {
@@ -5593,8 +5593,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Russian Twists 2',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Russian Twists 2.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Russian Twists 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/bb8c858f.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/bb8c858f.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Russian Twists 2_thumb.jpg'
   },
   {
@@ -5602,8 +5602,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Russian Twists',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Russian Twists.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Russian Twists.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/01c33bb6.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/01c33bb6.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Russian Twists_thumb.jpg'
   },
   {
@@ -5611,8 +5611,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Scissors',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Scissors.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Scissors.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/7b9bf56b.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/7b9bf56b.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Scissors_thumb.jpg'
   },
   {
@@ -5620,8 +5620,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Single Leg Crunch Toe Touches',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Single Leg Crunch Toe Touches.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Single Leg Crunch Toe Touches.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/7cf91d48.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/7cf91d48.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Single Leg Crunch Toe Touches_thumb.jpg'
   },
   {
@@ -5629,8 +5629,8 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Sit ups with barbell press',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Sit ups with barbell press.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Sit ups with barbell press.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/dbfac454.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/dbfac454.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Sit ups with barbell press_thumb.jpg'
   },
   {
@@ -5638,10 +5638,10 @@ const exercises = [ /*
     athlete: 'Usain Bolt',
     title: 'Step up Knee Drives',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Usain Bolt_100m_Step up Knee Drives.mp4',
-    videoURL_360p: '/videos/exercises/Usain Bolt_100m_Step up Knee Drives.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/91499588.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/91499588.mp4',
     poster: '/videos/exercises/Usain Bolt_100m_Step up Knee Drives_thumb.jpg'
-  },*/
+  },
   {
     id: 628,
     athlete: 'Usain Bolt',
