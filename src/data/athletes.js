@@ -1,76 +1,8 @@
 const athletes = [
-    {
-        id: 1,
-        profilePhoto: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e8f4740038710e0385/view?project=68595ef3002478ec3cd8&mode=admin',
-        slug: 'mike-james',
-        firstName: 'Mike',
-        lastName: 'James',
-        birthDay: '18.8.1990',
-        athletesSport: 'Basketball',
-        league: 'Euroleague',
-        team: 'Monaco',
-        wikipediaLink: 'https://en.wikipedia.org/wiki/Mike_James_(basketball,_born_1990)',
-        instagramLink: 'https://www.instagram.com/mrnatural_05/',
-        info: [
-            'Basketball player for BC Monaco of Euroleague',
-            'Euroleague MVP and All-Time leading scorrer',
-            'Known for his explosive athleticism and scoring ability.',
-            'Vertical leap estimated to be around 40 inches (102 cm).',
-        ],
-        info2: [
-            'Is known for his explosive athleticism and scoring ability',
-            'His vertical leap is estimated to be around 40 inches (102 cm).',
-        ],
-        media: [
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e7aed40036408087d1/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e7aed10007085cc87c/view?project=68595ef3002478ec3cd8&mode=admin',
-            {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e7ad9e002cdfede967/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e8b78a0024cd8cccf7/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e8b78f002811012196/view?project=68595ef3002478ec3cd8&mode=admin',
-            },
 
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e7aec90001ae674948/view?project=68595ef3002478ec3cd8&mode=admin',
-            {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7ad820000adcda523/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b7a80010631a6604/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b7ab003b1adb7879/view?project=68595ef3002478ec3cd8&mode=admin',
-            },
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7aec50026c3b16509/view?project=68595ef3002478ec3cd8&mode=admin',
-            {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7ad890029b72a354a/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b7a1002f33503953/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b79500019dd94fe0/view?project=68595ef3002478ec3cd8&mode=admin',
-            },
-            {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7adab00317d50ec37/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b7b0001de17f58ba/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b7b400143ba200aa/view?project=68595ef3002478ec3cd8&mode=admin',
-            },
-            {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8c8f30027d8052bf6/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e01d000b455f2cd6/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e08d003b4d4b8c52/view?project=68595ef3002478ec3cd8&mode=admin',
-            },
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7aecd000f400af4da/view?project=68595ef3002478ec3cd8&mode=admin',
-            {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8c8e000186d2df347/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e015001c66ad10cf/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e086000c2ebb3c2d/view?project=68595ef3002478ec3cd8&mode=admin',
-            },
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e1fd00066edfc272/view?project=68595ef3002478ec3cd8&mode=admin'
-            ,
-            {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8d30700024fe34f4b/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e028003ccf818860/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e02200375334d4c3/view?project=68595ef3002478ec3cd8&mode=admin',
-            },
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7aec100387ba1afff/view?project=68595ef3002478ec3cd8&mode=admin',
-        ]
-    },
     {
         id: 2,
-        profilePhoto: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee2608002f83c8eaed/view?project=68595ef3002478ec3cd8&mode=admin',
+        profilePhoto: '/athletemedia/profilephotos/femkebol.jpg',
         slug: 'femke-bol',
         firstName: 'Femke',
         lastName: 'Bol',
@@ -93,22 +25,25 @@ const athletes = [
             '',
         ],
         media: [
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee25b1001982345ccd/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee25b50030d0861aaf/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee25bc003d5958bfa9/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee25c1002bcf890861/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee25cb0033da420fc5/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee25d40008ca8cc484/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee25d8003da552aed6/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee25e2000e55530431/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee2602003583266669/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/femkebolmedia1.jpg',
+            '/athletemedia/mediaphotos/femkebolmedia2.jpg',
+            '/athletemedia/mediaphotos/femkebolmedia3.jpg',
+            '/athletemedia/mediaphotos/femkebolmedia4.jpg',
+            '/athletemedia/mediaphotos/femkebolmedia5.jpg',
+            '/athletemedia/mediaphotos/femkebolmedia6.jpg',
+            '/athletemedia/mediaphotos/femkebolmedia7.jpg',
+            '/athletemedia/mediaphotos/femkebolmedia8.jpg',
+            '/athletemedia/mediaphotos/femkebolmedia9.jpg',
+            
+
+
 
         ],
 
     },
     {
         id: 3,
-        profilePhoto: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3c54001d1b772cca/view?project=68595ef3002478ec3cd8&mode=admin',
+        profilePhoto: '/athletemedia/profilephotos/liekeklaver.jpg',
         slug: 'lieke-klaver',
         firstName: 'Lieke',
         lastName: 'Klaver',
@@ -131,23 +66,22 @@ const athletes = [
             '',
         ],
         media: [
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b4d000ac9bfcbbf/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b51000ed34c7770/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b55000d1497702e/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b5900253928071e/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b5f001ac4e9e0e5/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b69003698e2b051/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b6e00221a17f085/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b73002724733abb/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b7900023ca0402f/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b830010978d77df/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ee3b8b003b85320420/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/liekeklavermedia1.jpg',
+            '/athletemedia/mediaphotos/liekeklavermedia2.jpg',
+            '/athletemedia/mediaphotos/liekeklavermedia3.jpg',
+            '/athletemedia/mediaphotos/liekeklavermedia4.jpg',
+            '/athletemedia/mediaphotos/liekeklavermedia5.jpg',
+            '/athletemedia/mediaphotos/liekeklavermedia6.jpg',
+            '/athletemedia/mediaphotos/liekeklavermedia7.jpg',
+            '/athletemedia/mediaphotos/liekeklavermedia8.jpg',
+            '/athletemedia/mediaphotos/liekeklavermedia9.jpg',
+            '/athletemedia/mediaphotos/liekeklavermedia10.jpg',
         ],
 
-    },
+    },/*
     {
         id: 4,
-        profilePhoto: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagniaposter/view?project=68595ef3002478ec3cd8&mode=admin',
+        profilePhoto: '/athletemedia/profilephotos/khadisagnia.jpg',
         slug: 'khadi-sagnia',
         firstName: 'Khadi',
         lastName: 'Sagnia',
@@ -166,7 +100,7 @@ const athletes = [
         ],
         info2: [],
         media: [
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia1/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/sagnia1.jpg',
             {
                 videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9e7cb86153bcab15/view?project=68595ef3002478ec3cd8&mode=admin',
                 videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9e84e3c0ffff1976/view?project=68595ef3002478ec3cd8&mode=admin',
@@ -253,7 +187,7 @@ const athletes = [
         media: [
             'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa15/view?project=68595ef3002478ec3cd8&mode=admin',
 
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa2/view?project=68595ef3002478ec3cd8&mode=admin',
+           
             'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa3/view?project=68595ef3002478ec3cd8&mode=admin',
             'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa4/view?project=68595ef3002478ec3cd8&mode=admin',
             'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa5/view?project=68595ef3002478ec3cd8&mode=admin',
@@ -340,7 +274,7 @@ const athletes = [
             'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira11/view?project=68595ef3002478ec3cd8&mode=admin',
             'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira12/view?project=68595ef3002478ec3cd8&mode=admin',
             'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira13/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira14/view?project=68595ef3002478ec3cd8&mode=admin',
+            ,
         ],
     },
     {
@@ -856,6 +790,75 @@ const athletes = [
             
         ],
     },
+    {
+        id: 1,
+        profilePhoto: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e8f4740038710e0385/view?project=68595ef3002478ec3cd8&mode=admin',
+        slug: 'mike-james',
+        firstName: 'Mike',
+        lastName: 'James',
+        birthDay: '18.8.1990',
+        athletesSport: 'Basketball',
+        league: 'Euroleague',
+        team: 'Monaco',
+        wikipediaLink: 'https://en.wikipedia.org/wiki/Mike_James_(basketball,_born_1990)',
+        instagramLink: 'https://www.instagram.com/mrnatural_05/',
+        info: [
+            'Basketball player for BC Monaco of Euroleague',
+            'Euroleague MVP and All-Time leading scorrer',
+            'Known for his explosive athleticism and scoring ability.',
+            'Vertical leap estimated to be around 40 inches (102 cm).',
+        ],
+        info2: [
+            'Is known for his explosive athleticism and scoring ability',
+            'His vertical leap is estimated to be around 40 inches (102 cm).',
+        ],
+        media: [
+            'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e7aed40036408087d1/view?project=68595ef3002478ec3cd8&mode=admin',
+            'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e7aed10007085cc87c/view?project=68595ef3002478ec3cd8&mode=admin',
+            {
+                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e7ad9e002cdfede967/view?project=68595ef3002478ec3cd8&mode=admin',
+                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e8b78a0024cd8cccf7/view?project=68595ef3002478ec3cd8&mode=admin',
+                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e8b78f002811012196/view?project=68595ef3002478ec3cd8&mode=admin',
+            },
+
+            'https://fra.cloud.appwrite.io/v1/storage/buckets/68ff80060018afe779ae/files/68e7aec90001ae674948/view?project=68595ef3002478ec3cd8&mode=admin',
+            {
+                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7ad820000adcda523/view?project=68595ef3002478ec3cd8&mode=admin',
+                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b7a80010631a6604/view?project=68595ef3002478ec3cd8&mode=admin',
+                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b7ab003b1adb7879/view?project=68595ef3002478ec3cd8&mode=admin',
+            },
+            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7aec50026c3b16509/view?project=68595ef3002478ec3cd8&mode=admin',
+            {
+                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7ad890029b72a354a/view?project=68595ef3002478ec3cd8&mode=admin',
+                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b7a1002f33503953/view?project=68595ef3002478ec3cd8&mode=admin',
+                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b79500019dd94fe0/view?project=68595ef3002478ec3cd8&mode=admin',
+            },
+            {
+                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7adab00317d50ec37/view?project=68595ef3002478ec3cd8&mode=admin',
+                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b7b0001de17f58ba/view?project=68595ef3002478ec3cd8&mode=admin',
+                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8b7b400143ba200aa/view?project=68595ef3002478ec3cd8&mode=admin',
+            },
+            {
+                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8c8f30027d8052bf6/view?project=68595ef3002478ec3cd8&mode=admin',
+                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e01d000b455f2cd6/view?project=68595ef3002478ec3cd8&mode=admin',
+                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e08d003b4d4b8c52/view?project=68595ef3002478ec3cd8&mode=admin',
+            },
+            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7aecd000f400af4da/view?project=68595ef3002478ec3cd8&mode=admin',
+            {
+                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8c8e000186d2df347/view?project=68595ef3002478ec3cd8&mode=admin',
+                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e015001c66ad10cf/view?project=68595ef3002478ec3cd8&mode=admin',
+                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e086000c2ebb3c2d/view?project=68595ef3002478ec3cd8&mode=admin',
+            },
+            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e1fd00066edfc272/view?project=68595ef3002478ec3cd8&mode=admin'
+            ,
+            {
+                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8d30700024fe34f4b/view?project=68595ef3002478ec3cd8&mode=admin',
+                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e028003ccf818860/view?project=68595ef3002478ec3cd8&mode=admin',
+                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e8e02200375334d4c3/view?project=68595ef3002478ec3cd8&mode=admin',
+            },
+            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68e7aec100387ba1afff/view?project=68595ef3002478ec3cd8&mode=admin',
+        ]
+    },*/
 ]
 export default athletes;
 
