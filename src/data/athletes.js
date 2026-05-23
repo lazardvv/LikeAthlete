@@ -78,7 +78,7 @@ const athletes = [
             '/athletemedia/mediaphotos/liekeklavermedia10.jpg',
         ],
 
-    },/*
+    },
     {
         id: 4,
         profilePhoto: '/athletemedia/profilephotos/khadisagnia.jpg',
@@ -100,71 +100,64 @@ const athletes = [
         ],
         info2: [],
         media: [
-            '/athletemedia/mediaphotos/sagnia1.jpg',
+            '/athletemedia/mediaphotos/khadisagniamedia1.jpg',
             {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9e7cb86153bcab15/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9e84e3c0ffff1976/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9e87128f8350d304/view?project=68595ef3002478ec3cd8&mode=admin'
+                videoURL: 'https://stream.vidhosting.in/videos/46e21c08.mp4',
+                videoURL_360p: 'https://stream.vidhosting.in/videos/46e21c08.mp4',
+                poster: '/athletemedia/mediavideos/Khadi Sagnia_Long Jump_Media video 1_thumb.jpg'
             },
             {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ed175e81fc9c556/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ed3c392fcad8224/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ed56ab10c478b91/view?project=68595ef3002478ec3cd8&mode=admin'
+                videoURL: 'https://stream.vidhosting.in/videos/a38ef32c.mp4',
+                videoURL_360p: 'https://stream.vidhosting.in/videos/a38ef32c.mp4',
+                poster: '/athletemedia/mediavideos/Khadi Sagnia_Long Jump_Media video 2_thumb.jpg'
             },
             {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9e9321a6d220502a/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9e96bcc11eea9e8c/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9e9881482f4fea45/view?project=68595ef3002478ec3cd8&mode=admin'
+                videoURL: 'https://stream.vidhosting.in/videos/a8e2f76d.mp4n',
+                videoURL_360p: 'https://stream.vidhosting.in/videos/a8e2f76d.mp4',
+                poster: '/athletemedia/mediavideos/Khadi Sagnia_Long Jump_Media video 3_thumb.jpg'
             },
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia3/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/khadisagniamedia2.jpg',
             {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ea232d2a39ee003/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ea55aea574c234d/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ea700e6057aa660/view?project=68595ef3002478ec3cd8&mode=admin'
+                videoURL: 'https://stream.vidhosting.in/videos/bac48ce0.mp4',
+                videoURL_360p: 'https://stream.vidhosting.in/videos/bac48ce0.mp4',
+                poster: '/athletemedia/mediavideos/Khadi Sagnia_Long Jump_Media video 4_thumb.jpg'
             },
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia4/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/khadisagniamedia3.jpg',
+            '/athletemedia/mediaphotos/khadisagniamedia4.jpg',
+            '/athletemedia/mediaphotos/khadisagniamedia5.jpg',
 
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia5/view?project=68595ef3002478ec3cd8&mode=admin',
-
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia6/view?project=68595ef3002478ec3cd8&mode=admin',
-
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia7/view?project=68595ef3002478ec3cd8&mode=admin',
-
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia8/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/khadisagniamedia6.jfif',
             {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9eabc1a1b84521a1/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9eae18de8d9caf0b/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9eafb5699251a42b/view?project=68595ef3002478ec3cd8&mode=admin'
+                videoURL: 'https://stream.vidhosting.in/videos/286f4594.mp4',
+                videoURL_360p: 'https://stream.vidhosting.in/videos/286f4594.mp4',
+                poster: '/athletemedia/mediavideos/Khadi Sagnia_Long Jump_Media video 5_thumb.jpg'
             },
             {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9eb5f35ea7a52845/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9eb9165b778de907/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ebb09730ebdec67/view?project=68595ef3002478ec3cd8&mode=admin'
+                videoURL: 'https://stream.vidhosting.in/videos/109e0b53.mp4',
+                videoURL_360p: 'https://stream.vidhosting.in/videos/109e0b53.mp4',
+                poster: '/athletemedia/mediavideos/Khadi Sagnia_Long Jump_Media video 6_thumb.jpg'
             },
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia9/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/khadisagniamedia7.jpg',
             {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ebf4f61ca0d112e/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ec13672b4e971f7/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ec2cf43406f30d6/view?project=68595ef3002478ec3cd8&mode=admin'
+                videoURL: 'https://stream.vidhosting.in/videos/2bcfcdbf.mp4',
+                videoURL_360p: 'https://stream.vidhosting.in/videos/2bcfcdbf.mp4',
+                poster: '/athletemedia/mediavideos/Khadi Sagnia_Long Jump_Media video 7_thumb.jpg'
             },
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia10/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/khadisagniamedia8.jpg',
             {
-                videoURL: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ec7126dfcbc9ce7/view?project=68595ef3002478ec3cd8&mode=admin',
-                videoURL_360p: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ec982dc9dca9f2e/view?project=68595ef3002478ec3cd8&mode=admin',
-                poster: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/68ef9ecb19498176b634/view?project=68595ef3002478ec3cd8&mode=admin'
+                videoURL: 'https://stream.vidhosting.in/videos/83783a19.mp4',
+                videoURL_360p: 'https://stream.vidhosting.in/videos/83783a19.mp4',
+                poster: '/athletemedia/mediavideos/Khadi Sagnia_Long Jump_Media video 8_thumb.jpg'
             },
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia11/view?project=68595ef3002478ec3cd8&mode=admin',
-            ,
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia12/view?project=68595ef3002478ec3cd8&mode=admin',
-            ,
+            '/athletemedia/mediaphotos/khadisagniamedia9.jpg',
+            '/athletemedia/mediaphotos/khadisagniamedia10.jpg',
 
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/sagnia2/view?project=68595ef3002478ec3cd8&mode=admin'
         ],
 
     },
     {
         id: 5,
-        profilePhoto: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa12/view?project=68595ef3002478ec3cd8&mode=admin',
+        profilePhoto: '/athletemedia/profilephotos/asafapowell.jpg',
         slug: 'asafa-powell',
         firstName: 'Asafa',
         lastName: 'Powell',
@@ -185,29 +178,24 @@ const athletes = [
         ],
         info2: [],
         media: [
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa15/view?project=68595ef3002478ec3cd8&mode=admin',
-
-           
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa3/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa4/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa5/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa6/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa7/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa8/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa9/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa10/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa11/view?project=68595ef3002478ec3cd8&mode=admin',
-
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa13/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa14/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/asafa16/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/asafapowelmedia15.jpg',
+            '/athletemedia/mediaphotos/asafapowelmedia3.jpg',
+            '/athletemedia/mediaphotos/asafapowelmedia4.jpg',
+            '/athletemedia/mediaphotos/asafapowelmedia5.jpg',
+            '/athletemedia/mediaphotos/asafapowelmedia6.jpg',
+            '/athletemedia/mediaphotos/asafapowelmedia7.jpg',
+            '/athletemedia/mediaphotos/asafapowelmedia8.jpg',
+            '/athletemedia/mediaphotos/asafapowelmedia9.jpg',
+            '/athletemedia/mediaphotos/asafapowelmedia10.jpg',
+            '/athletemedia/mediaphotos/asafapowelmedia11.jpg',
+          
 
 
         ],
     },
     {
         id: 6,
-        profilePhoto: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalenposter/view?project=68595ef3002478ec3cd8&mode=admin',
+        profilePhoto: '/athletemedia/profilephotos/jalengreen.jpg',
         slug: 'jalen-green',
         firstName: 'Jalen',
         lastName: 'Green',
@@ -227,23 +215,23 @@ const athletes = [
         info2: [],
         media: [
 
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen9/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen1/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen8/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen2/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen3/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen4/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen5/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen6/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen7/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen11/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/jalen10/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/jalengreenmedia1.jpg',
+            '/athletemedia/mediaphotos/jalengreen2.jpg',
+            '/athletemedia/mediaphotos/jalengreen3.jpg',
+            '/athletemedia/mediaphotos/jalengreen4.jpg',
+            '/athletemedia/mediaphotos/jalengreen5.jpg',
+            '/athletemedia/mediaphotos/jalengreen6.jpg',
+            '/athletemedia/mediaphotos/jalengreen7.jpg',
+            '/athletemedia/mediaphotos/jalengreen8.jpg',
+            '/athletemedia/mediaphotos/jalengreen9.jpg',
+            '/athletemedia/mediaphotos/jalengreen10.jpg',
+            '/athletemedia/mediaphotos/jalengreen11.jpg',
 
         ],
     },
     {
         id: 7,
-        profilePhoto: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereiraPoster/view?project=68595ef3002478ec3cd8&mode=admin',
+        profilePhoto: '/athletemedia/profilephotos/alexpereira.jpg',
         slug: 'alex-pereira',
         firstName: 'Alex',
         lastName: 'Pereira',
@@ -261,22 +249,22 @@ const athletes = [
         ],
         info2: [],
         media: [
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira1/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira2/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira3/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira4/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira5/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira6/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira7/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira8/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira9/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira10/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira11/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira12/view?project=68595ef3002478ec3cd8&mode=admin',
-            'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/AlexPereira13/view?project=68595ef3002478ec3cd8&mode=admin',
+            '/athletemedia/mediaphotos/alexpereiramedia1.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia2.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia3.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia4.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia5.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia6.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia7.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia8.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia9.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia10.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia11.jpg',
+           '/athletemedia/mediaphotos/alexpereiramedia12.jpg',
+            '/athletemedia/mediaphotos/alexpereiramedia13.jpg',
             ,
         ],
-    },
+    },/*
     {
         id: 8,
         profilePhoto: 'https://fra.cloud.appwrite.io/v1/storage/buckets/68e4b710003657d0d0d9/files/ArturBeterbievPoster/view?project=68595ef3002478ec3cd8&mode=admin',
