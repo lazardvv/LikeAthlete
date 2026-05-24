@@ -4831,403 +4831,53 @@ const exercises = [ /*
     videoURL: '/videos/exercises/Noah Lyles_100m_Nordic Hamstring Curl 4.mp4',
     videoURL_360p: '/videos/exercises/Noah Lyles_100m_Nordic Hamstring Curl 4.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Nordic Hamstring Curl 4_thumb.jpg'
-  },
-  {
-    id: 538,
-    athlete: 'Noah Lyles',
-    title: 'Opposite foot and hand raise',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Opposite foot and hand raise.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Opposite foot and hand raise.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Opposite foot and hand raise_thumb.jpg'
-  },
-  {
-    id: 539,
-    athlete: 'Noah Lyles',
-    title: 'Opposite leg toe touch',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Opposite leg toe touch.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Opposite leg toe touch.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Opposite leg toe touch_thumb.jpg'
-  },
-  {
-    id: 540,
-    athlete: 'Noah Lyles',
-    title: 'Plank',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Plank.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Plank.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Plank_thumb.jpg'
-  },
-  {
-    id: 541,
-    athlete: 'Noah Lyles',
-    title: 'Pogo hops',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Pogo hops.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Pogo hops.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Pogo hops_thumb.jpg'
-  },
-  {
-    id: 542,
-    athlete: 'Noah Lyles',
-    title: 'Power Clean To Front Squat 1',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Power Clean To Front Squat 1.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Power Clean To Front Squat 1.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Power Clean To Front Squat 1_thumb.jpg'
-  },
-  {
-    id: 543,
-    athlete: 'Noah Lyles',
-    title: 'Power Clean',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Power Clean.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Power Clean.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Power Clean_thumb.jpg'
-  },
-  {
-    id: 544,
-    athlete: 'Noah Lyles',
-    title: 'Pull ups 1',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Pull ups 1.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Pull ups 1.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Pull ups 1_thumb.jpg'
-  },
-  {
-    id: 545,
-    athlete: 'Noah Lyles',
-    title: 'Pull ups 2',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Pull ups 2.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Pull ups 2.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Pull ups 2_thumb.jpg'
-  },
-  {
-    id: 546,
-    athlete: 'Noah Lyles',
-    title: 'Push Ups',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Push Ups.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Push Ups.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Push Ups_thumb.jpg'
-  },
-  {
-    id: 547,
-    athlete: 'Noah Lyles',
-    title: 'RDL 1',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_RDL 1.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_RDL 1.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_RDL 1_thumb.jpg'
-  },
-  {
-    id: 548,
-    athlete: 'Noah Lyles',
-    title: 'RDL 2',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_RDL 2.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_RDL 2.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_RDL 2_thumb.jpg'
-  },
-  {
-    id: 549,
-    athlete: 'Noah Lyles',
-    title: 'RDL 3',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_RDL 3.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_RDL 3.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_RDL 3_thumb.jpg'
-  },
-  {
-    id: 550,
-    athlete: 'Noah Lyles',
-    title: 'RDL 4',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_RDL 4.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_RDL 4.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_RDL 4_thumb.jpg'
-  },
-  {
-    id: 551,
-    athlete: 'Noah Lyles',
-    title: 'RDL 5',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_RDL 5.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_RDL 5.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_RDL 5_thumb.jpg'
-  },
-  {
-    id: 552,
-    athlete: 'Noah Lyles',
-    title: 'Reaction Exercise 1',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 1.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 1.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 1_thumb.jpg'
-  },
-  {
-    id: 553,
-    athlete: 'Noah Lyles',
-    title: 'Reaction Exercise 2 ',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 2 .mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 2 .mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 2 _thumb.jpg'
-  },
-  {
-    id: 554,
-    athlete: 'Noah Lyles',
-    title: 'Reaction Exercise 3',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 3.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 3.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 3_thumb.jpg'
-  },
-  {
-    id: 555,
-    athlete: 'Noah Lyles',
-    title: 'Reverse crunches easy',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Reverse crunches easy.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Reverse crunches easy.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Reverse crunches easy_thumb.jpg'
-  },
-  {
-    id: 556,
-    athlete: 'Noah Lyles',
-    title: 'Reverse crunches',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Reverse crunches.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Reverse crunches.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Reverse crunches_thumb.jpg'
-  },
-  {
-    id: 557,
-    athlete: 'Noah Lyles',
-    title: 'Side crunches',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Side crunches.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Side crunches.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Side crunches_thumb.jpg'
-  },
-  {
-    id: 558,
-    athlete: 'Noah Lyles',
-    title: 'Snatch',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Snatch.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Snatch.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Snatch_thumb.jpg'
-  },
-  {
-    id: 559,
-    athlete: 'Noah Lyles',
-    title: 'Superman 1',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Superman 1.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Superman 1.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Superman 1_thumb.jpg'
-  },
-  {
-    id: 560,
-    athlete: 'Noah Lyles',
-    title: 'Superman easy',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Superman easy.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Superman easy.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Superman easy_thumb.jpg'
-  },
-  {
-    id: 561,
-    athlete: 'Noah Lyles',
-    title: 'Superman raises',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Superman raises.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Superman raises.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Superman raises_thumb.jpg'
-  },
-  {
-    id: 562,
-    athlete: 'Noah Lyles',
-    title: 'Superman',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Superman.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Superman.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Superman_thumb.jpg'
-  },
-  {
-    id: 563,
-    athlete: 'Noah Lyles',
-    title: 'Toe Touches',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Toe Touches.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Toe Touches.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Toe Touches_thumb.jpg'
-  },
-  {
-    id: 564,
-    athlete: 'Noah Lyles',
-    title: 'Training example',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Training example.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Training example.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Training example_thumb.jpg'
-  },
-  {
-    id: 565,
-    athlete: 'Noah Lyles',
-    title: 'Trap Bar Deadlift with bands',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Trap Bar Deadlift with bands.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Trap Bar Deadlift with bands.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_Trap Bar Deadlift with bands_thumb.jpg'
-  },
-  {
-    id: 566,
-    athlete: 'Noah Lyles',
-    title: 'TRX Inverted Row',
-    athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_TRX Inverted Row.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_TRX Inverted Row.mp4',
-    poster: '/videos/exercises/Noah Lyles_100m_TRX Inverted Row_thumb.jpg'
-  },
-  {
-    id: 567,
-    athlete: 'Oleksandr Usyk',
-    title: '',
-    athletesSports: '2 3 Slip 3 2',
-    videoURL: '/videos/exercises/Oleksandr Usyk_2 3 Slip 3 2.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_2 3 Slip 3 2.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_2 3 Slip 3 2_thumb.jpg'
-  },
-  {
-    id: 568,
-    athlete: 'Oleksandr Usyk',
-    title: '',
-    athletesSports: '4 3 Slip 4 3',
-    videoURL: '/videos/exercises/Oleksandr Usyk_4 3 Slip 4 3.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_4 3 Slip 4 3.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_4 3 Slip 4 3_thumb.jpg'
-  },
-  {
-    id: 569,
-    athlete: 'Oleksandr Usyk',
-    title: '1 3',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_1 3.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_1 3.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_1 3_thumb.jpg'
-  },
-  {
-    id: 570,
-    athlete: 'Oleksandr Usyk',
-    title: '1 5 2',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_1 5 2.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_1 5 2.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_1 5 2_thumb.jpg'
-  },
-  {
-    id: 571,
-    athlete: 'Oleksandr Usyk',
-    title: '1 6 2 3',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_1 6 2 3.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_1 6 2 3.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_1 6 2 3_thumb.jpg'
-  },
-  {
-    id: 572,
-    athlete: 'Oleksandr Usyk',
-    title: '1 Klackalica 2',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_1 Klackalica 2.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_1 Klackalica 2.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_1 Klackalica 2_thumb.jpg'
-  },
-  {
-    id: 573,
-    athlete: 'Oleksandr Usyk',
-    title: 'Angled Reverse Crunch',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_Angled Reverse Crunch.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_Angled Reverse Crunch.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_Angled Reverse Crunch_thumb.jpg'
-  },
-  {
-    id: 574,
-    athlete: 'Oleksandr Usyk',
-    title: 'Directs',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_Directs.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_Directs.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_Directs_thumb.jpg'
-  },
-  {
-    id: 575,
-    athlete: 'Oleksandr Usyk',
-    title: 'Hooks',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_Hooks.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_Hooks.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_Hooks_thumb.jpg'
-  },
-  {
-    id: 576,
-    athlete: 'Oleksandr Usyk',
-    title: 'Long  Uppercuts',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_Long  Uppercuts.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_Long  Uppercuts.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_Long  Uppercuts_thumb.jpg'
-  },
-  {
-    id: 577,
-    athlete: 'Oleksandr Usyk',
-    title: 'Only Lead Hand Drill',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_Only Lead Hand Drill.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_Only Lead Hand Drill.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_Only Lead Hand Drill_thumb.jpg'
-  },
-  {
-    id: 578,
-    athlete: 'Oleksandr Usyk',
-    title: 'Only Rear Hand Drill',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_Only Rear Hand Drill.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_Only Rear Hand Drill.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_Only Rear Hand Drill_thumb.jpg'
-  },
-  {
-    id: 579,
-    athlete: 'Oleksandr Usyk',
-    title: 'Shadow Boxing Both Hands',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_Shadow Boxing Both Hands.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_Shadow Boxing Both Hands.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_Shadow Boxing Both Hands_thumb.jpg'
-  },
-  {
-    id: 580,
-    athlete: 'Oleksandr Usyk',
-    title: 'Uppercut Drill',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercut Drill.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercut Drill.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercut Drill_thumb.jpg'
-  },
-  {
-    id: 581,
-    athlete: 'Oleksandr Usyk',
-    title: 'Uppercuts',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercuts.mp4',
-    videoURL_360p: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercuts.mp4',
-    poster: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercuts_thumb.jpg'
   },*/
+  { id: 538, athlete: 'Noah Lyles', title: 'Opposite foot and hand raise', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/b8707d91.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/b8707d91.mp4', poster: '/videos/exercises/Noah Lyles_100m_Opposite foot and hand raise_thumb.jpg' },
+  { id: 539, athlete: 'Noah Lyles', title: 'Opposite leg toe touch', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/7bc6c56b.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/7bc6c56b.mp4', poster: '/videos/exercises/Noah Lyles_100m_Opposite leg toe touch_thumb.jpg' },
+  { id: 540, athlete: 'Noah Lyles', title: 'Plank', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/4f3f4702.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/4f3f4702.mp4', poster: '/videos/exercises/Noah Lyles_100m_Plank_thumb.jpg' },
+  { id: 541, athlete: 'Noah Lyles', title: 'Pogo hops', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/69f239ac.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/69f239ac.mp4', poster: '/videos/exercises/Noah Lyles_100m_Pogo hops_thumb.jpg' },
+  { id: 542, athlete: 'Noah Lyles', title: 'Power Clean To Front Squat 1', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/42adbecb.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/42adbecb.mp4', poster: '/videos/exercises/Noah Lyles_100m_Power Clean To Front Squat 1_thumb.jpg' },
+  { id: 543, athlete: 'Noah Lyles', title: 'Power Clean', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/4d02778e.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/4d02778e.mp4', poster: '/videos/exercises/Noah Lyles_100m_Power Clean_thumb.jpg' },
+  { id: 544, athlete: 'Noah Lyles', title: 'Pull ups 1', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/0430a990.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/0430a990.mp4', poster: '/videos/exercises/Noah Lyles_100m_Pull ups 1_thumb.jpg' },
+  { id: 545, athlete: 'Noah Lyles', title: 'Pull ups 2', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/acc508cf.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/acc508cf.mp4', poster: '/videos/exercises/Noah Lyles_100m_Pull ups 2_thumb.jpg' },
+  { id: 546, athlete: 'Noah Lyles', title: 'Push Ups', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/200d87f4.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/200d87f4.mp4', poster: '/videos/exercises/Noah Lyles_100m_Push Ups_thumb.jpg' },
+  { id: 547, athlete: 'Noah Lyles', title: 'RDL 1', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/648c0225.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/648c0225.mp4', poster: '/videos/exercises/Noah Lyles_100m_RDL 1_thumb.jpg' },
+  { id: 548, athlete: 'Noah Lyles', title: 'RDL 2', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/5d99ac53.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/5d99ac53.mp4', poster: '/videos/exercises/Noah Lyles_100m_RDL 2_thumb.jpg' },
+  { id: 549, athlete: 'Noah Lyles', title: 'RDL 3', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/a918a116.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/a918a116.mp4', poster: '/videos/exercises/Noah Lyles_100m_RDL 3_thumb.jpg' },
+  { id: 550, athlete: 'Noah Lyles', title: 'RDL 4', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/77f051a8.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/77f051a8.mp4', poster: '/videos/exercises/Noah Lyles_100m_RDL 4_thumb.jpg' },
+  { id: 551, athlete: 'Noah Lyles', title: 'RDL 5', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/5803ab05.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/5803ab05.mp4', poster: '/videos/exercises/Noah Lyles_100m_RDL 5_thumb.jpg' },
+  { id: 552, athlete: 'Noah Lyles', title: 'Reaction Exercise 1', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/2f7ad9cf.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/2f7ad9cf.mp4', poster: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 1_thumb.jpg' },
+  { id: 553, athlete: 'Noah Lyles', title: 'Reaction Exercise 2 ', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/ba56b7e6.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/ba56b7e6.mp4', poster: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 2 _thumb.jpg' },
+  { id: 554, athlete: 'Noah Lyles', title: 'Reaction Exercise 3', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/b569feec.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/b569feec.mp4', poster: '/videos/exercises/Noah Lyles_100m_Reaction Exercise 3_thumb.jpg' },
+  { id: 555, athlete: 'Noah Lyles', title: 'Reverse crunches easy', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/48f15893.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/48f15893.mp4', poster: '/videos/exercises/Noah Lyles_100m_Reverse crunches easy_thumb.jpg' },
+  { id: 556, athlete: 'Noah Lyles', title: 'Reverse crunches', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/2f9a7e3b.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/2f9a7e3b.mp4', poster: '/videos/exercises/Noah Lyles_100m_Reverse crunches_thumb.jpg' },
+  { id: 557, athlete: 'Noah Lyles', title: 'Side crunches', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/c9f7ebe0.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/c9f7ebe0.mp4', poster: '/videos/exercises/Noah Lyles_100m_Side crunches_thumb.jpg' },
+  { id: 558, athlete: 'Noah Lyles', title: 'Snatch', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/c79ede70.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/c79ede70.mp4', poster: '/videos/exercises/Noah Lyles_100m_Snatch_thumb.jpg' },
+  { id: 559, athlete: 'Noah Lyles', title: 'Superman 1', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/96cf43b7.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/96cf43b7.mp4', poster: '/videos/exercises/Noah Lyles_100m_Superman 1_thumb.jpg' },
+  { id: 560, athlete: 'Noah Lyles', title: 'Superman easy', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/74a2154b.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/74a2154b.mp4', poster: '/videos/exercises/Noah Lyles_100m_Superman easy_thumb.jpg' },
+  { id: 561, athlete: 'Noah Lyles', title: 'Superman raises', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/499008d3.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/499008d3.mp4', poster: '/videos/exercises/Noah Lyles_100m_Superman raises_thumb.jpg' },
+  { id: 562, athlete: 'Noah Lyles', title: 'Superman', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/3c2ee3bc.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/3c2ee3bc.mp4', poster: '/videos/exercises/Noah Lyles_100m_Superman_thumb.jpg' },
+  { id: 563, athlete: 'Noah Lyles', title: 'Toe Touches', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/be63ddc3.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/be63ddc3.mp4', poster: '/videos/exercises/Noah Lyles_100m_Toe Touches_thumb.jpg' },
+  { id: 564, athlete: 'Noah Lyles', title: 'Training example', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/598b10d0.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/598b10d0.mp4', poster: '/videos/exercises/Noah Lyles_100m_Training example_thumb.jpg' },
+  { id: 565, athlete: 'Noah Lyles', title: 'Trap Bar Deadlift with bands', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/e3805f1a.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/e3805f1a.mp4', poster: '/videos/exercises/Noah Lyles_100m_Trap Bar Deadlift with bands_thumb.jpg' },
+  { id: 566, athlete: 'Noah Lyles', title: 'TRX Inverted Row', athletesSports: '100m', videoURL: 'https://stream.vidhosting.in/videos/71ad5af9.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/71ad5af9.mp4', poster: '/videos/exercises/Noah Lyles_100m_TRX Inverted Row_thumb.jpg' },
+
+  { id: 567, athlete: 'Oleksandr Usyk', title: '', athletesSports: '2 3 Slip 3 2', videoURL: 'https://stream.vidhosting.in/videos/da6e2d1a.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/da6e2d1a.mp4', poster: '/videos/exercises/Oleksandr Usyk_2 3 Slip 3 2_thumb.jpg' },
+  { id: 568, athlete: 'Oleksandr Usyk', title: '', athletesSports: '4 3 Slip 4 3', videoURL: 'https://stream.vidhosting.in/videos/a780c165.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/a780c165.mp4', poster: '/videos/exercises/Oleksandr Usyk_4 3 Slip 4 3_thumb.jpg' },
+  { id: 569, athlete: 'Oleksandr Usyk', title: '1 3', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/1cc231ed.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/1cc231ed.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_1 3_thumb.jpg' },
+  { id: 570, athlete: 'Oleksandr Usyk', title: '1 5 2', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/0241b494.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/0241b494.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_1 5 2_thumb.jpg' },
+  { id: 571, athlete: 'Oleksandr Usyk', title: '1 6 2 3', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/24113a22.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/24113a22.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_1 6 2 3_thumb.jpg' },
+  { id: 572, athlete: 'Oleksandr Usyk', title: '1 Klackalica 2', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/653a5434.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/653a5434.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_1 Klackalica 2_thumb.jpg' },
+  { id: 573, athlete: 'Oleksandr Usyk', title: 'Angled Reverse Crunch', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/c23735ac.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/c23735ac.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_Angled Reverse Crunch_thumb.jpg' },
+  { id: 574, athlete: 'Oleksandr Usyk', title: 'Directs', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/f6b43402.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/f6b43402.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_Directs_thumb.jpg' },
+  { id: 575, athlete: 'Oleksandr Usyk', title: 'Hooks', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/d63b66bf.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/d63b66bf.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_Hooks_thumb.jpg' },
+  { id: 576, athlete: 'Oleksandr Usyk', title: 'Long  Uppercuts', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/59c0649e.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/59c0649e.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_Long  Uppercuts_thumb.jpg' },
+  { id: 577, athlete: 'Oleksandr Usyk', title: 'Only Lead Hand Drill', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/b3440c48.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/b3440c48.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_Only Lead Hand Drill_thumb.jpg' },
+  { id: 578, athlete: 'Oleksandr Usyk', title: 'Only Rear Hand Drill', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/d51ce248.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/d51ce248.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_Only Rear Hand Drill_thumb.jpg' },
+  { id: 579, athlete: 'Oleksandr Usyk', title: 'Shadow Boxing Both Hands', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/1ac0102f.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/1ac0102f.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_Shadow Boxing Both Hands_thumb.jpg' },
+  { id: 580, athlete: 'Oleksandr Usyk', title: 'Uppercut Drill', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/56f6be1b.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/56f6be1b.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercut Drill_thumb.jpg' },
+  { id: 581, athlete: 'Oleksandr Usyk', title: 'Uppercuts', athletesSports: 'Boxing', videoURL: 'https://stream.vidhosting.in/videos/1c118e7a.mp4', videoURL_360p: 'https://stream.vidhosting.in/videos/1c118e7a.mp4', poster: '/videos/exercises/Oleksandr Usyk_Boxing_Uppercuts_thumb.jpg' }
+,
   {
     id: 582,
     athlete: 'Sergei Raab',
