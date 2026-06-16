@@ -4165,14 +4165,14 @@ const exercises = [ /*
     videoURL: '/videos/exercises/Lebron James_Basketball_Yoga ball side lifts.mp4',
     videoURL_360p: '/videos/exercises/Lebron James_Basketball_Yoga ball side lifts.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Yoga ball side lifts_thumb.jpg'
-  },
+  },*/
   {
     id: 464,
     athlete: 'Lieke Klaver',
     title: 'Box Paused Squat ',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Lieke Klaver_400m_Box Paused Squat .mp4',
-    videoURL_360p: '/videos/exercises/Lieke Klaver_400m_Box Paused Squat .mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/4241c934.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/4241c934.mp4',
     poster: '/videos/exercises/Lieke Klaver_400m_Box Paused Squat _thumb.jpg'
   },
   {
@@ -4180,8 +4180,8 @@ const exercises = [ /*
     athlete: 'Lieke Klaver',
     title: 'Hang Clean',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Lieke Klaver_400m_Hang Clean.mp4',
-    videoURL_360p: '/videos/exercises/Lieke Klaver_400m_Hang Clean.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/788f92fa.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/788f92fa.mp4',
     poster: '/videos/exercises/Lieke Klaver_400m_Hang Clean_thumb.jpg'
   },
   {
@@ -4189,8 +4189,8 @@ const exercises = [ /*
     athlete: 'Lieke Klaver',
     title: 'Hanging Leg raises',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Lieke Klaver_400m_Hanging Leg raises.mp4',
-    videoURL_360p: '/videos/exercises/Lieke Klaver_400m_Hanging Leg raises.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/e43b4bb4.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/e43b4bb4.mp4',
     poster: '/videos/exercises/Lieke Klaver_400m_Hanging Leg raises_thumb.jpg'
   },
   {
@@ -4198,8 +4198,8 @@ const exercises = [ /*
     athlete: 'Lieke Klaver',
     title: 'Hip Thrust',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Lieke Klaver_400m_Hip Thrust.mp4',
-    videoURL_360p: '/videos/exercises/Lieke Klaver_400m_Hip Thrust.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/e2b66689.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/e2b66689.mp4',
     poster: '/videos/exercises/Lieke Klaver_400m_Hip Thrust_thumb.jpg'
   },
   {
@@ -4207,8 +4207,8 @@ const exercises = [ /*
     athlete: 'Lieke Klaver',
     title: 'Repetitive Power Clean',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Lieke Klaver_400m_Repetitive Power Clean.mp4',
-    videoURL_360p: '/videos/exercises/Lieke Klaver_400m_Repetitive Power Clean.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/0ec2d33e.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/0ec2d33e.mp4',
     poster: '/videos/exercises/Lieke Klaver_400m_Repetitive Power Clean_thumb.jpg'
   },
   {
@@ -4216,8 +4216,8 @@ const exercises = [ /*
     athlete: 'Lieke Klaver',
     title: 'Trap  Bar Deadlift',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Lieke Klaver_400m_Trap  Bar Deadlift.mp4',
-    videoURL_360p: '/videos/exercises/Lieke Klaver_400m_Trap  Bar Deadlift.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/3b7077d3.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/3b7077d3.mp4',
     poster: '/videos/exercises/Lieke Klaver_400m_Trap  Bar Deadlift_thumb.jpg'
   },
   {
@@ -4225,8 +4225,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Box squats 3',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Box squats 3.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Box squats 3.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/316cd634.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/316cd634.mp4',
     poster: '/videos/exercises/Nielson_400m_Box squats 3_thumb.jpg'
   },
   {
@@ -4234,8 +4234,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Box squats 4',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Box squats 4.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Box squats 4.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/5289db49.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/5289db49.mp4',
     poster: '/videos/exercises/Nielson_400m_Box squats 4_thumb.jpg'
   },
   {
@@ -4243,8 +4243,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Deadlifts',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Deadlifts.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Deadlifts.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/34508254.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/34508254.mp4',
     poster: '/videos/exercises/Nielson_400m_Deadlifts_thumb.jpg'
   },
   {
@@ -4252,8 +4252,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Drop jumps 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Drop jumps 1.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Drop jumps 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/10ca2c1a.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/10ca2c1a.mp4',
     poster: '/videos/exercises/Nielson_400m_Drop jumps 1_thumb.jpg'
   },
   {
@@ -4261,8 +4261,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Drop jumps',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Drop jumps.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Drop jumps.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/eddacba8.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/eddacba8.mp4',
     poster: '/videos/exercises/Nielson_400m_Drop jumps_thumb.jpg'
   },
   {
@@ -4270,8 +4270,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Explosive scissor barbell pushing',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Explosive scissor barbell pushing.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Explosive scissor barbell pushing.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/ac50842d.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/ac50842d.mp4',
     poster: '/videos/exercises/Nielson_400m_Explosive scissor barbell pushing_thumb.jpg'
   },
   {
@@ -4279,8 +4279,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Half squats and reactive jumps 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Half squats and reactive jumps 1.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Half squats and reactive jumps 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/36208d20.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/36208d20.mp4',
     poster: '/videos/exercises/Nielson_400m_Half squats and reactive jumps 1_thumb.jpg'
   },
   {
@@ -4288,8 +4288,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Half squats and reactive jumps 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Half squats and reactive jumps 2.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Half squats and reactive jumps 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/915f2711.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/915f2711.mp4',
     poster: '/videos/exercises/Nielson_400m_Half squats and reactive jumps 2_thumb.jpg'
   },
   {
@@ -4297,8 +4297,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Hang Cleans',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Hang Cleans.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Hang Cleans.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/de720515.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/de720515.mp4',
     poster: '/videos/exercises/Nielson_400m_Hang Cleans_thumb.jpg'
   },
   {
@@ -4306,8 +4306,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Landmine rotations',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Landmine rotations.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Landmine rotations.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/2d4ca10f.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/2d4ca10f.mp4',
     poster: '/videos/exercises/Nielson_400m_Landmine rotations_thumb.jpg'
   },
   {
@@ -4315,8 +4315,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Paused reactive RDL 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Paused reactive RDL 1.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Paused reactive RDL 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/b72f7268.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/b72f7268.mp4',
     poster: '/videos/exercises/Nielson_400m_Paused reactive RDL 1_thumb.jpg'
   },
   {
@@ -4324,8 +4324,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Paused reactive RDL 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Paused reactive RDL 2.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Paused reactive RDL 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/a9707860.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/a9707860.mp4',
     poster: '/videos/exercises/Nielson_400m_Paused reactive RDL 2_thumb.jpg'
   },
   {
@@ -4333,8 +4333,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Power cleans 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Power cleans 1.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Power cleans 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/35237b2b.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/35237b2b.mp4',
     poster: '/videos/exercises/Nielson_400m_Power cleans 1_thumb.jpg'
   },
   {
@@ -4342,8 +4342,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Power cleans 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Power cleans 2.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Power cleans 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/9e683fb5.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/9e683fb5.mp4',
     poster: '/videos/exercises/Nielson_400m_Power cleans 2_thumb.jpg'
   },
   {
@@ -4351,8 +4351,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'RDL 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_RDL 2.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_RDL 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/f129f52b.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/f129f52b.mp4',
     poster: '/videos/exercises/Nielson_400m_RDL 2_thumb.jpg'
   },
   {
@@ -4360,8 +4360,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'RDL 4',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_RDL 4.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_RDL 4.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/dee73f72.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/dee73f72.mp4',
     poster: '/videos/exercises/Nielson_400m_RDL 4_thumb.jpg'
   },
   {
@@ -4369,8 +4369,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Single arm dumbell snatch 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Single arm dumbell snatch 1.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Single arm dumbell snatch 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/a4286bb0.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/a4286bb0.mp4',
     poster: '/videos/exercises/Nielson_400m_Single arm dumbell snatch 1_thumb.jpg'
   },
   {
@@ -4378,8 +4378,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Sled sprints',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Sled sprints.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Sled sprints.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/017302f4.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/017302f4.mp4',
     poster: '/videos/exercises/Nielson_400m_Sled sprints_thumb.jpg'
   },
   {
@@ -4387,8 +4387,8 @@ const exercises = [ /*
     athlete: 'Nielson',
     title: 'Squat jumps',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Nielson_400m_Squat jumps.mp4',
-    videoURL_360p: '/videos/exercises/Nielson_400m_Squat jumps.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/64165bb5.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/64165bb5.mp4',
     poster: '/videos/exercises/Nielson_400m_Squat jumps_thumb.jpg'
   },
   {
@@ -4396,8 +4396,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Power Clean',
     athletesSports: '100m,200m',
-    videoURL: '/videos/exercises/Noah Lyles_100m,200m_Power Clean.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m,200m_Power Clean.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/795c5821.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/795c5821.mp4',
     poster: '/videos/exercises/Noah Lyles_100m,200m_Power Clean_thumb.jpg'
   },
   {
@@ -4405,8 +4405,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: '2 hang cleans 2 shoulder presses',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_2 hang cleans 2 shoulder presses.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_2 hang cleans 2 shoulder presses.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/07ffda56.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/07ffda56.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_2 hang cleans 2 shoulder presses_thumb.jpg'
   },
   {
@@ -4414,8 +4414,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: '45Deg wall sprint',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_45Deg wall sprint.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_45Deg wall sprint.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/e79e7277.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/e79e7277.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_45Deg wall sprint_thumb.jpg'
   },
   {
@@ -4423,8 +4423,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: '90 deg lifted legs pull ups',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_90 deg lifted legs pull ups.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_90 deg lifted legs pull ups.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/9598c50c.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/9598c50c.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_90 deg lifted legs pull ups_thumb.jpg'
   },
   {
@@ -4432,8 +4432,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Adductor exercise on Machine 1',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Adductor exercise on Machine 1.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Adductor exercise on Machine 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/83bfb11e.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/83bfb11e.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Adductor exercise on Machine 1_thumb.jpg'
   },
   {
@@ -4441,8 +4441,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Adductor exercise on Machine 2',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Adductor exercise on Machine 2.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Adductor exercise on Machine 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/5e582ea1.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/5e582ea1.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Adductor exercise on Machine 2_thumb.jpg'
   },
   {
@@ -4450,8 +4450,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Adductor exercise on Machine 3',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Adductor exercise on Machine 3.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Adductor exercise on Machine 3.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/37a6a53f.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/37a6a53f.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Adductor exercise on Machine 3_thumb.jpg'
   },
   {
@@ -4459,8 +4459,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'back raises',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_back raises.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_back raises.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/1b674521.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/1b674521.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_back raises_thumb.jpg'
   },
   {
@@ -4468,8 +4468,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Back Squat 1',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Back Squat 1.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Back Squat 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/7001058a.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/7001058a.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Back Squat 1_thumb.jpg'
   },
   {
@@ -4477,8 +4477,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Back Squat 2',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Back Squat 2.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Back Squat 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/e7af360c.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/e7af360c.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Back Squat 2_thumb.jpg'
   },
   {
@@ -4486,8 +4486,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Backflip',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Backflip.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Backflip.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/3ed1e99b.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/3ed1e99b.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Backflip_thumb.jpg'
   },
   {
@@ -4495,8 +4495,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Banded Dumbell Step Up with Knee Drive and Shoulder Press',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Banded Dumbell Step Up with Knee Drive and Shoulder Press.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Banded Dumbell Step Up with Knee Drive and Shoulder Press.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/48d06575.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/48d06575.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Banded Dumbell Step Up with Knee Drive and Shoulder Press_thumb.jpg'
   },
   {
@@ -4504,8 +4504,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Box Back Squat 1',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Box Back Squat 1.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Box Back Squat 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/6945013b.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/6945013b.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Box Back Squat 1_thumb.jpg'
   },
   {
@@ -4513,8 +4513,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Box Back Squat 170kg x 5',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Box Back Squat 170kg x 5.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Box Back Squat 170kg x 5.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/3073ca83.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/3073ca83.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Box Back Squat 170kg x 5_thumb.jpg'
   },
   {
@@ -4522,8 +4522,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Box Back Squat 190kg x 4',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Box Back Squat 190kg x 4.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Box Back Squat 190kg x 4.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/92ed0c52.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/92ed0c52.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Box Back Squat 190kg x 4_thumb.jpg'
   },
   {
@@ -4531,8 +4531,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Box Back Squat 2.mp4',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Box Back Squat 2.mp4.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Box Back Squat 2.mp4.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/6b5affa7.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/6b5affa7.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Box Back Squat 2.mp4_thumb.jpg'
   },
   {
@@ -4540,8 +4540,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Box Back Squat 200kg x 3',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Box Back Squat 200kg x 3.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Box Back Squat 200kg x 3.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/12b3a2c2.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/12b3a2c2.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Box Back Squat 200kg x 3_thumb.jpg'
   },
   {
@@ -4549,8 +4549,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Box Back Squat 250kg',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Box Back Squat 250kg.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Box Back Squat 250kg.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/ed1f042d.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/ed1f042d.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Box Back Squat 250kg_thumb.jpg'
   },
   {
@@ -4558,8 +4558,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Box Back Squat 3.mp4',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Box Back Squat 3.mp4.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Box Back Squat 3.mp4.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/453c19b4.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/453c19b4.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Box Back Squat 3.mp4_thumb.jpg'
   },
   {
@@ -4567,8 +4567,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Box Back Squat 4.mp4',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Box Back Squat 4.mp4.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Box Back Squat 4.mp4.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/c404dd91.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/c404dd91.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Box Back Squat 4.mp4_thumb.jpg'
   },
   {
@@ -4576,8 +4576,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Box Back Squat 5',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Box Back Squat 5.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Box Back Squat 5.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/a2b29e68.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/a2b29e68.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Box Back Squat 5_thumb.jpg'
   },
   {
@@ -4585,8 +4585,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Box Jump',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Box Jump.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Box Jump.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/decc684d.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/decc684d.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Box Jump_thumb.jpg'
   },
   {
@@ -4594,8 +4594,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Crunches',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Crunches.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Crunches.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/fbbe5704.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/fbbe5704.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Crunches_thumb.jpg'
   },
   {
@@ -4603,8 +4603,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Deadlift',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Deadlift.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Deadlift.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/99fdb7bf.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/99fdb7bf.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Deadlift_thumb.jpg'
   },
   {
@@ -4612,8 +4612,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Diagonal Superman',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Diagonal Superman.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Diagonal Superman.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/ab8601d0.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/ab8601d0.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Diagonal Superman_thumb.jpg'
   },
   {
@@ -4621,8 +4621,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Dumbell Incline Press',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Dumbell Incline Press.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Dumbell Incline Press.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/5d2a81bf.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/5d2a81bf.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Dumbell Incline Press_thumb.jpg'
   },
   {
@@ -4630,8 +4630,8 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Dumbell Shoulder Press 1',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Dumbell Shoulder Press 1.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Dumbell Chest  Press 1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/dabe1af7.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/dabe1af7.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Dumbell Shoulder Press 1_thumb.jpg'
   },
   {
@@ -4639,10 +4639,10 @@ const exercises = [ /*
     athlete: 'Noah Lyles',
     title: 'Dumbell Shoulder Press 2',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Noah Lyles_100m_Dumbell Shoulder Press 2.mp4',
-    videoURL_360p: '/videos/exercises/Noah Lyles_100m_Dumbell Chest  Press 2.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/92076238.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/92076238.mp4',
     poster: '/videos/exercises/Noah Lyles_100m_Dumbell Shoulder Press 2_thumb.jpg'
-  },*/
+  },
   {
     id: 517,
     athlete: 'Noah Lyles',
