@@ -4,8 +4,8 @@ const exercises = [ /*
     athlete: 'Artur Beterbiev',
     title: 'Barbel hand Exercise',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Barbel hand Exercise.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Barbel hand Exercise.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/9fa3cf25.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/9fa3cf25.mp4',
     poster: '/videos/exercises/Artur Beterbiev_Boxing_Barbel hand Exercise_thumb.jpg'
   },
   {
@@ -394,14 +394,14 @@ const exercises = [ /*
     videoURL: '/videos/exercises/Asafa Powell_100m_Yoga Ball V Up Hands to Legs Catch.mp4',
     videoURL_360p: '/videos/exercises/Asafa Powell_100m_Yoga Ball V Up Hands to Legs Catch.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Yoga Ball V Up Hands to Legs Catch_thumb.jpg'
-  },
+  },*/
   {
     id: 45,
     athlete: 'Boots Ennis',
     title: '1 1 Overhand 4 L step exit',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_1 1 Overhand 4 L step exit.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_1 1 Overhand 4 L step exit.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/94fdfef0.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/94fdfef0.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_1 1 Overhand 4 L step exit_thumb.jpg'
   },
   {
@@ -409,8 +409,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: '1 1 Overhand Pivot off',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_1 1 Overhand Pivot off.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_1 1 Overhand Pivot off.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/1acfb649.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/1acfb649.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_1 1 Overhand Pivot off_thumb.jpg'
   },
   {
@@ -418,8 +418,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: '1 2 1 2 Combo',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_1 2 1 2 Combo.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_1 2 1 2 Combo.mp4',
+    videoURL: 'https://files.catbox.moe/3hrq6w.mp4',
+    videoURL_360p: 'https://files.catbox.moe/3hrq6w.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_1 2 1 2 Combo_thumb.jpg'
   },
   {
@@ -427,8 +427,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: '1 2 3 4 Then 4 hooks',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_1 2 3 4 Then 4 hooks.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_1 2 3 4 Then 4 hooks.mp4',
+    videoURL: 'https://files.catbox.moe/6klbnv.mp4',
+    videoURL_360p: 'https://files.catbox.moe/6klbnv.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_1 2 3 4 Then 4 hooks_thumb.jpg'
   },
   {
@@ -436,8 +436,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: '1 2 3 Pivot Off 1 1 exit',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_1 2 3 Pivot Off 1 1 exit.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_1 2 3 Pivot Off 1 1 exit.mp4',
+    videoURL: 'https://files.catbox.moe/mwktt6.mp4',
+    videoURL_360p: 'https://files.catbox.moe/mwktt6.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_1 2 3 Pivot Off 1 1 exit_thumb.jpg'
   },
   {
@@ -445,8 +445,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: '1 2 3 Pivot Off',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_1 2 3 Pivot Off.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_1 2 3 Pivot Off.mp4',
+    videoURL: 'https://files.catbox.moe/b91w9p.mp44',
+    videoURL_360p: 'https://files.catbox.moe/b91w9p.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_1 2 3 Pivot Off_thumb.jpg'
   },
   {
@@ -454,8 +454,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: '2 3 roll 4B safe exit',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_2 3 roll 4B safe exit.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_2 3 roll 4B safe exit.mp4',
+    videoURL: 'https://files.catbox.moe/jqbkvf.mp4',
+    videoURL_360p: 'https://files.catbox.moe/jqbkvf.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_2 3 roll 4B safe exit_thumb.jpg'
   },
   {
@@ -463,8 +463,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Drill 1',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Drill 1.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Drill 1.mp4',
+    videoURL: 'https://files.catbox.moe/fl9xj3.mp4',
+    videoURL_360p: 'https://files.catbox.moe/fl9xj3.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Drill 1_thumb.jpg'
   },
   {
@@ -472,8 +472,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Drill 2',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Drill 2.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Drill 2.mp4',
+    videoURL: 'https://files.catbox.moe/quoj2q.mp4',
+    videoURL_360p: 'https://files.catbox.moe/quoj2q.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Drill 2_thumb.jpg'
   },
   {
@@ -481,8 +481,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Hand Post Combo Pivot Off',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Hand Post Combo Pivot Off.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Hand Post Combo Pivot Off.mp4',
+    videoURL: 'https://files.catbox.moe/43y694.mp4',
+    videoURL_360p: 'https://files.catbox.moe/43y694.mp44',
     poster: '/videos/exercises/Boots Ennis_Boxing_Hand Post Combo Pivot Off_thumb.jpg'
   },
   {
@@ -490,8 +490,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Heavy Bag 1 2 3 3B 3',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Heavy Bag 1 2 3 3B 3.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Heavy Bag 1 2 3 3B 3.mp4',
+    videoURL: 'https://files.catbox.moe/2wvm8h.mp4',
+    videoURL_360p: 'https://files.catbox.moe/2wvm8h.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Heavy Bag 1 2 3 3B 3_thumb.jpg'
   },
   {
@@ -499,8 +499,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Heavy Bag 2 Shift 1 2 3 4 Double',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Heavy Bag 2 Shift 1 2 3 4 Double.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Heavy Bag 2 Shift 1 2 3 4 Double.mp4',
+    videoURL: 'https://files.catbox.moe/yyr6oi.mp4',
+    videoURL_360p: 'https://files.catbox.moe/yyr6oi.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Heavy Bag 2 Shift 1 2 3 4 Double_thumb.jpg'
   },
   {
@@ -508,8 +508,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Heavy Bag Four Lead Hook Drill',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Heavy Bag Four Lead Hook Drill.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Heavy Bag Four Lead Hook Drill.mp4',
+    videoURL: 'https://files.catbox.moe/j9zc83.mp4',
+    videoURL_360p: 'https://files.catbox.moe/j9zc83.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Heavy Bag Four Lead Hook Drill_thumb.jpg'
   },
   {
@@ -517,8 +517,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Pivot and Angles',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Pivot and Angles.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Pivot and Angles.mp4',
+    videoURL: 'https://files.catbox.moe/pg73g9.mp4',
+    videoURL_360p: 'https://files.catbox.moe/pg73g9.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Pivot and Angles_thumb.jpg'
   },
   {
@@ -526,8 +526,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Pivot Hook and L step drill',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Pivot Hook and L step drill.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Pivot Hook and L step drill.mp4',
+    videoURL: 'https://files.catbox.moe/jwbp5n.mp4',
+    videoURL_360p: 'https://files.catbox.moe/jwbp5n.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Pivot Hook and L step drill_thumb.jpg'
   },
   {
@@ -535,8 +535,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Pivot of to second set after Double 3 ',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Pivot of to second set after Double 3 .mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Pivot of to second set after Double 3 .mp4',
+    videoURL: 'https://files.catbox.moe/z6nnx8.mp4',
+    videoURL_360p: 'https://files.catbox.moe/z6nnx8.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Pivot of to second set after Double 3 _thumb.jpg'
   },
   {
@@ -544,8 +544,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Pivot one way 3 shoots back other way',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Pivot one way 3 shoots back other way.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Pivot one way 3 shoots back other way.mp4',
+    videoURL: 'https://files.catbox.moe/buyzp3.mp4',
+    videoURL_360p: 'https://files.catbox.moe/buyzp3.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Pivot one way 3 shoots back other way_thumb.jpg'
   },
   {
@@ -553,8 +553,8 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'Timing the bag for body shots and angles',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Timing the bag for body shots and angles.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Timing the bag for body shots and angles.mp4',
+    videoURL: 'https://files.catbox.moe/fhjsq1.mp4',
+    videoURL_360p: 'https://files.catbox.moe/fhjsq1.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Timing the bag for body shots and angles_thumb.jpg'
   },
   {
@@ -562,17 +562,17 @@ const exercises = [ /*
     athlete: 'Boots Ennis',
     title: 'timing the bag on jab 2 then L step',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_timing the bag on jab 2 then L step.mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_timing the bag on jab 2 then L step.mp4',
+    videoURL: 'https://files.catbox.moe/lc4ink.mp4',
+    videoURL_360p: 'https://files.catbox.moe/lc4ink.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_timing the bag on jab 2 then L step_thumb.jpg'
   },
   {
     id: 64,
     athlete: 'Boots Ennis',
-    title: 'Trn the wheel after body shot athen second set ',
+    title: 'Turn the wheel after body shot athen second set ',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Boots Ennis_Boxing_Trn the wheel after body shot athen second set .mp4',
-    videoURL_360p: '/videos/exercises/Boots Ennis_Boxing_Trn the wheel after body shot athen second set .mp4',
+    videoURL: 'https://files.catbox.moe/evt1qm.mp4',
+    videoURL_360p: 'https://files.catbox.moe/evt1qm.mp4',
     poster: '/videos/exercises/Boots Ennis_Boxing_Trn the wheel after body shot athen second set _thumb.jpg'
   },
   {
@@ -580,10 +580,10 @@ const exercises = [ /*
     athlete: 'David Benavidez',
     title: '1 2 3 Pivot Left-1',
     athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/David Benavidez_Boxing_1 2 3 Pivot Left-1.mp4',
-    videoURL_360p: '/videos/exercises/David Benavidez_Boxing_1 2 3 Pivot Left-1.mp4',
+    videoURL: 'https://stream.vidhosting.in/videos/4b19db69.mp4',
+    videoURL_360p: 'https://stream.vidhosting.in/videos/4b19db69.mp4',
     poster: '/videos/exercises/David Benavidez_Boxing_1 2 3 Pivot Left-1_thumb.jpg'
-  },
+  },/*
   {
     id: 66,
     athlete: 'Dmitry Bivol',
