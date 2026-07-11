@@ -1,130 +1,131 @@
-const exercises = [ /*
-  {
-    id: 1,
-    athlete: 'Artur Beterbiev',
-    title: 'Barbel hand Exercise',
-    athletesSports: 'Boxing',
-    videoURL: 'https://stream.vidhosting.in/videos/9fa3cf25.mp4',
-    videoURL_360p: 'https://stream.vidhosting.in/videos/9fa3cf25.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Barbel hand Exercise_thumb.jpg'
-  },
-  {
-    id: 2,
-    athlete: 'Artur Beterbiev',
-    title: 'Bench Press',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Bench Press.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Bench Press.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Bench Press_thumb.jpg'
-  },
-  {
-    id: 3,
-    athlete: 'Artur Beterbiev',
-    title: 'Clap push ups',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Clap push ups.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Clap push ups.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Clap push ups_thumb.jpg'
-  },
-  {
-    id: 4,
-    athlete: 'Artur Beterbiev',
-    title: 'Crunch medicine ball throws',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Crunch medicine ball throws.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Crunch medicine ball throws.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Crunch medicine ball throws_thumb.jpg'
-  },
-  {
-    id: 5,
-    athlete: 'Artur Beterbiev',
-    title: 'Deadlift 1',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Deadlift 1.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Deadlift 1.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Deadlift 1_thumb.jpg'
-  },
-  {
-    id: 6,
-    athlete: 'Artur Beterbiev',
-    title: 'Deadlift 2',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Deadlift 2.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Deadlift 2.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Deadlift 2_thumb.jpg'
-  },
-  {
-    id: 7,
-    athlete: 'Artur Beterbiev',
-    title: 'Dumbell Rhytm Byceps Exercise',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Dumbell Rhytm Byceps Exercise.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Dumbell Rhytm Byceps Exercise.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Dumbell Rhytm Byceps Exercise_thumb.jpg'
-  },
-  {
-    id: 8,
-    athlete: 'Artur Beterbiev',
-    title: 'Dumbell Shoulder Exercise',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Dumbell Shoulder Exercise.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Dumbell Shoulder Exercise.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Dumbell Shoulder Exercise_thumb.jpg'
-  },
-  {
-    id: 9,
-    athlete: 'Artur Beterbiev',
-    title: 'Hammer Punches 1',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Hammer Punches 1.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Hammer Punches 1.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Hammer Punches 1_thumb.jpg'
-  },
-  {
-    id: 10,
-    athlete: 'Artur Beterbiev',
-    title: 'Hammer Punches 2',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Hammer Punches 2.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Hammer Punches 2.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Hammer Punches 2_thumb.jpg'
-  },
-  {
-    id: 11,
-    athlete: 'Artur Beterbiev',
-    title: 'Hands exercise',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Hands exercise.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Hands exercise.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Hands exercise_thumb.jpg'
-  },
-  {
-    id: 12,
-    athlete: 'Artur Beterbiev',
-    title: 'Hang cleans',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Hang cleans.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Hang cleans.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Hang cleans_thumb.jpg'
-  },
-  {
-    id: 13,
-    athlete: 'Artur Beterbiev',
-    title: 'Rope exercise',
-    athletesSports: 'Boxing',
-    videoURL: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise.mp4',
-    videoURL_360p: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise.mp4',
-    poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
-  },
+const exercises = [ 
+{
+id: 1,
+athlete: 'Artur Beterbiev',
+title: 'Barbel hand Exercise',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/wl7xzf.mp4',
+videoURL_360p: 'https://files.catbox.moe/wl7xzf.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Barbel hand Exercise_thumb.jpg'
+},
+{
+id: 2,
+athlete: 'Artur Beterbiev',
+title: 'Bench Press',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/u595i1.mp4',
+videoURL_360p: 'https://files.catbox.moe/u595i1.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Bench Press_thumb.jpg'
+},
+{
+id: 3,
+athlete: 'Artur Beterbiev',
+title: 'Clap push ups',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/4xcasb.mp4',
+videoURL_360p: 'https://files.catbox.moe/4xcasb.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Clap push ups_thumb.jpg'
+},
+{
+id: 4,
+athlete: 'Artur Beterbiev',
+title: 'Crunch medicine ball throws',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/va12u0.mp4',
+videoURL_360p: 'https://files.catbox.moe/va12u0.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Crunch medicine ball throws_thumb.jpg'
+},
+{
+id: 5,
+athlete: 'Artur Beterbiev',
+title: 'Deadlift 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/y7427u.mp4',
+videoURL_360p: 'https://files.catbox.moe/y7427u.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Deadlift 1_thumb.jpg'
+},
+{
+id: 6,
+athlete: 'Artur Beterbiev',
+title: 'Deadlift 2',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/afmuah.mp4',
+videoURL_360p: 'https://files.catbox.moe/afmuah.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Deadlift 2_thumb.jpg'
+},
+{
+id: 7,
+athlete: 'Artur Beterbiev',
+title: 'Dumbell Rhytm Byceps Exercise',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/xvuppg.mp4',
+videoURL_360p: 'https://files.catbox.moe/xvuppg.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Dumbell Rhytm Byceps Exercise_thumb.jpg'
+},
+{
+id: 8,
+athlete: 'Artur Beterbiev',
+title: 'Dumbell Shoulder Exercise',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/o3csod.mp4',
+videoURL_360p: 'https://files.catbox.moe/o3csod.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Dumbell Shoulder Exercise_thumb.jpg'
+},
+{
+id: 9,
+athlete: 'Artur Beterbiev',
+title: 'Hammer Punches 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/u7031p.mp4',
+videoURL_360p: 'https://files.catbox.moe/u7031p.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Hammer Punches 1_thumb.jpg'
+},
+{
+id: 10,
+athlete: 'Artur Beterbiev',
+title: 'Hammer Punches 2',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/mbqtjq.mp4',
+videoURL_360p: 'https://files.catbox.moe/mbqtjq.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Hammer Punches 2_thumb.jpg'
+},
+{
+id: 11,
+athlete: 'Artur Beterbiev',
+title: 'Hands exercise',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/aqqd18.mp4',
+videoURL_360p: 'https://files.catbox.moe/aqqd18.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Hands exercise_thumb.jpg'
+},
+{
+id: 12,
+athlete: 'Artur Beterbiev',
+title: 'Hang cleans',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/m5qfzj.mp4',
+videoURL_360p: 'https://files.catbox.moe/m5qfzj.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Hang cleans_thumb.jpg'
+},
+{
+id: 13,
+athlete: 'Artur Beterbiev',
+title: 'Rope exercise',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/izc95j.mp4',
+videoURL_360p: 'https://files.catbox.moe/izc95j.mp4',
+poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
+}
+,
   {
     id: 14,
     athlete: 'Asafa Powell',
     title: ' Bench Press',
     athletesSports: '100m,200m',
-    videoURL: '/videos/exercises/Asafa Powell_100m,200m_ Bench Press.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m,200m_ Bench Press.mp4',
+    videoURL: 'https://files.catbox.moe/xoeah3.mp4',
+    videoURL_360p: 'https://files.catbox.moe/xoeah3.mp4',
     poster: '/videos/exercises/Asafa Powell_100m,200m_ Bench Press_thumb.jpg'
-  },
+  },/*
   {
     id: 15,
     athlete: 'Asafa Powell',
@@ -196,14 +197,14 @@ const exercises = [ /*
     videoURL: '/videos/exercises/Asafa Powell_100m_ Bench Press.mp4',
     videoURL_360p: '/videos/exercises/Asafa Powell_100m_ Bench Press.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_ Bench Press_thumb.jpg'
-  },
+  },*/
   {
     id: 23,
     athlete: 'Asafa Powell',
     title: '4 repetitive broad jumps',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_4 repetitive broad jumps.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_4 repetitive broad jumps.mp4',
+    videoURL: 'https://files.catbox.moe/693g1t.mp4',
+    videoURL_360p: 'https://files.catbox.moe/693g1t.mp44',
     poster: '/videos/exercises/Asafa Powell_100m_4 repetitive broad jumps_thumb.jpg'
   },
   {
@@ -211,8 +212,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Block Start Sprint (1)',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Block Start Sprint (1).mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Block Start Sprint (1).mp4',
+    videoURL: 'https://files.catbox.moe/2j3yb7.mp4',
+    videoURL_360p: 'https://files.catbox.moe/2j3yb7.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Block Start Sprint (1)_thumb.jpg'
   },
   {
@@ -220,8 +221,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Block Start Sprint',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Block Start Sprint.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Block Start Sprint.mp4',
+    videoURL: 'https://files.catbox.moe/0l76sf.mp4',
+    videoURL_360p: 'https://files.catbox.moe/0l76sf.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Block Start Sprint_thumb.jpg'
   },
   {
@@ -229,8 +230,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Block Start Sprinting',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Block Start Sprinting.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Block Start Sprinting.mp4',
+    videoURL: 'https://files.catbox.moe/32dpt6.mp4 ',
+    videoURL_360p: '/https://files.catbox.moe/32dpt6.mp4 ',
     poster: '/videos/exercises/Asafa Powell_100m_Block Start Sprinting_thumb.jpg'
   },
   {
@@ -238,8 +239,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Box Jumps',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Box Jumps.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Box Jumps.mp4',
+    videoURL: 'https://files.catbox.moe/jubkni.mp4',
+    videoURL_360p: 'https://files.catbox.moe/jubkni.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Box Jumps_thumb.jpg'
   },
   {
@@ -247,8 +248,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Box Squat',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Box Squat.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Box Squat.mp4',
+    videoURL: 'https://files.catbox.moe/rtiohj.mp4',
+    videoURL_360p: 'https://files.catbox.moe/rtiohj.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Box Squat_thumb.jpg'
   },
   {
@@ -256,8 +257,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Cable Hip Extensions',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Cable Hip Extensions.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Cable Hip Extensions.mp4',
+    videoURL: 'https://files.catbox.moe/3avz6u.mp4',
+    videoURL_360p: '/https://files.catbox.moe/3avz6u.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Cable Hip Extensions_thumb.jpg'
   },
   {
@@ -265,8 +266,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Front Squat',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Front Squat.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Front Squat.mp4',
+    videoURL: 'https://files.catbox.moe/53yqo8.mp4',
+    videoURL_360p: 'https://files.catbox.moe/53yqo8.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Front Squat_thumb.jpg'
   },
   {
@@ -274,8 +275,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'High Knees',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_High Knees.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_High Knees.mp4',
+    videoURL: 'https://files.catbox.moe/04pk2n.mp4',
+    videoURL_360p: 'https://files.catbox.moe/04pk2n.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_High Knees_thumb.jpg'
   },
   {
@@ -283,8 +284,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Hurdle Jumps',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Hurdle Jumps.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Hurdle Jumps.mp4',
+    videoURL: 'https://files.catbox.moe/wc8kt5.mp4',
+    videoURL_360p: 'https://files.catbox.moe/wc8kt5.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Hurdle Jumps_thumb.jpg'
   },
   {
@@ -292,8 +293,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Hurdle Step Over',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Hurdle Step Over.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Hurdle Step Over.mp4',
+    videoURL: 'https://files.catbox.moe/647fvt.mp4',
+    videoURL_360p: 'https://files.catbox.moe/647fvt.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Hurdle Step Over_thumb.jpg'
   },
   {
@@ -301,8 +302,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Leg Press',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Leg Press.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Leg Press.mp4',
+    videoURL: 'https://files.catbox.moe/o6hzl2.mp4',
+    videoURL_360p: 'https://files.catbox.moe/o6hzl2.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Leg Press_thumb.jpg'
   },
   {
@@ -310,8 +311,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Medicine Ball V Up',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Medicine Ball V Up.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Medicine Ball V Up.mp4',
+    videoURL: 'https://files.catbox.moe/ujq5cw.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ujq5cw.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Medicine Ball V Up_thumb.jpg'
   },
   {
@@ -319,8 +320,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Power Clean to front squat catch',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Power Clean to front squat catch.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Power Clean to front squat catch.mp4',
+    videoURL: 'https://files.catbox.moe/491n7c.mp4',
+    videoURL_360p: 'https://files.catbox.moe/491n7c.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Power Clean to front squat catch_thumb.jpg'
   },
   {
@@ -328,8 +329,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Power Clean to front squat for reps',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Power Clean to front squat for reps.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Power Clean to front squat for reps.mp4',
+    videoURL: 'https://files.catbox.moe/4k83mb.mp4',
+    videoURL_360p: 'https://files.catbox.moe/4k83mb.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Power Clean to front squat for reps_thumb.jpg'
   },
   {
@@ -337,8 +338,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Power clean with front squat catch (1)',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Power clean with front squat catch (1).mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Power clean with front squat catch (1).mp4',
+    videoURL: 'https://files.catbox.moe/z4igif.mp4',
+    videoURL_360p: 'https://files.catbox.moe/z4igif.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Power clean with front squat catch (1)_thumb.jpg'
   },
   {
@@ -346,8 +347,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Power clean with front squat catch(1) ',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Power clean with front squat catch(1) .mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Power clean with front squat catch(1) .mp4',
+    videoURL: 'https://files.catbox.moe/19bymi.mp4',
+    videoURL_360p: 'https://files.catbox.moe/19bymi.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Power clean with front squat catch(1) _thumb.jpg'
   },
   {
@@ -364,8 +365,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Repetitive Hang Cleans',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Repetitive Hang Cleans.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Repetitive Hang Cleans.mp4',
+    videoURL: 'https://files.catbox.moe/069ayl.mp4',
+    videoURL_360p: 'hhttps://files.catbox.moe/069ayl.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Repetitive Hang Cleans_thumb.jpg'
   },
   {
@@ -373,8 +374,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Resisted Sprinting',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Resisted Sprinting.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Resisted Sprinting.mp4',
+    videoURL: 'https://files.catbox.moe/jhck6k.mp4',
+    videoURL_360p: 'https://files.catbox.moe/jhck6k.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Resisted Sprinting_thumb.jpg'
   },
   {
@@ -382,8 +383,8 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Sprinting',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Sprinting.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Sprinting.mp4',
+    videoURL: 'https://files.catbox.moe/1ssfe4.mp4',
+    videoURL_360p: 'https://files.catbox.moe/1ssfe4.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Sprinting_thumb.jpg'
   },
   {
@@ -391,10 +392,10 @@ const exercises = [ /*
     athlete: 'Asafa Powell',
     title: 'Yoga Ball V Up Hands to Legs Catch',
     athletesSports: '100m',
-    videoURL: '/videos/exercises/Asafa Powell_100m_Yoga Ball V Up Hands to Legs Catch.mp4',
-    videoURL_360p: '/videos/exercises/Asafa Powell_100m_Yoga Ball V Up Hands to Legs Catch.mp4',
+    videoURL: 'https://files.catbox.moe/tgl1uc.mp4',
+    videoURL_360p: 'https://files.catbox.moe/tgl1uc.mp4',
     poster: '/videos/exercises/Asafa Powell_100m_Yoga Ball V Up Hands to Legs Catch_thumb.jpg'
-  },*/
+  },
   {
     id: 45,
     athlete: 'Boots Ennis',
