@@ -5788,6 +5788,2238 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     videoURL: 'https://stream.vidhosting.in/videos/66b29b69.mp4',
     videoURL_360p: 'https://stream.vidhosting.in/videos/66b29b69.mp4',
     poster: '/videos/exercises/Yohan Blake_100m_Treadmill Running_thumb.jpg'
-  }
+  },
+  {
+id: 701,
+athlete: 'Dmitry Bivol',
+title: 'Alternating Medicine Ball Push Ups',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/i2bzft.mp4',
+videoURL_360p: 'https://files.catbox.moe/i2bzft.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Alternating Medicine Ball Push Ups_thumb.jpg'
+},
+{
+id: 702,
+athlete: 'Dmitry Bivol',
+title: 'Band Assisted Explosive Pushups',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/vc5xsg.mp4',
+videoURL_360p: 'https://files.catbox.moe/vc5xsg.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Band Assisted Explosive Pushups_thumb.jpg'
+},
+{
+id: 703,
+athlete: 'Dmitry Bivol',
+title: 'Box Jump',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/o8rri8.mp4',
+videoURL_360p: 'https://files.catbox.moe/o8rri8.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Box Jump_thumb.jpg'
+},
+{
+id: 704,
+athlete: 'Dmitry Bivol',
+title: 'Clap Pushups',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/jf1ilh.mp4',
+videoURL_360p: 'https://files.catbox.moe/jf1ilh.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Clap Pushups_thumb.jpg'
+},
+{
+id: 705,
+athlete: 'Dmitry Bivol',
+title: 'Crunch Dumbell Twists',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/ywglbk.mp4',
+videoURL_360p: 'https://files.catbox.moe/ywglbk.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Crunch Dumbell Twists_thumb.jpg'
+},
+{
+id: 706,
+athlete: 'Dmitry Bivol',
+title: 'Crunch Rotations With Partner Pushing',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/pen2ev.mp4',
+videoURL_360p: 'https://files.catbox.moe/pen2ev.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Crunch Rotations With Partner Pushing_thumb.jpg'
+},
+{
+id: 707,
+athlete: 'Dmitry Bivol',
+title: 'Dead Bug Dumbell Row',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/dv6rml.mp4',
+videoURL_360p: 'https://files.catbox.moe/dv6rml.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Dead Bug Dumbell Row_thumb.jpg'
+},
+{
+id: 708,
+athlete: 'Dmitry Bivol',
+title: 'Dip Bar Explosive Knee Drives With Push',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/zik617.mp4',
+videoURL_360p: 'https://files.catbox.moe/zik617.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Dip Bar Explosive Knee Drives With Push_thumb.jpg'
+},
+{
+id: 709,
+athlete: 'Dmitry Bivol',
+title: 'Dumbell Bench Press Explosive',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/ay8bd1.mp4',
+videoURL_360p: 'https://files.catbox.moe/ay8bd1.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Dumbell Bench Press Explosive_thumb.jpg'
+},
+{
+id: 710,
+athlete: 'Dmitry Bivol',
+title: 'Explosive Puush Ups',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/51tx6k.mp4',
+videoURL_360p: 'https://files.catbox.moe/51tx6k.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Explosive Puush Ups_thumb.jpg'
+},
+{
+id: 711,
+athlete: 'Dmitry Bivol',
+title: 'Flying Cards Catching',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/5n6l7l.mp4',
+videoURL_360p: 'https://files.catbox.moe/5n6l7l.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Flying Cards Catching_thumb.jpg'
+},
+{
+id: 712,
+athlete: 'Dmitry Bivol',
+title: 'Hand Exercise',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/i5b63y.mp4',
+videoURL_360p: 'https://files.catbox.moe/i5b63y.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Hand Exercise_thumb.jpg'
+},
+{
+id: 713,
+athlete: 'Dmitry Bivol',
+title: 'Isometric Band Holds',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/3og5of.mp4',
+videoURL_360p: 'https://files.catbox.moe/3og5of.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Isometric Band Holds_thumb.jpg'
+},
+{
+id: 714,
+athlete: 'Dmitry Bivol',
+title: 'Isometric Hook',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/v0xuv1.mp4',
+videoURL_360p: 'https://files.catbox.moe/v0xuv1.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Isometric Hook_thumb.jpg'
+},
+{
+id: 715,
+athlete: 'Dmitry Bivol',
+title: 'Kettlbell Core Stabilty',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/x3r0c1.mp4',
+videoURL_360p: 'https://files.catbox.moe/x3r0c1.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Kettlbell Core Stabilty_thumb.jpg'
+},
+{
+id: 716,
+athlete: 'Dmitry Bivol',
+title: 'Lateral Hops',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/kfu9og.mp4',
+videoURL_360p: 'https://files.catbox.moe/kfu9og.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Lateral Hops_thumb.jpg'
+},
+{
+id: 717,
+athlete: 'Dmitry Bivol',
+title: 'Medicine Ball Crunch Hooks 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/hpoypd.mp4',
+videoURL_360p: 'https://files.catbox.moe/hpoypd.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Medicine Ball Crunch Hooks 1_thumb.jpg'
+},
+{
+id: 718,
+athlete: 'Dmitry Bivol',
+title: 'Medicine Ball Crunch Hooks',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/u15lmd.mp4',
+videoURL_360p: 'https://files.catbox.moe/u15lmd.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Medicine Ball Crunch Hooks_thumb.jpg'
+},
+{
+id: 719,
+athlete: 'Dmitry Bivol',
+title: 'Medicine Ball Explosive',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/tznvwj.mp4',
+videoURL_360p: 'https://files.catbox.moe/tznvwj.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Medicine Ball Explosive_thumb.jpg'
+},
+{
+id: 720,
+athlete: 'Dmitry Bivol',
+title: 'Medicine Ball Slams',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/9sd2ip.mp4',
+videoURL_360p: 'https://files.catbox.moe/9sd2ip.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Medicine Ball Slams_thumb.jpg'
+},
+{
+id: 721,
+athlete: 'Dmitry Bivol',
+title: 'Medicine Ball Wall Throws',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/xgsmu6.mp4',
+videoURL_360p: 'https://files.catbox.moe/xgsmu6.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Medicine Ball Wall Throws_thumb.jpg'
+},
+{
+id: 722,
+athlete: 'Dmitry Bivol',
+title: 'Plank Rotations',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/r5mcsc.mp4',
+videoURL_360p: 'https://files.catbox.moe/r5mcsc.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Plank Rotations_thumb.jpg'
+},
+{
+id: 723,
+athlete: 'Dmitry Bivol',
+title: 'Plank Walkovers',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/tv4syk.mp4',
+videoURL_360p: 'https://files.catbox.moe/tv4syk.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Plank Walkovers_thumb.jpg'
+},
+{
+id: 724,
+athlete: 'Dmitry Bivol',
+title: 'Push Ups',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/uou5ah.mp4',
+videoURL_360p: 'https://files.catbox.moe/uou5ah.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Push Ups_thumb.jpg'
+},
+{
+id: 725,
+athlete: 'Dmitry Bivol',
+title: 'Rock Slams',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/hhkmjg.mp4',
+videoURL_360p: 'https://files.catbox.moe/hhkmjg.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Rock Slams_thumb.jpg'
+},
+{
+id: 726,
+athlete: 'Dmitry Bivol',
+title: 'Rock Throw and Catch',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/xkus11.mp4',
+videoURL_360p: 'https://files.catbox.moe/xkus11.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Rock Throw and Catch_thumb.jpg'
+},
+{
+id: 727,
+athlete: 'Dmitry Bivol',
+title: 'Roman Chair Medicine Ball Slams 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/5rpc87.mp4',
+videoURL_360p: 'https://files.catbox.moe/5rpc87.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Roman Chair Medicine Ball Slams 1_thumb.jpg'
+},
+{
+id: 728,
+athlete: 'Dmitry Bivol',
+title: 'Roman Chair Medicine Ball Slams',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/l1j44j.mp4',
+videoURL_360p: 'https://files.catbox.moe/l1j44j.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Roman Chair Medicine Ball Slams_thumb.jpg'
+},
+{
+id: 729,
+athlete: 'Dmitry Bivol',
+title: 'Rope Swings',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/f7kuxi.mp4',
+videoURL_360p: 'https://files.catbox.moe/f7kuxi.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Rope Swings_thumb.jpg'
+},
+{
+id: 730,
+athlete: 'Dmitry Bivol',
+title: 'Row to punches',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/e361ms.mp4',
+videoURL_360p: 'https://files.catbox.moe/e361ms.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Row to punches_thumb.jpg'
+},
+{
+id: 731,
+athlete: 'Dmitry Bivol',
+title: 'Seated Medicine Ball Swing Slams',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/aoxxus.mp4',
+videoURL_360p: 'https://files.catbox.moe/aoxxus.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Seated Medicine Ball Swing Slams_thumb.jpg'
+},
+{
+id: 732,
+athlete: 'Dmitry Bivol',
+title: 'Shoulder Mobility 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/wbwxct.mp4',
+videoURL_360p: 'https://files.catbox.moe/wbwxct.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Shoulder Mobility 1_thumb.jpg'
+},
+{
+id: 733,
+athlete: 'Dmitry Bivol',
+title: 'Shoulder Mobility',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/pzohhz.mp4',
+videoURL_360p: 'https://files.catbox.moe/pzohhz.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Shoulder Mobility_thumb.jpg'
+},
+{
+id: 734,
+athlete: 'Dmitry Bivol',
+title: 'Shoulder Pushing Exercise',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/9024r6.mp4',
+videoURL_360p: 'https://files.catbox.moe/9024r6.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Shoulder Pushing Exercise_thumb.jpg'
+},
+{
+id: 735,
+athlete: 'Dmitry Bivol',
+title: 'Single Arm Alternating Rock Throw and Catch',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/ed5583.mp4',
+videoURL_360p: 'https://files.catbox.moe/ed5583.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Single Arm Alternating Rock Throw and Catch_thumb.jpg'
+},
+{
+id: 736,
+athlete: 'Dmitry Bivol',
+title: 'Single Leg Jump Medcine Ball Slams',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/c8h9kh.mp4',
+videoURL_360p: 'https://files.catbox.moe/c8h9kh.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Single Leg Jump Medcine Ball Slams_thumb.jpg'
+},
+{
+id: 737,
+athlete: 'Dmitry Bivol',
+title: 'Sit Ups',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/vveztl.mp4',
+videoURL_360p: 'https://files.catbox.moe/vveztl.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Sit Ups_thumb.jpg'
+},
+{
+id: 738,
+athlete: 'Dmitry Bivol',
+title: 'Skate Ankle Stability',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/lf1zk6.mp4',
+videoURL_360p: 'https://files.catbox.moe/lf1zk6.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Skate Ankle Stability_thumb.jpg'
+},
+{
+id: 739,
+athlete: 'Dmitry Bivol',
+title: 'V Ups 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/3xa94h.mp4',
+videoURL_360p: 'https://files.catbox.moe/3xa94h.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_V Ups 1_thumb.jpg'
+},
+{
+id: 740,
+athlete: 'Dmitry Bivol',
+title: 'V Ups',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/pk9isz.mp4',
+videoURL_360p: 'https://files.catbox.moe/pk9isz.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_V Ups_thumb.jpg'
+},
+{
+id: 741,
+athlete: 'Dmitry Bivol',
+title: 'Yoga Ball Plank CIrcles',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/dzclcq.mp4',
+videoURL_360p: 'https://files.catbox.moe/dzclcq.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Yoga Ball Plank CIrcles_thumb.jpg'
+},
+{
+id: 742,
+athlete: 'Donovan Mitchell',
+title: 'Agility Drill 1',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/co51h3.mp4',
+videoURL_360p: 'https://files.catbox.moe/co51h3.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Agility Drill 1_thumb.jpg'
+},
+{
+id: 743,
+athlete: 'Donovan Mitchell',
+title: 'Agility Drill 2',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/wnsd4i.mp4',
+videoURL_360p: 'https://files.catbox.moe/wnsd4i.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Agility Drill 2_thumb.jpg'
+},
+{
+id: 744,
+athlete: 'Donovan Mitchell',
+title: 'Cardio climbers 1',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/kzjo29.mp4',
+videoURL_360p: 'https://files.catbox.moe/kzjo29.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Cardio climbers 1_thumb.jpg'
+},
+{
+id: 745,
+athlete: 'Donovan Mitchell',
+title: 'Cardio climbers 2',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/cf6pvx.mp4',
+videoURL_360p: 'https://files.catbox.moe/cf6pvx.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Cardio climbers 2_thumb.jpg'
+},
+{
+id: 746,
+athlete: 'Donovan Mitchell',
+title: 'Cardio exercise on machine',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/upbc4y.mp4',
+videoURL_360p: 'https://files.catbox.moe/upbc4y.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Cardio exercise on machine_thumb.jpg'
+},
+{
+id: 747,
+athlete: 'Donovan Mitchell',
+title: 'Lateral Movements',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/frhue0.mp4',
+videoURL_360p: 'https://files.catbox.moe/frhue0.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Lateral Movements_thumb.jpg'
+},
+{
+id: 748,
+athlete: 'Donovan Mitchell',
+title: 'Nordic Hamstring Curls',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/alfg7a.mp4',
+videoURL_360p: 'https://files.catbox.moe/alfg7a.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Nordic Hamstring Curls_thumb.jpg'
+},
+{
+id: 749,
+athlete: 'Donovan Mitchell',
+title: 'Push ups',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/6wy1iv.mp4',
+videoURL_360p: 'https://files.catbox.moe/6wy1iv.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Push ups_thumb.jpg'
+},
+{
+id: 750,
+athlete: 'Donovan Mitchell',
+title: 'Resisted Backwards Run',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/0356wm.mp4',
+videoURL_360p: 'https://files.catbox.moe/0356wm.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Resisted Backwards Run_thumb.jpg'
+},
+{
+id: 751,
+athlete: 'Donovan Mitchell',
+title: 'Single leg Box jump with single leg landing',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/8k551s.mp4',
+videoURL_360p: 'https://files.catbox.moe/8k551s.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Single leg Box jump with single leg landing_thumb.jpg'
+},
+{
+id: 752,
+athlete: 'Donovan Mitchell',
+title: 'Skaters',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/xsse0b.mp4',
+videoURL_360p: 'https://files.catbox.moe/xsse0b.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Skaters_thumb.jpg'
+},
+{
+id: 753,
+athlete: 'Donovan Mitchell',
+title: 'Sled Pushing',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/7hl3qp.mp4',
+videoURL_360p: 'https://files.catbox.moe/7hl3qp.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Sled Pushing_thumb.jpg'
+},
+{
+id: 754,
+athlete: 'Donovan Mitchell',
+title: 'Yoga ball plank',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/7zlmpt.mp4',
+videoURL_360p: 'https://files.catbox.moe/7zlmpt.mp4',
+poster: '/videos/exercises/Donovan Mitchell_Basketball_Yoga ball plank_thumb.jpg'
+},
+{
+id: 755,
+athlete: 'Dwyane Wade',
+title: 'Depth Jump',
+athletesSports: 'Basketball',
+videoURL: 'https://files.catbox.moe/nlq33f.mp4',
+videoURL_360p: 'https://files.catbox.moe/nlq33f.mp4',
+poster: '/videos/exercises/Dwyane Wade_Basketball_Depth Jump_thumb.jpg'
+},
+{
+id: 756,
+athlete: 'Femke Bol',
+title: 'HAng Clean',
+athletesSports: '400m,400m hurdles',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Femke Bol_400m,400m hurdles_HAng Clean_thumb.jpg'
+},
+{
+id: 757,
+athlete: 'Femke Bol',
+title: '3 step to jump simulation (1)',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/zohm3l.mp4',
+videoURL_360p: 'https://files.catbox.moe/zohm3l.mp4',
+poster: '/videos/exercises/Femke Bol_400m_3 step to jump simulation (1)_thumb.jpg'
+},
+{
+id: 758,
+athlete: 'Femke Bol',
+title: '3 step to jump simulation',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/cxhvv5.mp4',
+videoURL_360p: 'https://files.catbox.moe/cxhvv5.mp4',
+poster: '/videos/exercises/Femke Bol_400m_3 step to jump simulation_thumb.jpg'
+},
+{
+id: 759,
+athlete: 'Femke Bol',
+title: '3 steps to jump simulation',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/6dn1b8.mp4',
+videoURL_360p: 'https://files.catbox.moe/6dn1b8.mp4',
+poster: '/videos/exercises/Femke Bol_400m_3 steps to jump simulation_thumb.jpg'
+},
+{
+id: 760,
+athlete: 'Femke Bol',
+title: 'Assisted Pull ups',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/ke7759.mp4',
+videoURL_360p: 'https://files.catbox.moe/ke7759.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Assisted Pull ups_thumb.jpg'
+},
+{
+id: 761,
+athlete: 'Femke Bol',
+title: 'Banded Hip Circles',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/vyz8ze.mp4',
+videoURL_360p: 'https://files.catbox.moe/vyz8ze.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Banded Hip Circles_thumb.jpg'
+},
+{
+id: 762,
+athlete: 'Femke Bol',
+title: 'Banded Leg Pushofs',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/d5go9j.mp4',
+videoURL_360p: 'https://files.catbox.moe/d5go9j.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Banded Leg Pushofs_thumb.jpg'
+},
+{
+id: 763,
+athlete: 'Femke Bol',
+title: 'Bounding to Long Jumps',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/cla1rs.mp4',
+videoURL_360p: 'https://files.catbox.moe/cla1rs.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Bounding to Long Jumps_thumb.jpg'
+},
+{
+id: 764,
+athlete: 'Femke Bol',
+title: 'Bycycle  Driving',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/czmec8.mp4',
+videoURL_360p: 'https://files.catbox.moe/czmec8.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Bycycle  Driving_thumb.jpg'
+},
+{
+id: 765,
+athlete: 'Femke Bol',
+title: 'Dumbell Kettlebel Drive',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/20ip7w.mp4',
+videoURL_360p: 'https://files.catbox.moe/20ip7w.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Dumbell Kettlebel Drive_thumb.jpg'
+},
+{
+id: 766,
+athlete: 'Femke Bol',
+title: 'Forward Curtsy Lunge simulation',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/391yrj.mp4',
+videoURL_360p: 'https://files.catbox.moe/391yrj.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Forward Curtsy Lunge simulation_thumb.jpg'
+},
+{
+id: 767,
+athlete: 'Femke Bol',
+title: 'Front Squat (1)',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/pcrb64.mp4',
+videoURL_360p: 'https://files.catbox.moe/pcrb64.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Front Squat (1)_thumb.jpg'
+},
+{
+id: 768,
+athlete: 'Femke Bol',
+title: 'Front Squat',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/2rvtbl.mp4',
+videoURL_360p: 'https://files.catbox.moe/2rvtbl.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Front Squat_thumb.jpg'
+},
+{
+id: 769,
+athlete: 'Femke Bol',
+title: 'Hang Clean (1)',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/pelpap.mp4',
+videoURL_360p: 'https://files.catbox.moe/pelpap.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Hang Clean (1)_thumb.jpg'
+},
+{
+id: 770,
+athlete: 'Femke Bol',
+title: 'Hang Clean(2)',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/jojhd8.mp4',
+videoURL_360p: 'https://files.catbox.moe/jojhd8.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Hang Clean(2)_thumb.jpg'
+},
+{
+id: 771,
+athlete: 'Femke Bol',
+title: 'Hang Clean',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/87wx8v.mp4',
+videoURL_360p: 'https://files.catbox.moe/87wx8v.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Hang Clean_thumb.jpg'
+},
+{
+id: 772,
+athlete: 'Femke Bol',
+title: 'Hang Cleans',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/indzre.mp4',
+videoURL_360p: 'https://files.catbox.moe/indzre.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Hang Cleans_thumb.jpg'
+},
+{
+id: 773,
+athlete: 'Femke Bol',
+title: 'Hurdle Jumps',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/2opdph.mp4',
+videoURL_360p: 'https://files.catbox.moe/2opdph.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Hurdle Jumps_thumb.jpg'
+},
+{
+id: 774,
+athlete: 'Femke Bol',
+title: 'Kneeling Snatch with Knee Drive Simulation',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/ow9fi6.mp4',
+videoURL_360p: 'https://files.catbox.moe/ow9fi6.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Kneeling Snatch with Knee Drive Simulation_thumb.jpg'
+},
+{
+id: 775,
+athlete: 'Femke Bol',
+title: 'Power Clean (2)',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/oih78g.mp4',
+videoURL_360p: 'https://files.catbox.moe/oih78g.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Power Clean (2)_thumb.jpg'
+},
+{
+id: 776,
+athlete: 'Femke Bol',
+title: 'Power Clean (3)',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/ve9jpi.mp4',
+videoURL_360p: 'https://files.catbox.moe/ve9jpi.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Power Clean (3)_thumb.jpg'
+},
+{
+id: 777,
+athlete: 'Femke Bol',
+title: 'Power CLean from Box',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/oe4m09.mp4',
+videoURL_360p: 'https://files.catbox.moe/oe4m09.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Power CLean from Box_thumb.jpg'
+},
+{
+id: 778,
+athlete: 'Femke Bol',
+title: 'Power Clean(1)',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/h4ya96.mp4',
+videoURL_360p: 'https://files.catbox.moe/h4ya96.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Power Clean(1)_thumb.jpg'
+},
+{
+id: 779,
+athlete: 'Femke Bol',
+title: 'Power clean',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/8ellts.mp4',
+videoURL_360p: 'https://files.catbox.moe/8ellts.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Power clean_thumb.jpg'
+},
+{
+id: 780,
+athlete: 'Femke Bol',
+title: 'Power cleaning',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/o9uy59.mp4',
+videoURL_360p: 'https://files.catbox.moe/o9uy59.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Power cleaning_thumb.jpg'
+},
+{
+id: 781,
+athlete: 'Femke Bol',
+title: 'Power Cleans',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/v3noek.mp4',
+videoURL_360p: 'https://files.catbox.moe/v3noek.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Power Cleans_thumb.jpg'
+},
+{
+id: 782,
+athlete: 'Femke Bol',
+title: 'Repetitive Hang Snatches',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/wb15ew.mp4',
+videoURL_360p: 'https://files.catbox.moe/wb15ew.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Repetitive Hang Snatches_thumb.jpg'
+},
+{
+id: 783,
+athlete: 'Femke Bol',
+title: 'Single leg Box Step up jump',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/2offgn.mp4',
+videoURL_360p: 'https://files.catbox.moe/2offgn.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Single leg Box Step up jump_thumb.jpg'
+},
+{
+id: 784,
+athlete: 'Femke Bol',
+title: 'Single leg glute bridge variation',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/3vb1ab.mp4',
+videoURL_360p: 'https://files.catbox.moe/3vb1ab.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Single leg glute bridge variation_thumb.jpg'
+},
+{
+id: 785,
+athlete: 'Femke Bol',
+title: 'Single Leg Hip Thrusts',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/klpga4.mp4',
+videoURL_360p: 'https://files.catbox.moe/klpga4.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Single Leg Hip Thrusts_thumb.jpg'
+},
+{
+id: 786,
+athlete: 'Femke Bol',
+title: 'Single Leg jump variation',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/a63vex.mp4',
+videoURL_360p: 'https://files.catbox.moe/a63vex.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Single Leg jump variation_thumb.jpg'
+},
+{
+id: 787,
+athlete: 'Femke Bol',
+title: 'Single Leg RDL',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/r7mfgj.mp4',
+videoURL_360p: 'https://files.catbox.moe/r7mfgj.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Single Leg RDL_thumb.jpg'
+},
+{
+id: 788,
+athlete: 'Femke Bol',
+title: 'Split Squat to Knee Drive on Box',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/2dfk3b.mp4',
+videoURL_360p: 'https://files.catbox.moe/2dfk3b.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Split Squat to Knee Drive on Box_thumb.jpg'
+},
+{
+id: 789,
+athlete: 'Femke Bol',
+title: 'Split Squat',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/epuh53.mp4',
+videoURL_360p: 'https://files.catbox.moe/epuh53.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Split Squat_thumb.jpg'
+},
+{
+id: 790,
+athlete: 'Femke Bol',
+title: 'Step up jumps',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/l0sviu.mp4',
+videoURL_360p: 'https://files.catbox.moe/l0sviu.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Step up jumps_thumb.jpg'
+},
+{
+id: 791,
+athlete: 'Femke Bol',
+title: 'Step up',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/a6jytd.mp4',
+videoURL_360p: 'https://files.catbox.moe/a6jytd.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Step up_thumb.jpg'
+},
+{
+id: 792,
+athlete: 'Femke Bol',
+title: 'Yoga Ball Horizontal Knee Drive',
+athletesSports: '400m',
+videoURL: 'https://files.catbox.moe/zwchg7.mp4',
+videoURL_360p: 'https://files.catbox.moe/zwchg7.mp4',
+poster: '/videos/exercises/Femke Bol_400m_Yoga Ball Horizontal Knee Drive_thumb.jpg'
+},
+{
+id: 793,
+athlete: 'Fran Sands',
+title: 'Angled Side Steps',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/4btpxx.mp4',
+videoURL_360p: 'https://files.catbox.moe/4btpxx.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Angled Side Steps_thumb.jpg'
+},
+{
+id: 794,
+athlete: 'Fran Sands',
+title: 'Double Jab and Move',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/308dkv.mp4',
+videoURL_360p: 'https://files.catbox.moe/308dkv.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Double Jab and Move_thumb.jpg'
+},
+{
+id: 795,
+athlete: 'Fran Sands',
+title: 'Double Jab',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/2j7yt4.mp4',
+videoURL_360p: 'https://files.catbox.moe/2j7yt4.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Double Jab_thumb.jpg'
+},
+{
+id: 796,
+athlete: 'Fran Sands',
+title: 'Jab And Move',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/cg9cke.mp4',
+videoURL_360p: 'https://files.catbox.moe/cg9cke.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab And Move_thumb.jpg'
+},
+{
+id: 797,
+athlete: 'Fran Sands',
+title: 'Jab Angled Side Step Jab Cross',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/zvdgcs.mp4',
+videoURL_360p: 'https://files.catbox.moe/zvdgcs.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Angled Side Step Jab Cross_thumb.jpg'
+},
+{
+id: 798,
+athlete: 'Fran Sands',
+title: 'Jab Cross and Move Forward and Backwards',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/zxmz61.mp4',
+videoURL_360p: 'https://files.catbox.moe/zxmz61.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Cross and Move Forward and Backwards_thumb.jpg'
+},
+{
+id: 799,
+athlete: 'Fran Sands',
+title: 'Jab Cross and Move with Pivot Hook and Basic Hook',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/nr4elm.mp4',
+videoURL_360p: 'https://files.catbox.moe/nr4elm.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Cross and Move with Pivot Hook and Basic Hook_thumb.jpg'
+},
+{
+id: 800,
+athlete: 'Fran Sands',
+title: 'Jab Cross and Move with Pivot Left and Right Uppercuts',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/wioqhy.mp4',
+videoURL_360p: 'https://files.catbox.moe/wioqhy.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Cross and Move with Pivot Left and Right Uppercuts_thumb.jpg'
+},
+{
+id: 801,
+athlete: 'Fran Sands',
+title: 'Jab Cross and Move with Pivot Left and Right',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/ijc0kb.mp4',
+videoURL_360p: 'https://files.catbox.moe/ijc0kb.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Cross and Move with Pivot Left and Right_thumb.jpg'
+},
+{
+id: 802,
+athlete: 'Fran Sands',
+title: 'Jab Cross and Move',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/m646yd.mp4',
+videoURL_360p: 'https://files.catbox.moe/m646yd.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Cross and Move_thumb.jpg'
+},
+{
+id: 803,
+athlete: 'Fran Sands',
+title: 'Jab Cross Left Hook and Move',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/i9yt3d.mp4',
+videoURL_360p: 'https://files.catbox.moe/i9yt3d.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Cross Left Hook and Move_thumb.jpg'
+},
+{
+id: 804,
+athlete: 'Fran Sands',
+title: 'Jab Cross Left Hook Right Hook and Move',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/8sxjfy.mp4',
+videoURL_360p: 'https://files.catbox.moe/8sxjfy.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Cross Left Hook Right Hook and Move_thumb.jpg'
+},
+{
+id: 805,
+athlete: 'Fran Sands',
+title: 'Jab Cross Left Hook Right Hook',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/nojcb5.mp4',
+videoURL_360p: 'https://files.catbox.moe/nojcb5.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Cross Left Hook Right Hook_thumb.jpg'
+},
+{
+id: 806,
+athlete: 'Fran Sands',
+title: 'Jab Cross Left Hook',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/hiclgb.mp4',
+videoURL_360p: 'https://files.catbox.moe/hiclgb.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Cross Left Hook_thumb.jpg'
+},
+{
+id: 807,
+athlete: 'Fran Sands',
+title: 'Jab Cross',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/zhs3vv.mp4',
+videoURL_360p: 'https://files.catbox.moe/zhs3vv.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab Cross_thumb.jpg'
+},
+{
+id: 808,
+athlete: 'Fran Sands',
+title: 'Jab',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/morchl.mp4',
+videoURL_360p: 'https://files.catbox.moe/morchl.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Jab_thumb.jpg'
+},
+{
+id: 809,
+athlete: 'Fran Sands',
+title: 'Stance Switch With Upeprcut and Hook',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/4yp9v0.mp4',
+videoURL_360p: 'https://files.catbox.moe/4yp9v0.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Stance Switch With Upeprcut and Hook_thumb.jpg'
+},
+{
+id: 810,
+athlete: 'Fran Sands',
+title: 'Stance Switch With Upeprcuts',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/ij6bho.mp4',
+videoURL_360p: 'https://files.catbox.moe/ij6bho.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Stance Switch With Upeprcuts_thumb.jpg'
+},
+{
+id: 811,
+athlete: 'Fran Sands',
+title: 'Stance Switch',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/h5nmw9.mp4',
+videoURL_360p: 'https://files.catbox.moe/h5nmw9.mp4',
+poster: '/videos/exercises/Fran Sands_Boxing_Stance Switch_thumb.jpg'
+},
+{
+id: 812,
+athlete: 'Frederick Richard',
+title: 'Nordic Hamstring Curl',
+athletesSports: 'Gymnastics',
+videoURL: 'https://files.catbox.moe/bk37ad.mp4',
+videoURL_360p: 'https://files.catbox.moe/bk37ad.mp4',
+poster: '/videos/exercises/Frederick Richard_Gymnastics_Nordic Hamstring Curl_thumb.jpg'
+},
+{
+id: 813,
+athlete: 'Gennady Golovkin',
+title: 'Crunches With Twist',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/3el6zw.mp4',
+videoURL_360p: 'https://files.catbox.moe/3el6zw.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Crunches With Twist_thumb.jpg'
+},
+{
+id: 814,
+athlete: 'Gennady Golovkin',
+title: 'Crunches',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/byp5ru.mp4',
+videoURL_360p: 'https://files.catbox.moe/byp5ru.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Crunches_thumb.jpg'
+},
+{
+id: 815,
+athlete: 'Gennady Golovkin',
+title: 'Explosive Presses',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/jg9z2n.mp4',
+videoURL_360p: 'https://files.catbox.moe/jg9z2n.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Explosive Presses_thumb.jpg'
+},
+{
+id: 816,
+athlete: 'Gennady Golovkin',
+title: 'Knee Partial Push Ups',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/33q799.mp4',
+videoURL_360p: 'https://files.catbox.moe/33q799.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Knee Partial Push Ups_thumb.jpg'
+},
+{
+id: 817,
+athlete: 'Gennady Golovkin',
+title: 'Light dumbbells directs',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/wajb1i.mp4',
+videoURL_360p: 'https://files.catbox.moe/wajb1i.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Light dumbbells directs_thumb.jpg'
+},
+{
+id: 818,
+athlete: 'Gennady Golovkin',
+title: 'Light Dumbells Backword Circles',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/m94rhl.mp4',
+videoURL_360p: 'https://files.catbox.moe/m94rhl.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Light Dumbells Backword Circles_thumb.jpg'
+},
+{
+id: 819,
+athlete: 'Gennady Golovkin',
+title: 'Light Dumbells Flys',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/939ab5.mp4',
+videoURL_360p: 'https://files.catbox.moe/939ab5.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Light Dumbells Flys_thumb.jpg'
+},
+{
+id: 820,
+athlete: 'Gennady Golovkin',
+title: 'Light Dumbells Forwarrd Circles',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/y4jqpo.mp4',
+videoURL_360p: 'https://files.catbox.moe/y4jqpo.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Light Dumbells Forwarrd Circles_thumb.jpg'
+},
+{
+id: 821,
+athlete: 'Gennady Golovkin',
+title: 'Light Dumbells Ovations',
+athletesSports: 'Boxing',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Light Dumbells Ovations_thumb.jpg'
+},
+{
+id: 822,
+athlete: 'Gennady Golovkin',
+title: 'Light Dumbells Shakers',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/uf6mnw.mp4',
+videoURL_360p: 'https://files.catbox.moe/uf6mnw.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Light Dumbells Shakers_thumb.jpg'
+},
+{
+id: 823,
+athlete: 'Gennady Golovkin',
+title: 'Light Dumbells Vertical Directs',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/vrhpy4.mp4',
+videoURL_360p: 'https://files.catbox.moe/vrhpy4.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Light Dumbells Vertical Directs_thumb.jpg'
+},
+{
+id: 824,
+athlete: 'Gennady Golovkin',
+title: 'Medicine Ball Full Squat Jumps',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/32w917.mp4',
+videoURL_360p: 'https://files.catbox.moe/32w917.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Medicine Ball Full Squat Jumps_thumb.jpg'
+},
+{
+id: 825,
+athlete: 'Gennady Golovkin',
+title: 'Medicine Ball Jumps',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/ymr7jw.mp4',
+videoURL_360p: 'https://files.catbox.moe/ymr7jw.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Medicine Ball Jumps_thumb.jpg'
+},
+{
+id: 826,
+athlete: 'Gennady Golovkin',
+title: 'Medicine Ball press jumps',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/8v0yl3.mp4',
+videoURL_360p: 'https://files.catbox.moe/8v0yl3.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Medicine Ball press jumps_thumb.jpg'
+},
+{
+id: 827,
+athlete: 'Gennady Golovkin',
+title: 'Overhead triceps extensions',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/ret0b4.mp4',
+videoURL_360p: 'https://files.catbox.moe/ret0b4.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Overhead triceps extensions_thumb.jpg'
+},
+{
+id: 828,
+athlete: 'Gennady Golovkin',
+title: 'Partial reverse crunches',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/zleqb3.mp4',
+videoURL_360p: 'https://files.catbox.moe/zleqb3.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Partial reverse crunches_thumb.jpg'
+},
+{
+id: 829,
+athlete: 'Gennady Golovkin',
+title: 'Rope skipping',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/fk8hwn.mp4',
+videoURL_360p: 'https://files.catbox.moe/fk8hwn.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Rope skipping_thumb.jpg'
+},
+{
+id: 830,
+athlete: 'Gennady Golovkin',
+title: 'Shoulder circles to left',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/c5k8tk.mp4',
+videoURL_360p: 'https://files.catbox.moe/c5k8tk.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Shoulder circles to left_thumb.jpg'
+},
+{
+id: 831,
+athlete: 'Gennady Golovkin',
+title: 'Shoulder Elbow Circles',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/kexo8u.mp4',
+videoURL_360p: 'https://files.catbox.moe/kexo8u.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Shoulder Elbow Circles_thumb.jpg'
+},
+{
+id: 832,
+athlete: 'Gennady Golovkin',
+title: 'Side Crunches 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/0iccj7.mp4',
+videoURL_360p: 'https://files.catbox.moe/0iccj7.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Side Crunches 1_thumb.jpg'
+},
+{
+id: 833,
+athlete: 'Gennady Golovkin',
+title: 'Side Crunches',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/0w61fw.mp4',
+videoURL_360p: 'https://files.catbox.moe/0w61fw.mp4',
+poster: '/videos/exercises/Gennady Golovkin_Boxing_Side Crunches_thumb.jpg'
+},
+{
+id: 834,
+athlete: 'Guillermo Rigondeaux',
+title: '2 5 1 6 ',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/2qhuyj.mp4',
+videoURL_360p: 'https://files.catbox.moe/2qhuyj.mp4',
+poster: '/videos/exercises/Guillermo Rigondeaux_Boxing_2 5 1 6 _thumb.jpg'
+},
+{
+id: 835,
+athlete: 'Guillermo Rigondeaux',
+title: '2 5 1 6 _360p',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/mb1ywg.mp4',
+videoURL_360p: 'https://files.catbox.moe/mb1ywg.mp4',
+poster: '/videos/exercises/Guillermo Rigondeaux_Boxing_2 5 1 6 _360p_thumb.jpg'
+},
+{
+id: 836,
+athlete: 'Guillermo Rigondeaux',
+title: 'Lead Hand Free Rear hand Dumbell Dirrect',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/ik66ya.mp4',
+videoURL_360p: 'https://files.catbox.moe/ik66ya.mp4',
+poster: '/videos/exercises/Guillermo Rigondeaux_Boxing_Lead Hand Free Rear hand Dumbell Dirrect_thumb.jpg'
+},
+{
+id: 837,
+athlete: 'Guillermo Rigondeaux',
+title: '',
+athletesSports: 'Lead Hand Free Rear hand Dumbell Uppercut',
+videoURL: 'https://files.catbox.moe/lmtjxc.mp4',
+videoURL_360p: 'https://files.catbox.moe/lmtjxc.mp4',
+poster: '/videos/exercises/Guillermo Rigondeaux_Lead Hand Free Rear hand Dumbell Uppercut_thumb.jpg'
+},
+{
+id: 838,
+athlete: 'Ivana Spanovic',
+title: 'Broad Jump',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/ygilib.mp4',
+videoURL_360p: 'https://files.catbox.moe/ygilib.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Broad Jump_thumb.jpg'
+},
+{
+id: 839,
+athlete: 'Ivana Spanovic',
+title: 'Hurdle Jumps 1',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/qehoz0.mp4',
+videoURL_360p: 'https://files.catbox.moe/qehoz0.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Hurdle Jumps 1_thumb.jpg'
+},
+{
+id: 840,
+athlete: 'Ivana Spanovic',
+title: 'Hurdle Jumps',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/wspwaa.mp4',
+videoURL_360p: 'https://files.catbox.moe/wspwaa.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Hurdle Jumps_thumb.jpg'
+},
+{
+id: 841,
+athlete: 'Ivana Spanovic',
+title: 'Medicine Ball Crunches With Throw',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/x7tiup.mp4',
+videoURL_360p: 'https://files.catbox.moe/x7tiup.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Medicine Ball Crunches With Throw_thumb.jpg'
+},
+{
+id: 842,
+athlete: 'Ivana Spanovic',
+title: 'Medicine Ball Russian Twist With Throw',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/m4m10h.mp4',
+videoURL_360p: 'https://files.catbox.moe/m4m10h.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Medicine Ball Russian Twist With Throw_thumb.jpg'
+},
+{
+id: 843,
+athlete: 'Ivana Spanovic',
+title: 'Medicine Ball Throw Backwards',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/rcolvb.mp4',
+videoURL_360p: 'https://files.catbox.moe/rcolvb.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Medicine Ball Throw Backwards_thumb.jpg'
+},
+{
+id: 844,
+athlete: 'Ivana Spanovic',
+title: 'Power Clean 1',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/rhrtyz.mp4',
+videoURL_360p: 'https://files.catbox.moe/rhrtyz.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Power Clean 1_thumb.jpg'
+},
+{
+id: 845,
+athlete: 'Ivana Spanovic',
+title: 'Power Clean',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/flq5wx.mp4',
+videoURL_360p: 'https://files.catbox.moe/flq5wx.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Power Clean_thumb.jpg'
+},
+{
+id: 846,
+athlete: 'Ivana Spanovic',
+title: 'Reverse Crunches',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/jh3b64.mp4',
+videoURL_360p: 'https://files.catbox.moe/jh3b64.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Reverse Crunches_thumb.jpg'
+},
+{
+id: 847,
+athlete: 'Ivana Spanovic',
+title: 'Roman Chair Extensions WIth Medicine Ball Throw',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/bbvjfa.mp4',
+videoURL_360p: 'https://files.catbox.moe/bbvjfa.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Roman Chair Extensions WIth Medicine Ball Throw_thumb.jpg'
+},
+{
+id: 848,
+athlete: 'Ivana Spanovic',
+title: 'Squat Jumps 1',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/wpasvr.mp4',
+videoURL_360p: 'https://files.catbox.moe/wpasvr.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Squat Jumps 1_thumb.jpg'
+},
+{
+id: 849,
+athlete: 'Ivana Spanovic',
+title: 'Squat Jumps',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/i1356h.mp4',
+videoURL_360p: 'https://files.catbox.moe/i1356h.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Squat Jumps_thumb.jpg'
+},
+{
+id: 850,
+athlete: 'Ivana Spanovic',
+title: 'Stair Squat Jumps',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/g5bt7c.mp4',
+videoURL_360p: 'https://files.catbox.moe/g5bt7c.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Stair Squat Jumps_thumb.jpg'
+},
+{
+id: 851,
+athlete: 'Ivana Spanovic',
+title: 'Stairs Bounding 1',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/mtnnh2.mp4',
+videoURL_360p: 'https://files.catbox.moe/mtnnh2.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Stairs Bounding 1_thumb.jpg'
+},
+{
+id: 852,
+athlete: 'Ivana Spanovic',
+title: 'Stairs Bounding',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/e4opo3.mp4',
+videoURL_360p: 'https://files.catbox.moe/e4opo3.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_Stairs Bounding_thumb.jpg'
+},
+{
+id: 853,
+athlete: 'Ivana Spanovic',
+title: 'TRX Plank to Handstand Walk',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/foko2e.mp4',
+videoURL_360p: 'https://files.catbox.moe/foko2e.mp4',
+poster: '/videos/exercises/Ivana Spanovic_Long Jump_TRX Plank to Handstand Walk_thumb.jpg'
+},
+{
+id: 854,
+athlete: 'Khadi Sagnia',
+title: ' Step up',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/lrtv11.mp4',
+videoURL_360p: 'https://files.catbox.moe/lrtv11.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_ Step up_thumb.jpg'
+},
+{
+id: 855,
+athlete: 'Khadi Sagnia',
+title: 'Alternating Forward Banded Lunge Scissor',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/3zk1a7.mp4',
+videoURL_360p: 'https://files.catbox.moe/3zk1a7.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Alternating Forward Banded Lunge Scissor_thumb.jpg'
+},
+{
+id: 856,
+athlete: 'Khadi Sagnia',
+title: 'Back exercise',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/i8fqth.mp4',
+videoURL_360p: 'https://files.catbox.moe/i8fqth.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Back exercise_thumb.jpg'
+},
+{
+id: 857,
+athlete: 'Khadi Sagnia',
+title: 'Back squat',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/ltxjk4.mp4',
+videoURL_360p: 'https://files.catbox.moe/ltxjk4.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Back squat_thumb.jpg'
+},
+{
+id: 858,
+athlete: 'Khadi Sagnia',
+title: 'Back squats',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/5t60n1.mp4',
+videoURL_360p: 'https://files.catbox.moe/5t60n1.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Back squats_thumb.jpg'
+},
+{
+id: 859,
+athlete: 'Khadi Sagnia',
+title: 'Backward hill hops',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/61s95f.mp4',
+videoURL_360p: 'https://files.catbox.moe/61s95f.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Backward hill hops_thumb.jpg'
+},
+{
+id: 860,
+athlete: 'Khadi Sagnia',
+title: 'Banded Lunge Scissor',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/wlrlri.mp4',
+videoURL_360p: 'https://files.catbox.moe/wlrlri.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Banded Lunge Scissor_thumb.jpg'
+},
+{
+id: 861,
+athlete: 'Khadi Sagnia',
+title: 'Bar leg raises',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/39e6tk.mp4',
+videoURL_360p: 'https://files.catbox.moe/39e6tk.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Bar leg raises_thumb.jpg'
+},
+{
+id: 862,
+athlete: 'Khadi Sagnia',
+title: 'Belt squats',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/zys1xb.mp4',
+videoURL_360p: 'https://files.catbox.moe/zys1xb.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Belt squats_thumb.jpg'
+},
+{
+id: 863,
+athlete: 'Khadi Sagnia',
+title: 'Bench good mornings',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/vsnxzn.mp4',
+videoURL_360p: 'https://files.catbox.moe/vsnxzn.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Bench good mornings_thumb.jpg'
+},
+{
+id: 864,
+athlete: 'Khadi Sagnia',
+title: 'Bench press',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/7xv92d.mp4',
+videoURL_360p: 'https://files.catbox.moe/7xv92d.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Bench press_thumb.jpg'
+},
+{
+id: 865,
+athlete: 'Khadi Sagnia',
+title: 'Bicycle cruches',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/8iu1j2.mp4',
+videoURL_360p: 'https://files.catbox.moe/8iu1j2.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Bicycle cruches_thumb.jpg'
+},
+{
+id: 866,
+athlete: 'Khadi Sagnia',
+title: 'Bicycle driving',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/wzjmeu.mp4',
+videoURL_360p: 'https://files.catbox.moe/wzjmeu.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Bicycle driving_thumb.jpg'
+},
+{
+id: 867,
+athlete: 'Khadi Sagnia',
+title: 'Bodyweight half squat',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/64zc29.mp4',
+videoURL_360p: 'https://files.catbox.moe/64zc29.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Bodyweight half squat_thumb.jpg'
+},
+{
+id: 868,
+athlete: 'Khadi Sagnia',
+title: 'Bodyweight squat and curtsy lunge',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/pw0yqg.mp4',
+videoURL_360p: 'https://files.catbox.moe/pw0yqg.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Bodyweight squat and curtsy lunge_thumb.jpg'
+},
+{
+id: 869,
+athlete: 'Khadi Sagnia',
+title: 'Box jumps with plate',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/nao4ft.mp4',
+videoURL_360p: 'https://files.catbox.moe/nao4ft.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Box jumps with plate_thumb.jpg'
+},
+{
+id: 870,
+athlete: 'Khadi Sagnia',
+title: 'Box jumps',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/sq9bj6.mp4',
+videoURL_360p: 'https://files.catbox.moe/sq9bj6.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Box jumps_thumb.jpg'
+},
+{
+id: 871,
+athlete: 'Khadi Sagnia',
+title: 'Broad jump',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/tuys1k.mp4',
+videoURL_360p: 'https://files.catbox.moe/tuys1k.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Broad jump_thumb.jpg'
+},
+{
+id: 872,
+athlete: 'Khadi Sagnia',
+title: 'Broad jumps',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/td5fru.mp4',
+videoURL_360p: 'https://files.catbox.moe/td5fru.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Broad jumps_thumb.jpg'
+},
+{
+id: 873,
+athlete: 'Khadi Sagnia',
+title: 'Bulgarian split squat',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/hv9cog.mp4',
+videoURL_360p: 'https://files.catbox.moe/hv9cog.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Bulgarian split squat_thumb.jpg'
+},
+{
+id: 874,
+athlete: 'Khadi Sagnia',
+title: 'Burpees',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/h7lza8.mp4',
+videoURL_360p: 'https://files.catbox.moe/h7lza8.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Burpees_thumb.jpg'
+},
+{
+id: 875,
+athlete: 'Khadi Sagnia',
+title: 'Calf raises Eccentric focus',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/8es600.mp4',
+videoURL_360p: 'https://files.catbox.moe/8es600.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Calf raises Eccentric focus_thumb.jpg'
+},
+{
+id: 876,
+athlete: 'Khadi Sagnia',
+title: 'Consecutive Hang Cleans',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/bil8t8.mp4',
+videoURL_360p: 'https://files.catbox.moe/bil8t8.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Consecutive Hang Cleans_thumb.jpg'
+},
+{
+id: 877,
+athlete: 'Khadi Sagnia',
+title: 'Dead Bug Exercise',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/vg1m68.mp4',
+videoURL_360p: 'https://files.catbox.moe/vg1m68.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Dead Bug Exercise_thumb.jpg'
+},
+{
+id: 878,
+athlete: 'Khadi Sagnia',
+title: 'Decline push ups',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/rotizj.mp4',
+videoURL_360p: 'https://files.catbox.moe/rotizj.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Decline push ups_thumb.jpg'
+},
+{
+id: 879,
+athlete: 'Khadi Sagnia',
+title: 'Elevated feet split squat',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/4i4koz.mp4',
+videoURL_360p: 'https://files.catbox.moe/4i4koz.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Elevated feet split squat_thumb.jpg'
+},
+{
+id: 880,
+athlete: 'Khadi Sagnia',
+title: 'Elevated split squat',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/5w5952.mp4',
+videoURL_360p: 'https://files.catbox.moe/5w5952.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Elevated split squat_thumb.jpg'
+},
+{
+id: 881,
+athlete: 'Khadi Sagnia',
+title: 'Exercise for back',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/306nsq.mp4',
+videoURL_360p: 'https://files.catbox.moe/306nsq.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Exercise for back_thumb.jpg'
+},
+{
+id: 882,
+athlete: 'Khadi Sagnia',
+title: 'Fire hydrants and donkey kicks and ',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/0nmpik.mp4',
+videoURL_360p: 'https://files.catbox.moe/0nmpik.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Fire hydrants and donkey kicks and _thumb.jpg'
+},
+{
+id: 883,
+athlete: 'Khadi Sagnia',
+title: 'Fire Hydrants',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/e81ipc.mp4',
+videoURL_360p: 'https://files.catbox.moe/e81ipc.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Fire Hydrants_thumb.jpg'
+},
+{
+id: 884,
+athlete: 'Khadi Sagnia',
+title: 'Forward hill hops',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/x04maa.mp4',
+videoURL_360p: 'https://files.catbox.moe/x04maa.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Forward hill hops_thumb.jpg'
+},
+{
+id: 885,
+athlete: 'Khadi Sagnia',
+title: 'Forward stairs jumps',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/r4yzw5.mp4',
+videoURL_360p: 'https://files.catbox.moe/r4yzw5.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Forward stairs jumps_thumb.jpg'
+},
+{
+id: 886,
+athlete: 'Khadi Sagnia',
+title: 'Glute exercise',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/ok7m2e.mp4',
+videoURL_360p: 'https://files.catbox.moe/ok7m2e.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Glute exercise_thumb.jpg'
+},
+{
+id: 887,
+athlete: 'Khadi Sagnia',
+title: 'Good  Morning ',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/cvcqht.mp4',
+videoURL_360p: 'https://files.catbox.moe/cvcqht.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Good  Morning _thumb.jpg'
+},
+{
+id: 888,
+athlete: 'Khadi Sagnia',
+title: 'Good morning',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/mjl8pd.mp4',
+videoURL_360p: 'https://files.catbox.moe/mjl8pd.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Good morning_thumb.jpg'
+},
+{
+id: 889,
+athlete: 'Khadi Sagnia',
+title: 'Good Mornings',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/nzodar.mp4',
+videoURL_360p: 'https://files.catbox.moe/nzodar.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Good Mornings_thumb.jpg'
+},
+{
+id: 890,
+athlete: 'Khadi Sagnia',
+title: 'Hang clean ',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/5hdglc.mp4',
+videoURL_360p: 'https://files.catbox.moe/5hdglc.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Hang clean _thumb.jpg'
+},
+{
+id: 891,
+athlete: 'Khadi Sagnia',
+title: 'Hang Cleaning',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/pd2y2x.mp4',
+videoURL_360p: 'https://files.catbox.moe/pd2y2x.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Hang Cleaning_thumb.jpg'
+},
+{
+id: 892,
+athlete: 'Khadi Sagnia',
+title: 'Hang Cleans',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/o2rvie.mp4',
+videoURL_360p: 'https://files.catbox.moe/o2rvie.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Hang Cleans_thumb.jpg'
+},
+{
+id: 893,
+athlete: 'Khadi Sagnia',
+title: 'Hanging crunches',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/tkjw4h.mp4',
+videoURL_360p: 'https://files.catbox.moe/tkjw4h.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Hanging crunches_thumb.jpg'
+},
+{
+id: 894,
+athlete: 'Khadi Sagnia',
+title: 'Hops over line',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/gr7k94.mp4',
+videoURL_360p: 'https://files.catbox.moe/gr7k94.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Hops over line_thumb.jpg'
+},
+{
+id: 895,
+athlete: 'Khadi Sagnia',
+title: 'Knee Side plank leg raises',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/pl88s6.mp4',
+videoURL_360p: 'https://files.catbox.moe/pl88s6.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Knee Side plank leg raises_thumb.jpg'
+},
+{
+id: 896,
+athlete: 'Khadi Sagnia',
+title: 'Kopenhangen plank with knee drive to side',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/djqgyr.mp4',
+videoURL_360p: 'https://files.catbox.moe/djqgyr.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Kopenhangen plank with knee drive to side_thumb.jpg'
+},
+{
+id: 897,
+athlete: 'Khadi Sagnia',
+title: 'Long jump',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/azct81.mp4',
+videoURL_360p: 'https://files.catbox.moe/azct81.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Long jump_thumb.jpg'
+},
+{
+id: 898,
+athlete: 'Khadi Sagnia',
+title: 'Long jumping',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/lte4wc.mp4',
+videoURL_360p: 'https://files.catbox.moe/lte4wc.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Long jumping_thumb.jpg'
+},
+{
+id: 899,
+athlete: 'Khadi Sagnia',
+title: 'Max broad jump',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/bk4dno.mp4',
+videoURL_360p: 'https://files.catbox.moe/bk4dno.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Max broad jump_thumb.jpg'
+},
+{
+id: 900,
+athlete: 'Khadi Sagnia',
+title: 'Max effort broad jump',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/c5w5h6.mp4',
+videoURL_360p: 'https://files.catbox.moe/c5w5h6.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Max effort broad jump_thumb.jpg'
+},
+{
+id: 901,
+athlete: 'Khadi Sagnia',
+title: 'Max Hang Clean',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/2h5ros.mp4',
+videoURL_360p: 'https://files.catbox.moe/2h5ros.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Max Hang Clean_thumb.jpg'
+},
+{
+id: 902,
+athlete: 'Khadi Sagnia',
+title: 'Mountain climbers',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/rukrq8.mp4',
+videoURL_360p: 'https://files.catbox.moe/rukrq8.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Mountain climbers_thumb.jpg'
+},
+{
+id: 903,
+athlete: 'Khadi Sagnia',
+title: 'Nordic hamstring curl semi assisted',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/mr587b.mp4',
+videoURL_360p: 'https://files.catbox.moe/mr587b.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Nordic hamstring curl semi assisted_thumb.jpg'
+},
+{
+id: 904,
+athlete: 'Khadi Sagnia',
+title: 'Nordic Hamstring curls assisted with yoga ball',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/stzox3.mp4',
+videoURL_360p: 'https://files.catbox.moe/stzox3.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Nordic Hamstring curls assisted with yoga ball_thumb.jpg'
+},
+{
+id: 905,
+athlete: 'Khadi Sagnia',
+title: 'Overhead squat',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/ypbj8g.mp4',
+videoURL_360p: 'https://files.catbox.moe/ypbj8g.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Overhead squat_thumb.jpg'
+},
+{
+id: 906,
+athlete: 'Khadi Sagnia',
+title: 'Overturning Back to V Up Medicine Ball exercise',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/zd76on.mp4',
+videoURL_360p: 'https://files.catbox.moe/zd76on.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Overturning Back to V Up Medicine Ball exercise_thumb.jpg'
+},
+{
+id: 907,
+athlete: 'Khadi Sagnia',
+title: 'Pike push ups',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/jpzjr0.mp4',
+videoURL_360p: 'https://files.catbox.moe/jpzjr0.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Pike push ups_thumb.jpg'
+},
+{
+id: 908,
+athlete: 'Khadi Sagnia',
+title: 'Plank jacks over bench',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/6apxve.mp4',
+videoURL_360p: 'https://files.catbox.moe/6apxve.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Plank jacks over bench_thumb.jpg'
+},
+{
+id: 909,
+athlete: 'Khadi Sagnia',
+title: 'Plank jacks',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/oecveg.mp4',
+videoURL_360p: 'https://files.catbox.moe/oecveg.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Plank jacks_thumb.jpg'
+},
+{
+id: 910,
+athlete: 'Khadi Sagnia',
+title: 'Plank to push up',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/nxxbam.mp4',
+videoURL_360p: 'https://files.catbox.moe/nxxbam.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Plank to push up_thumb.jpg'
+},
+{
+id: 911,
+athlete: 'Khadi Sagnia',
+title: 'Plank with knee drive to the side',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/8zfeie.mp4',
+videoURL_360p: 'https://files.catbox.moe/8zfeie.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Plank with knee drive to the side_thumb.jpg'
+},
+{
+id: 912,
+athlete: 'Khadi Sagnia',
+title: 'Pull up bar leg raises.mp4',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/vp03nr.mp4',
+videoURL_360p: 'https://files.catbox.moe/vp03nr.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Pull up bar leg raises.mp4_thumb.jpg'
+},
+{
+id: 913,
+athlete: 'Khadi Sagnia',
+title: 'Pull ups',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/04nk85.mp4',
+videoURL_360p: 'https://files.catbox.moe/04nk85.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Pull ups_thumb.jpg'
+},
+{
+id: 914,
+athlete: 'Khadi Sagnia',
+title: 'Pull ups.mp4',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/h3vvzv.mp4',
+videoURL_360p: 'https://files.catbox.moe/h3vvzv.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Pull ups.mp4_thumb.jpg'
+},
+{
+id: 915,
+athlete: 'Khadi Sagnia',
+title: 'Push ups with hands forward',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/5t1mn4.mp4',
+videoURL_360p: 'https://files.catbox.moe/5t1mn4.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Push ups with hands forward_thumb.jpg'
+},
+{
+id: 916,
+athlete: 'Khadi Sagnia',
+title: 'Push ups',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/hwpax2.mp4',
+videoURL_360p: 'https://files.catbox.moe/hwpax2.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Push ups_thumb.jpg'
+},
+{
+id: 917,
+athlete: 'Khadi Sagnia',
+title: 'Quarter squats',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/efjugd.mp4',
+videoURL_360p: 'https://files.catbox.moe/efjugd.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Quarter squats_thumb.jpg'
+},
+{
+id: 918,
+athlete: 'Khadi Sagnia',
+title: 'Quick Battle Rope up and down',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/cz9g9f.mp4',
+videoURL_360p: 'https://files.catbox.moe/cz9g9f.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Quick Battle Rope up and down_thumb.jpg'
+},
+{
+id: 919,
+athlete: 'Khadi Sagnia',
+title: 'Quick feet over line',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/1zhq13.mp4',
+videoURL_360p: 'https://files.catbox.moe/1zhq13.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Quick feet over line_thumb.jpg'
+},
+{
+id: 920,
+athlete: 'Khadi Sagnia',
+title: 'Quick Feets',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/g38cxf.mp4',
+videoURL_360p: 'https://files.catbox.moe/g38cxf.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Quick Feets_thumb.jpg'
+},
+{
+id: 921,
+athlete: 'Khadi Sagnia',
+title: 'Quick hamstring band pulls',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/htxbbd.mp4',
+videoURL_360p: 'https://files.catbox.moe/htxbbd.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Quick hamstring band pulls_thumb.jpg'
+},
+{
+id: 922,
+athlete: 'Khadi Sagnia',
+title: 'Repetetive hang cleans',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/6cvdon.mp4',
+videoURL_360p: 'https://files.catbox.moe/6cvdon.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Repetetive hang cleans_thumb.jpg'
+},
+{
+id: 923,
+athlete: 'Khadi Sagnia',
+title: 'Ressisted sprinting',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/0qnk7k.mp4',
+videoURL_360p: 'https://files.catbox.moe/0qnk7k.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Ressisted sprinting_thumb.jpg'
+},
+{
+id: 924,
+athlete: 'Khadi Sagnia',
+title: 'Reverse Crunches',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/9jnpx0.mp4',
+videoURL_360p: 'https://files.catbox.moe/9jnpx0.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Reverse Crunches_thumb.jpg'
+},
+{
+id: 925,
+athlete: 'Khadi Sagnia',
+title: 'Running to bex step up with knee drive',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/ayrcsh.mp4',
+videoURL_360p: 'https://files.catbox.moe/ayrcsh.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Running to bex step up with knee drive_thumb.jpg'
+},
+{
+id: 926,
+athlete: 'Khadi Sagnia',
+title: 'Scissor Lunge Jumps',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/50dtv5.mp4',
+videoURL_360p: 'https://files.catbox.moe/50dtv5.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Scissor Lunge Jumps_thumb.jpg'
+},
+{
+id: 927,
+athlete: 'Khadi Sagnia',
+title: 'Shoulder cirsles with plate',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/oqi2tl.mp4',
+videoURL_360p: 'https://files.catbox.moe/oqi2tl.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Shoulder cirsles with plate_thumb.jpg'
+},
+{
+id: 928,
+athlete: 'Khadi Sagnia',
+title: 'Side crunches',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/9j2swi.mp4',
+videoURL_360p: 'https://files.catbox.moe/9j2swi.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Side crunches_thumb.jpg'
+},
+{
+id: 929,
+athlete: 'Khadi Sagnia',
+title: 'Side hops',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/gtbbu4.mp4',
+videoURL_360p: 'https://files.catbox.moe/gtbbu4.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Side hops_thumb.jpg'
+},
+{
+id: 930,
+athlete: 'Khadi Sagnia',
+title: 'Side plank leg lifts',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/onjnp5.mp4',
+videoURL_360p: 'https://files.catbox.moe/onjnp5.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Side plank leg lifts_thumb.jpg'
+},
+{
+id: 931,
+athlete: 'Khadi Sagnia',
+title: 'Single leg belt squat',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/s6ksxs.mp4',
+videoURL_360p: 'https://files.catbox.moe/s6ksxs.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Single leg belt squat_thumb.jpg'
+},
+{
+id: 932,
+athlete: 'Khadi Sagnia',
+title: 'Single leg glute bridge',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/79uhof.mp4',
+videoURL_360p: 'https://files.catbox.moe/79uhof.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Single leg glute bridge_thumb.jpg'
+},
+{
+id: 933,
+athlete: 'Khadi Sagnia',
+title: 'Single leg hops to side',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/alef39.mp4',
+videoURL_360p: 'https://files.catbox.moe/alef39.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Single leg hops to side_thumb.jpg'
+},
+{
+id: 934,
+athlete: 'Khadi Sagnia',
+title: 'Single leg Plate Quarter V Up',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/twnwp6.mp4',
+videoURL_360p: 'https://files.catbox.moe/twnwp6.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Single leg Plate Quarter V Up_thumb.jpg'
+},
+{
+id: 935,
+athlete: 'Khadi Sagnia',
+title: 'Single leg V Ups',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/7mdj1o.mp4',
+videoURL_360p: 'https://files.catbox.moe/7mdj1o.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Single leg V Ups_thumb.jpg'
+},
+{
+id: 936,
+athlete: 'Khadi Sagnia',
+title: 'Skaters',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/4fomfs.mp4',
+videoURL_360p: 'https://files.catbox.moe/4fomfs.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Skaters_thumb.jpg'
+},
+{
+id: 937,
+athlete: 'Khadi Sagnia',
+title: 'Split squat elevated feet',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/hs5ano.mp4',
+videoURL_360p: 'https://files.catbox.moe/hs5ano.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Split squat elevated feet_thumb.jpg'
+},
+{
+id: 938,
+athlete: 'Khadi Sagnia',
+title: 'Squat Jumps',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/aystyi.mp4',
+videoURL_360p: 'https://files.catbox.moe/aystyi.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Squat Jumps_thumb.jpg'
+},
+{
+id: 939,
+athlete: 'Khadi Sagnia',
+title: 'Squats',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/1ubyxj.mp4',
+videoURL_360p: 'https://files.catbox.moe/1ubyxj.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Squats_thumb.jpg'
+},
+{
+id: 940,
+athlete: 'Khadi Sagnia',
+title: 'Stairs jumps',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/7zxuc6.mp4',
+videoURL_360p: 'https://files.catbox.moe/7zxuc6.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Stairs jumps_thumb.jpg'
+},
+{
+id: 941,
+athlete: 'Khadi Sagnia',
+title: 'Step up with knee drive',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/85226t.mp4',
+videoURL_360p: 'https://files.catbox.moe/85226t.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Step up with knee drive_thumb.jpg'
+},
+{
+id: 942,
+athlete: 'Khadi Sagnia',
+title: 'Step up',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/ugkh4x.mp4',
+videoURL_360p: 'https://files.catbox.moe/ugkh4x.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Step up_thumb.jpg'
+},
+{
+id: 943,
+athlete: 'Khadi Sagnia',
+title: 'Step ups with knee drive',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/c635xh.mp4',
+videoURL_360p: 'https://files.catbox.moe/c635xh.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Step ups with knee drive_thumb.jpg'
+},
+{
+id: 944,
+athlete: 'Khadi Sagnia',
+title: 'Supinated push ups',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/ggg2dd.mp4',
+videoURL_360p: 'https://files.catbox.moe/ggg2dd.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Supinated push ups_thumb.jpg'
+},
+{
+id: 945,
+athlete: 'Khadi Sagnia',
+title: 'Triple jump from 2 feet',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/8jgkq3.mp4',
+videoURL_360p: 'https://files.catbox.moe/8jgkq3.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Triple jump from 2 feet_thumb.jpg'
+},
+{
+id: 946,
+athlete: 'Khadi Sagnia',
+title: 'V ups',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/x681kf.mp4',
+videoURL_360p: 'https://files.catbox.moe/x681kf.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_V ups_thumb.jpg'
+},
+{
+id: 947,
+athlete: 'Khadi Sagnia',
+title: 'Verical jump',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/s94ncq.mp4',
+videoURL_360p: 'https://files.catbox.moe/s94ncq.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Verical jump_thumb.jpg'
+},
+{
+id: 948,
+athlete: 'Khadi Sagnia',
+title: 'Vertical jump',
+athletesSports: 'Long Jump',
+videoURL: 'https://files.catbox.moe/fmivd5.mp4',
+videoURL_360p: 'https://files.catbox.moe/fmivd5.mp4',
+poster: '/videos/exercises/Khadi Sagnia_Long Jump_Vertical jump_thumb.jpg'
+},
 ]; 
 export default exercises; 
