@@ -2816,14 +2816,14 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     videoURL: '/videos/exercises/Khadi Sagnia_Long Jump_Vertical jump.mp4',
     videoURL_360p: '/videos/exercises/Khadi Sagnia_Long Jump_Vertical jump.mp4',
     poster: '/videos/exercises/Khadi Sagnia_Long Jump_Vertical jump_thumb.jpg'
-  },
+  },*/
   {
     id: 314,
     athlete: 'Khamzat Chimaev',
     title: ' Band pulls with side step',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_ Band pulls with side step.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_ Band pulls with side step.mp4',
+    videoURL: 'https://files.catbox.moe/oscx5z.mp4',
+    videoURL_360p: 'https://files.catbox.moe/oscx5z.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_ Band pulls with side step_thumb.jpg'
   },
   {
@@ -2831,8 +2831,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: ' Rpetitive Dumbell Snatches',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_ Rpetitive Dumbell Snatches.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_ Rpetitive Dumbell Snatches.mp4',
+    videoURL: 'https://files.catbox.moe/bee6l2.mp4',
+    videoURL_360p: 'https://files.catbox.moe/bee6l2.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_ Rpetitive Dumbell Snatches_thumb.jpg'
   },
   {
@@ -2840,8 +2840,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Alternating Dumbell Pressess',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Alternating Dumbell Pressess.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Alternating Dumbell Pressess.mp4',
+    videoURL: 'https://files.catbox.moe/q5faey.mp4',
+    videoURL_360p: 'https://files.catbox.moe/q5faey.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Alternating Dumbell Pressess_thumb.jpg'
   },
   {
@@ -2849,8 +2849,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Arm Bicycle Cardio',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Arm Bicycle Cardio.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Arm Bicycle Cardio.mp4',
+    videoURL: 'https://files.catbox.moe/gz8rd3.mp4',
+    videoURL_360p: 'https://files.catbox.moe/gz8rd3.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Arm Bicycle Cardio_thumb.jpg'
   },
   {
@@ -2858,8 +2858,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Band Push',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Band Push.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Band Push.mp4',
+    videoURL: 'https://files.catbox.moe/u67y1f.mp4',
+    videoURL_360p: 'https://files.catbox.moe/u67y1f.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Band Push_thumb.jpg'
   },
   {
@@ -2867,8 +2867,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Bench Press 1',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Bench Press 1.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Bench Press 1.mp4',
+    videoURL: 'https://files.catbox.moe/bd9k6l.mp4',
+    videoURL_360p: 'https://files.catbox.moe/bd9k6l.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Bench Press 1_thumb.jpg'
   },
   {
@@ -2876,8 +2876,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Bench Press 2',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Bench Press 2.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Bench Press 2.mp4',
+    videoURL: 'https://files.catbox.moe/vj2kcl.mp4',
+    videoURL_360p: 'https://files.catbox.moe/vj2kcl.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Bench Press 2_thumb.jpg'
   },
   {
@@ -2885,8 +2885,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Chain Pulls',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Chain Pulls.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Chain Pulls.mp4',
+    videoURL: 'https://files.catbox.moe/k1nb7k.mp4',
+    videoURL_360p: 'https://files.catbox.moe/k1nb7k.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Chain Pulls_thumb.jpg'
   },
   {
@@ -2894,8 +2894,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Deadlift with Explosive Row',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Deadlift with Explosive Row.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Deadlift with Explosive Row.mp4',
+    videoURL: 'https://files.catbox.moe/owvttt.mp4',
+    videoURL_360p: 'https://files.catbox.moe/owvttt.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Deadlift with Explosive Row_thumb.jpg'
   },
   {
@@ -2903,8 +2903,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Deadlift',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Deadlift.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Deadlift.mp4',
+    videoURL: 'https://files.catbox.moe/ryx4ey.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ryx4ey.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Deadlift_thumb.jpg'
   },
   {
@@ -2912,8 +2912,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Explosive Barbell Pushofs',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Explosive Barbell Pushofs.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Explosive Barbell Pushofs.mp4',
+    videoURL: 'https://files.catbox.moe/ovufdh.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ovufdh.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Explosive Barbell Pushofs_thumb.jpg'
   },
   {
@@ -2921,8 +2921,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Hang Clean to Shoulder PRess',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Hang Clean to Shoulder PRess.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Hang Clean to Shoulder PRess.mp4',
+    videoURL: 'https://files.catbox.moe/ubl7i4.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ubl7i4.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Hang Clean to Shoulder PRess_thumb.jpg'
   },
   {
@@ -2930,8 +2930,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Hurdle Jumps',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Hurdle Jumps.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Hurdle Jumps.mp4',
+    videoURL: 'https://files.catbox.moe/k7vo0i.mp4',
+    videoURL_360p: 'https://files.catbox.moe/k7vo0i.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Hurdle Jumps_thumb.jpg'
   },
   {
@@ -2939,8 +2939,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Landmine Rotation with explosive push',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Landmine Rotation with explosive push.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Landmine Rotation with explosive push.mp4',
+    videoURL: 'https://files.catbox.moe/czbtoy.mp4',
+    videoURL_360p: 'https://files.catbox.moe/czbtoy.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Landmine Rotation with explosive push_thumb.jpg'
   },
   {
@@ -2948,8 +2948,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Medicine Ball Slams 1',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Medicine Ball Slams 1.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Medicine Ball Slams 1.mp4',
+    videoURL: 'https://files.catbox.moe/h9ivhs.mp4',
+    videoURL_360p: 'https://files.catbox.moe/h9ivhs.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Medicine Ball Slams 1_thumb.jpg'
   },
   {
@@ -2957,8 +2957,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Medicine Ball Slams 2',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Medicine Ball Slams 2.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Medicine Ball Slams 2.mp4',
+    videoURL: 'https://files.catbox.moe/48z72g.mp4',
+    videoURL_360p: 'https://files.catbox.moe/48z72g.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Medicine Ball Slams 2_thumb.jpg'
   },
   {
@@ -2966,8 +2966,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Medicine Ball Slams And Shadow Boxing',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Medicine Ball Slams And Shadow Boxing.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Medicine Ball Slams And Shadow Boxing.mp4',
+    videoURL: 'https://files.catbox.moe/z9ppa6.mp4',
+    videoURL_360p: 'https://files.catbox.moe/z9ppa6.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Medicine Ball Slams And Shadow Boxing_thumb.jpg'
   },
   {
@@ -2975,8 +2975,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Rope Pulls',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Rope Pulls.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Rope Pulls.mp4',
+    videoURL: 'https://files.catbox.moe/8fknq0.mp4',
+    videoURL_360p: 'https://files.catbox.moe/8fknq0.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Rope Pulls_thumb.jpg'
   },
   {
@@ -2984,8 +2984,8 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Weighted Ring Pullups',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Weighted Ring Pullups.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Weighted Ring Pullups.mp4',
+    videoURL: 'https://files.catbox.moe/unowgs.mp4',
+    videoURL_360p: 'https://files.catbox.moe/unowgs.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Weighted Ring Pullups_thumb.jpg'
   },
   {
@@ -2993,1180 +2993,1181 @@ poster: '/videos/exercises/Artur Beterbiev_Boxing_Rope exercise_thumb.jpg'
     athlete: 'Khamzat Chimaev',
     title: 'Wrestling Exercise',
     athletesSports: 'MMA',
-    videoURL: '/videos/exercises/Khamzat Chimaev_MMA_Wrestling Exercise.mp4',
-    videoURL_360p: '/videos/exercises/Khamzat Chimaev_MMA_Wrestling Exercise.mp4',
+    videoURL: 'https://files.catbox.moe/mz524a.mp4',
+    videoURL_360p: 'https://files.catbox.moe/mz524a.mp4',
     poster: '/videos/exercises/Khamzat Chimaev_MMA_Wrestling Exercise_thumb.jpg'
   },
-  {
+{
     id: 334,
     athlete: 'Laviai & Lina Nielsen',
     title: ' Running simulation with plates',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_ Running simulation with plates.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_ Running simulation with plates.mp4',
+    videoURL: 'https://files.catbox.moe/t10mq1.mp4',
+    videoURL_360p: 'https://files.catbox.moe/t10mq1.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_ Running simulation with plates_thumb.jpg'
   },
-  {
+{
     id: 335,
     athlete: 'Laviai & Lina Nielsen',
     title: ' Skater floor touches',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_ Skater floor touches.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_ Skater floor touches.mp4',
+    videoURL: 'https://files.catbox.moe/2q0i32.mp4',
+    videoURL_360p: 'https://files.catbox.moe/2q0i32.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_ Skater floor touches_thumb.jpg'
   },
-  {
+{
     id: 336,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Back raises',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Back raises.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Back raises.mp4',
+    videoURL: 'https://files.catbox.moe/uuad82.mp4',
+    videoURL_360p: 'https://files.catbox.moe/uuad82.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Back raises_thumb.jpg'
   },
-  {
+{
     id: 337,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Bench Press 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Bench Press 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Bench Press 1.mp4',
+    videoURL: 'https://files.catbox.moe/bmtpzo.mp4',
+    videoURL_360p: 'https://files.catbox.moe/bmtpzo.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Bench Press 1_thumb.jpg'
   },
-  {
+{
     id: 338,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Bench Press',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Bench Press.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Bench Press.mp4',
+    videoURL: 'https://files.catbox.moe/6wdf1u.mp4',
+    videoURL_360p: 'https://files.catbox.moe/6wdf1u.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Bench Press_thumb.jpg'
   },
-  {
+{
     id: 339,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Box squats 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 1.mp4',
+    videoURL: 'https://files.catbox.moe/0fz90j.mp4',
+    videoURL_360p: 'https://files.catbox.moe/0fz90j.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 1_thumb.jpg'
   },
-  {
+{
     id: 340,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Box squats 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 2.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 2.mp4',
+    videoURL: 'https://files.catbox.moe/r9p2je.mp4',
+    videoURL_360p: 'https://files.catbox.moe/r9p2je.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 2_thumb.jpg'
   },
-  {
+{
     id: 341,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Box squats 3',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 3.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 3.mp4',
+    videoURL: 'https://files.catbox.moe/axnu41.mp4',
+    videoURL_360p: 'https://files.catbox.moe/axnu41.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 3_thumb.jpg'
   },
-  {
+{
     id: 342,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Box squats 4',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 4.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 4.mp4',
+    videoURL: 'https://files.catbox.moe/87lhza.mp4',
+    videoURL_360p: 'https://files.catbox.moe/87lhza.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Box squats 4_thumb.jpg'
   },
-  {
+{
     id: 343,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Box Step Up with Knee Drive',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Box Step Up with Knee Drive.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Box Step Up with Knee Drive.mp4',
+    videoURL: 'https://files.catbox.moe/iybm2c.mp4',
+    videoURL_360p: 'https://files.catbox.moe/iybm2c.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Box Step Up with Knee Drive_thumb.jpg'
   },
-  {
+{
     id: 344,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Broad Jump 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Broad Jump 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Broad Jump 1.mp4',
+    videoURL: 'https://files.catbox.moe/2w84v2.mp4',
+    videoURL_360p: 'https://files.catbox.moe/2w84v2.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Broad Jump 1_thumb.jpg'
   },
-  {
+{
     id: 345,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Broad Jump',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Broad Jump.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Broad Jump.mp4',
+    videoURL: 'https://files.catbox.moe/wk3i8m.mp4',
+    videoURL_360p: 'https://files.catbox.moe/wk3i8m.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Broad Jump_thumb.jpg'
   },
-  {
+{
     id: 346,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Crunch feet touches',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Crunch feet touches.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Crunch feet touches.mp4',
+    videoURL: 'https://files.catbox.moe/czj4a4.mp4',
+    videoURL_360p: 'https://files.catbox.moe/czj4a4.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Crunch feet touches_thumb.jpg'
   },
-  {
+{
     id: 347,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Deadlifts',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Deadlifts.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Deadlifts.mp4',
+    videoURL: 'https://files.catbox.moe/7c48v2.mp4',
+    videoURL_360p: 'https://files.catbox.moe/7c48v2.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Deadlifts_thumb.jpg'
   },
-  {
+{
     id: 348,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Drop jumps 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Drop jumps 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Drop jumps 1.mp4',
+    videoURL: 'https://files.catbox.moe/65p0up.mp4',
+    videoURL_360p: 'https://files.catbox.moe/65p0up.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Drop jumps 1_thumb.jpg'
   },
-  {
+{
     id: 349,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Drop jumps',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Drop jumps.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Drop jumps.mp4',
+    videoURL: 'https://files.catbox.moe/mf5q8t.mp4',
+    videoURL_360p: 'https://files.catbox.moe/mf5q8t.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Drop jumps_thumb.jpg'
   },
-  {
+{
     id: 350,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Explosive scissor barbell pushing',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Explosive scissor barbell pushing.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Explosive scissor barbell pushing.mp4',
+    videoURL: 'https://files.catbox.moe/0o805v.mp4',
+    videoURL_360p: 'https://files.catbox.moe/0o805v.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Explosive scissor barbell pushing_thumb.jpg'
   },
-  {
+{
     id: 351,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Glute bridges',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Glute bridges.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Glute bridges.mp4',
+    videoURL: 'https://files.catbox.moe/n8stgj.mp4',
+    videoURL_360p: 'https://files.catbox.moe/n8stgj.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Glute bridges_thumb.jpg'
   },
-  {
+{
     id: 352,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Half squats and reactive jumps 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Half squats and reactive jumps 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Half squats and reactive jumps 1.mp4',
+    videoURL: 'https://files.catbox.moe/yvta2f.mp4',
+    videoURL_360p: 'https://files.catbox.moe/yvta2f.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Half squats and reactive jumps 1_thumb.jpg'
   },
-  {
+{
     id: 353,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Half squats and reactive jumps 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Half squats and reactive jumps 2.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Half squats and reactive jumps 2.mp4',
+    videoURL: 'https://files.catbox.moe/0fawdi.mp4',
+    videoURL_360p: 'https://files.catbox.moe/0fawdi.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Half squats and reactive jumps 2_thumb.jpg'
   },
-  {
+{
     id: 354,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Hang Clean',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Hang Clean.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Hang Clean.mp4',
+    videoURL: 'https://files.catbox.moe/nie96x.mp4',
+    videoURL_360p: 'https://files.catbox.moe/nie96x.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Hang Clean_thumb.jpg'
   },
-  {
+{
     id: 355,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Hang cleans 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Hang cleans 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Hang cleans 1.mp4',
+    videoURL: 'https://files.catbox.moe/oamweu.mp4',
+    videoURL_360p: 'https://files.catbox.moe/oamweu.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Hang cleans 1_thumb.jpg'
   },
-  {
+{
     id: 356,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Hang Cleans',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Hang Cleans.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Hang Cleans.mp4',
+    videoURL: 'https://files.catbox.moe/4ru8qg.mp4',
+    videoURL_360p: 'https://files.catbox.moe/4ru8qg.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Hang Cleans_thumb.jpg'
   },
-  {
+{
     id: 357,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Hurdle Jumps',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Hurdle Jumps.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Hurdle Jumps.mp4',
+    videoURL: 'https://files.catbox.moe/dl9aam.mp4',
+    videoURL_360p: 'https://files.catbox.moe/dl9aam.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Hurdle Jumps_thumb.jpg'
   },
-  {
+{
     id: 358,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Kickback Single Leg RDL',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Kickback Single Leg RDL.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Kickback Single Leg RDL.mp4',
+    videoURL: 'https://files.catbox.moe/8bl6np.mp4',
+    videoURL_360p: 'https://files.catbox.moe/8bl6np.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Kickback Single Leg RDL_thumb.jpg'
   },
-  {
+{
     id: 359,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Landmine rotations',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Landmine rotations.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Landmine rotations.mp4',
+    videoURL: 'https://files.catbox.moe/8v3xj5.mp4',
+    videoURL_360p: 'https://files.catbox.moe/8v3xj5.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Landmine rotations_thumb.jpg'
   },
-  {
+{
     id: 360,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Lateral Squat',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Lateral Squat.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Lateral Squat.mp4',
+    videoURL: 'https://files.catbox.moe/vzcwm4.mp4',
+    videoURL_360p: 'https://files.catbox.moe/vzcwm4.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Lateral Squat_thumb.jpg'
   },
-  {
+{
     id: 361,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Medicine Ball Crunches 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Crunches 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Crunches 1.mp4',
+    videoURL: 'https://files.catbox.moe/ijfry8.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ijfry8.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Crunches 1_thumb.jpg'
   },
-  {
+{
     id: 362,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Medicine Ball Crunches',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Crunches.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Crunches.mp4',
+    videoURL: 'https://files.catbox.moe/m3qcmq.mp4',
+    videoURL_360p: 'https://files.catbox.moe/m3qcmq.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Crunches_thumb.jpg'
   },
-  {
+{
     id: 363,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Medicine Ball Sit Up + Overhead Reach',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Sit Up + Overhead Reach.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Sit Up + Overhead Reach.mp4',
+    videoURL: 'https://files.catbox.moe/jr9618.mp4',
+    videoURL_360p: 'https://files.catbox.moe/jr9618.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Sit Up + Overhead Reach_thumb.jpg'
   },
-  {
+{
     id: 364,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Medicine Ball Throw Backwards 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Throw Backwards 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Throw Backwards 1.mp4',
+    videoURL: 'https://files.catbox.moe/zymxbl.mp4',
+    videoURL_360p: 'https://files.catbox.moe/zymxbl.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Throw Backwards 1_thumb.jpg'
   },
-  {
+{
     id: 365,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Medicine Ball Throw Backwards',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Throw Backwards.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Throw Backwards.mp4',
+    videoURL: 'https://files.catbox.moe/qscrig.mp4',
+    videoURL_360p: 'https://files.catbox.moe/qscrig.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Throw Backwards_thumb.jpg'
   },
-  {
+{
     id: 366,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Medicine Ball Throw',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Throw.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Throw.mp4',
+    videoURL: 'https://files.catbox.moe/htsqzl.mp4',
+    videoURL_360p: 'https://files.catbox.moe/htsqzl.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Throw_thumb.jpg'
   },
-  {
+{
     id: 367,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Medicine Ball Toe Touches',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Toe Touches.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Toe Touches.mp4',
+    videoURL: 'https://files.catbox.moe/azzib2.mp4',
+    videoURL_360p: 'https://files.catbox.moe/azzib2.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball Toe Touches_thumb.jpg'
   },
-  {
+{
     id: 368,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Medicine Ball V Ups',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball V Ups.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball V Ups.mp4',
+    videoURL: 'https://files.catbox.moe/dg4hrf.mp4',
+    videoURL_360p: 'https://files.catbox.moe/dg4hrf.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Medicine Ball V Ups_thumb.jpg'
   },
-  {
+{
     id: 369,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Mountain Climbers',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Mountain Climbers.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Mountain Climbers.mp4',
+    videoURL: 'https://files.catbox.moe/0sd1h3.mp4',
+    videoURL_360p: 'https://files.catbox.moe/0sd1h3.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Mountain Climbers_thumb.jpg'
   },
-  {
+{
     id: 370,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Nordic Hamstring Curls',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Nordic Hamstring Curls.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Nordic Hamstring Curls.mp4',
+    videoURL: 'https://files.catbox.moe/n39mhk.mp4',
+    videoURL_360p: 'https://files.catbox.moe/n39mhk.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Nordic Hamstring Curls_thumb.jpg'
   },
-  {
+{
     id: 371,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Paused reactive RDL 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Paused reactive RDL 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Paused reactive RDL 1.mp4',
+    videoURL: 'https://files.catbox.moe/vyldn2.mp4',
+    videoURL_360p: 'https://files.catbox.moe/vyldn2.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Paused reactive RDL 1_thumb.jpg'
   },
-  {
+{
     id: 372,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Paused reactive RDL 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Paused reactive RDL 2.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Paused reactive RDL 2.mp4',
+    videoURL: 'https://files.catbox.moe/69xxw8.mp4',
+    videoURL_360p: 'https://files.catbox.moe/69xxw8.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Paused reactive RDL 2_thumb.jpg'
   },
-  {
+{
     id: 373,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Plank Jack Box Jump',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Plank Jack Box Jump.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Plank Jack Box Jump.mp4',
+    videoURL: 'https://files.catbox.moe/ozp0tn.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ozp0tn.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Plank Jack Box Jump_thumb.jpg'
   },
-  {
+{
     id: 374,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Plank oblique twists',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Plank oblique twists.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Plank oblique twists.mp4',
+    videoURL: 'https://files.catbox.moe/tacvh7.mp4',
+    videoURL_360p: 'https://files.catbox.moe/tacvh7.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Plank oblique twists_thumb.jpg'
   },
-  {
+{
     id: 375,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Power Clean 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Power Clean 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Power Clean 1.mp4',
+    videoURL: 'https://files.catbox.moe/8ehkm2.mp4',
+    videoURL_360p: 'https://files.catbox.moe/8ehkm2.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Power Clean 1_thumb.jpg'
   },
-  {
+{
     id: 376,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Power Clean',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Power Clean.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Power Clean.mp4',
+    videoURL: 'https://files.catbox.moe/xd21n3.mp4',
+    videoURL_360p: 'https://files.catbox.moe/xd21n3.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Power Clean_thumb.jpg'
   },
-  {
+{
     id: 377,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Power cleans 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Power cleans 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Power cleans 1.mp4',
+    videoURL: 'https://files.catbox.moe/sq6zzw.mp4',
+    videoURL_360p: 'https://files.catbox.moe/sq6zzw.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Power cleans 1_thumb.jpg'
   },
-  {
+{
     id: 378,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Power cleans 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Power cleans 2.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Power cleans 2.mp4',
+    videoURL: 'https://files.catbox.moe/ybbwmj.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ybbwmj.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Power cleans 2_thumb.jpg'
   },
-  {
+{
     id: 379,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Pull ups',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Pull ups.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Pull ups.mp4',
+    videoURL: 'https://files.catbox.moe/ekx56t.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ekx56t.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Pull ups_thumb.jpg'
   },
-  {
+{
     id: 380,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Push ups',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Push ups.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Push ups.mp4',
+    videoURL: 'https://files.catbox.moe/mvwia4.mp4',
+    videoURL_360p: 'https://files.catbox.moe/mvwia4.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Push ups_thumb.jpg'
   },
-  {
+{
     id: 381,
     athlete: 'Laviai & Lina Nielsen',
     title: 'RDL 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 1.mp4',
+    videoURL: 'https://files.catbox.moe/lvkja7.mp4',
+    videoURL_360p: 'https://files.catbox.moe/lvkja7.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 1_thumb.jpg'
   },
-  {
+{
     id: 382,
     athlete: 'Laviai & Lina Nielsen',
     title: 'RDL 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 2.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 2.mp4',
+    videoURL: 'https://files.catbox.moe/xrozhn.mp4',
+    videoURL_360p: 'https://files.catbox.moe/xrozhn.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 2_thumb.jpg'
   },
-  {
+{
     id: 383,
     athlete: 'Laviai & Lina Nielsen',
     title: 'RDL 3',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 3.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 3.mp4',
+    videoURL: 'https://files.catbox.moe/5z957f.mp4',
+    videoURL_360p: 'https://files.catbox.moe/5z957f.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 3_thumb.jpg'
   },
-  {
+{
     id: 384,
     athlete: 'Laviai & Lina Nielsen',
     title: 'RDL 4',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 4.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 4.mp4',
+    videoURL: 'https://files.catbox.moe/6ogohj.mp4',
+    videoURL_360p: 'https://files.catbox.moe/6ogohj.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_RDL 4_thumb.jpg'
   },
-  {
+{
     id: 385,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Resistance Sprinting 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 1.mp4',
+    videoURL: 'https://files.catbox.moe/44y35n.mp4',
+    videoURL_360p: 'https://files.catbox.moe/44y35n.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 1_thumb.jpg'
   },
-  {
+{
     id: 386,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Resistance Sprinting 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 2.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 2.mp4',
+    videoURL: 'https://files.catbox.moe/awlyvq.mp4',
+    videoURL_360p: 'https://files.catbox.moe/awlyvq.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 2_thumb.jpg'
   },
-  {
+{
     id: 387,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Resistance Sprinting 3',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 3.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 3.mp4',
+    videoURL: 'https://files.catbox.moe/hg0v6z.mp4',
+    videoURL_360p: 'https://files.catbox.moe/hg0v6z.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 3_thumb.jpg'
   },
-  {
+{
     id: 388,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Resistance Sprinting 4',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 4.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 4.mp4',
+    videoURL: 'https://files.catbox.moe/hczh8y.mp4',
+    videoURL_360p: 'https://files.catbox.moe/hczh8y.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting 4_thumb.jpg'
   },
-  {
+{
     id: 389,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Resistance Sprinting',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting.mp4',
+    videoURL: 'https://files.catbox.moe/nludtw.mp4',
+    videoURL_360p: 'https://files.catbox.moe/nludtw.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Resistance Sprinting_thumb.jpg'
   },
-  {
+{
     id: 390,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Resisted sprint',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Resisted sprint.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Resisted sprint.mp4',
+    videoURL: 'https://files.catbox.moe/ghhhpm.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ghhhpm.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Resisted sprint_thumb.jpg'
   },
-  {
+{
     id: 391,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Russian Twist + Overhead Reach',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Russian Twist + Overhead Reach.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Russian Twist + Overhead Reach.mp4',
+    videoURL: 'https://files.catbox.moe/zdch4p.mp4',
+    videoURL_360p: 'https://files.catbox.moe/zdch4p.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Russian Twist + Overhead Reach_thumb.jpg'
   },
-  {
+{
     id: 392,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Russian Twist Medicine Ball Throw',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Russian Twist Medicine Ball Throw.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Russian Twist Medicine Ball Throw.mp4',
+    videoURL: 'https://files.catbox.moe/5oovlv.mp4',
+    videoURL_360p: 'https://files.catbox.moe/5oovlv.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Russian Twist Medicine Ball Throw_thumb.jpg'
   },
-  {
+{
     id: 393,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Russian Twists',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Russian Twists.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Russian Twists.mp4',
+    videoURL: 'https://files.catbox.moe/yixeod.mp4',
+    videoURL_360p: 'https://files.catbox.moe/yixeod.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Russian Twists_thumb.jpg'
   },
-  {
+{
     id: 394,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Side crunches',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Side crunches.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Side crunches.mp4',
+    videoURL: 'https://files.catbox.moe/b36lra.mp4',
+    videoURL_360p: 'https://files.catbox.moe/b36lra.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Side crunches_thumb.jpg'
   },
-  {
+{
     id: 395,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Side Plank Raises',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Side Plank Raises.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Side Plank Raises.mp4',
+    videoURL: 'https://files.catbox.moe/h16r8j.mp4',
+    videoURL_360p: 'https://files.catbox.moe/h16r8j.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Side Plank Raises_thumb.jpg'
   },
-  {
+{
     id: 396,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Single arm dumbell snatch 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Single arm dumbell snatch 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Single arm dumbell snatch 1.mp4',
+    videoURL: 'https://files.catbox.moe/o2svjv.mp4',
+    videoURL_360p: 'https://files.catbox.moe/o2svjv.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Single arm dumbell snatch 1_thumb.jpg'
   },
-  {
+{
     id: 397,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Single arm dumbell snatch 2',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Single arm dumbell snatch 2.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Single arm dumbell snatch 2.mp4',
+    videoURL: 'https://files.catbox.moe/nrjpnh.mp4',
+    videoURL_360p: 'https://files.catbox.moe/nrjpnh.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Single arm dumbell snatch 2_thumb.jpg'
   },
-  {
+{
     id: 398,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Single arm dumbell snatch',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Single arm dumbell snatch.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Single arm dumbell snatch.mp4',
+    videoURL: 'https://files.catbox.moe/6zn4a1.mp4',
+    videoURL_360p: 'https://files.catbox.moe/6zn4a1.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Single arm dumbell snatch_thumb.jpg'
   },
-  {
+{
     id: 399,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Single Leg Sliders',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Single Leg Sliders.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Single Leg Sliders.mp4',
+    videoURL: 'https://files.catbox.moe/7qovfh.mp4',
+    videoURL_360p: 'https://files.catbox.moe/7qovfh.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Single Leg Sliders_thumb.jpg'
   },
-  {
+{
     id: 400,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Sled sprints',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Sled sprints.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Sled sprints.mp4',
+    videoURL: 'https://files.catbox.moe/99bp1i.mp4',
+    videoURL_360p: 'https://files.catbox.moe/99bp1i.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Sled sprints_thumb.jpg'
   },
-  {
+{
     id: 401,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Squat jumps',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Squat jumps.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Squat jumps.mp4',
+    videoURL: 'https://files.catbox.moe/16ubsf.mp4',
+    videoURL_360p: 'https://files.catbox.moe/16ubsf.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Squat jumps_thumb.jpg'
   },
-  {
+{
     id: 402,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Squat',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Squat.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Squat.mp4',
+    videoURL: 'https://files.catbox.moe/oczsnb.mp4',
+    videoURL_360p: 'https://files.catbox.moe/oczsnb.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Squat_thumb.jpg'
   },
-  {
+{
     id: 403,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Trap Bar Deadlift 1',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Trap Bar Deadlift 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Trap Bar Deadlift 1.mp4',
+    videoURL: 'https://files.catbox.moe/s9ln96.mp4',
+    videoURL_360p: 'https://files.catbox.moe/s9ln96.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Trap Bar Deadlift 1_thumb.jpg'
   },
-  {
+{
     id: 404,
     athlete: 'Laviai & Lina Nielsen',
     title: 'Trap Bar Deadlift',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_Trap Bar Deadlift.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_Trap Bar Deadlift.mp4',
+    videoURL: 'https://files.catbox.moe/v0g1z1.mp4',
+    videoURL_360p: 'https://files.catbox.moe/v0g1z1.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_Trap Bar Deadlift_thumb.jpg'
   },
-  {
+{
     id: 405,
     athlete: 'Laviai & Lina Nielsen',
     title: 'V Ups',
     athletesSports: '400m',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_400m_V Ups.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_400m_V Ups.mp4',
+    videoURL: 'https://files.catbox.moe/cqynna.mp4',
+    videoURL_360p: 'https://files.catbox.moe/cqynna.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_400m_V Ups_thumb.jpg'
   },
-  {
+{
     id: 406,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Bench Press 1',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Bench Press 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Bench Press 1.mp4',
+    videoURL: 'https://files.catbox.moe/pd6vhx.mp4',
+    videoURL_360p: 'https://files.catbox.moe/pd6vhx.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Bench Press 1_thumb.jpg'
   },
-  {
+{
     id: 407,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Bench Press',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Bench Press.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Bench Press.mp4',
+    videoURL: 'https://files.catbox.moe/acnh85.mp4',
+    videoURL_360p: 'https://files.catbox.moe/acnh85.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Bench Press_thumb.jpg'
   },
-  {
+{
     id: 408,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Deadlift',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Deadlift.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Deadlift.mp4',
+    videoURL: 'https://files.catbox.moe/at1irx.mp4',
+    videoURL_360p: 'https://files.catbox.moe/at1irx.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Deadlift_thumb.jpg'
   },
-  {
+{
     id: 409,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Frog crunches',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Frog crunches.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Frog crunches.mp4',
+    videoURL: 'https://files.catbox.moe/u6mfei.mp4',
+    videoURL_360p: 'https://files.catbox.moe/u6mfei.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Frog crunches_thumb.jpg'
   },
-  {
+{
     id: 410,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Hang Clean 2',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Hang Clean 2.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Hang Clean 2.mp4',
+    videoURL: 'https://files.catbox.moe/qvroiw.mp4',
+    videoURL_360p: 'https://files.catbox.moe/qvroiw.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Hang Clean 2_thumb.jpg'
   },
-  {
+{
     id: 411,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'High Knees Skip',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_High Knees Skip.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_High Knees Skip.mp4',
+    videoURL: 'https://files.catbox.moe/wqxktg.mp4',
+    videoURL_360p: 'https://files.catbox.moe/wqxktg.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_High Knees Skip_thumb.jpg'
   },
-  {
+{
     id: 412,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Hurdle Jumps',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Hurdle Jumps.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Hurdle Jumps.mp4',
+    videoURL: 'https://files.catbox.moe/h7y9nz.mp4',
+    videoURL_360p: 'https://files.catbox.moe/h7y9nz.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Hurdle Jumps_thumb.jpg'
   },
-  {
+{
     id: 413,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Pause Hang Clean',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Pause Hang Clean.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Pause Hang Clean.mp4',
+    videoURL: 'https://files.catbox.moe/e9eenr.mp4',
+    videoURL_360p: 'https://files.catbox.moe/e9eenr.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Pause Hang Clean_thumb.jpg'
   },
-  {
+{
     id: 414,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Plank Oblique Twists',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Plank Oblique Twists.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Plank Oblique Twists.mp4',
+    videoURL: 'https://files.catbox.moe/7nb48t.mp4',
+    videoURL_360p: 'https://files.catbox.moe/7nb48t.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Plank Oblique Twists_thumb.jpg'
   },
-  {
+{
     id: 415,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Power Clean',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Power Clean.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Power Clean.mp4',
+    videoURL: 'https://files.catbox.moe/xd21n3.mp4',
+    videoURL_360p: 'https://files.catbox.moe/xd21n3.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Power Clean_thumb.jpg'
   },
-  {
+{
     id: 416,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Power Cleans',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Power Cleans.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Power Cleans.mp4',
+    videoURL: 'https://files.catbox.moe/8ehkm2.mp4',
+    videoURL_360p: 'https://files.catbox.moe/8ehkm2.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Power Cleans_thumb.jpg'
   },
-  {
+{
     id: 417,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Quad extension on machine',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Quad extension on machine.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Quad extension on machine.mp4',
+    videoURL: 'https://files.catbox.moe/7azbn6.mp4',
+    videoURL_360p: 'https://files.catbox.moe/7azbn6.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Quad extension on machine_thumb.jpg'
   },
-  {
+{
     id: 418,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Quarter Squat + Reactive Jump',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Quarter Squat + Reactive Jump.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Quarter Squat + Reactive Jump.mp4',
+    videoURL: 'https://files.catbox.moe/g1mcmj.mp4',
+    videoURL_360p: 'https://files.catbox.moe/g1mcmj.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Quarter Squat + Reactive Jump_thumb.jpg'
   },
-  {
+{
     id: 419,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Quarter Squat 1',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Quarter Squat 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Quarter Squat 1.mp4',
+    videoURL: 'https://files.catbox.moe/7tzche.mp4',
+    videoURL_360p: 'https://files.catbox.moe/7tzche.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Quarter Squat 1_thumb.jpg'
   },
-  {
+{
     id: 420,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Quarter Squat',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Quarter Squat.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Quarter Squat.mp4',
+    videoURL: 'https://files.catbox.moe/q4t15f.mp4',
+    videoURL_360p: 'https://files.catbox.moe/q4t15f.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Quarter Squat_thumb.jpg'
   },
-  {
+{
     id: 421,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Reactive hang Clean on Clap 1',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Reactive hang Clean on Clap 1.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Reactive hang Clean on Clap 1.mp4',
+    videoURL: 'https://files.catbox.moe/oo23ss.mp4',
+    videoURL_360p: 'https://files.catbox.moe/oo23ss.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Reactive hang Clean on Clap 1_thumb.jpg'
   },
-  {
+{
     id: 422,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Reactive hang Clean on Clap',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Reactive hang Clean on Clap.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Reactive hang Clean on Clap.mp4',
+    videoURL: 'https://files.catbox.moe/watpnt.mp4',
+    videoURL_360p: 'https://files.catbox.moe/watpnt.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Reactive hang Clean on Clap_thumb.jpg'
   },
-  {
+{
     id: 423,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Reverse crunches',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Reverse crunches.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Reverse crunches.mp4',
+    videoURL: 'https://files.catbox.moe/jh33ps.mp4',
+    videoURL_360p: 'https://files.catbox.moe/jh33ps.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Reverse crunches_thumb.jpg'
   },
-  {
+{
     id: 424,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Russian Twists',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Russian Twists.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Russian Twists.mp4',
+    videoURL: 'https://files.catbox.moe/v4j3g4.mp4',
+    videoURL_360p: 'https://files.catbox.moe/v4j3g4.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Russian Twists_thumb.jpg'
   },
-  {
+{
     id: 425,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Single Arm Dumbell Snatch',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Single Arm Dumbell Snatch.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Single Arm Dumbell Snatch.mp4',
+    videoURL: 'https://files.catbox.moe/r9b3i6.mp4',
+    videoURL_360p: 'https://files.catbox.moe/r9b3i6.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Single Arm Dumbell Snatch_thumb.jpg'
   },
-  {
+{
     id: 426,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Toe Touch Crunches',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Toe Touch Crunches.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Toe Touch Crunches.mp4',
+    videoURL: 'https://files.catbox.moe/kj4wwh.mp4',
+    videoURL_360p: 'https://files.catbox.moe/kj4wwh.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Toe Touch Crunches_thumb.jpg'
   },
-  {
+{
     id: 427,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'Trap Bar Deadlift',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_Trap Bar Deadlift.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_Trap Bar Deadlift.mp4',
+    videoURL: 'https://files.catbox.moe/hgd17q.mp4',
+    videoURL_360p: 'https://files.catbox.moe/hgd17q.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_Trap Bar Deadlift_thumb.jpg'
   },
-  {
+{
     id: 428,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'V Ups Easy',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_V Ups Easy.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_V Ups Easy.mp4',
+    videoURL: 'https://files.catbox.moe/ehk68d.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ehk68d.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_V Ups Easy_thumb.jpg'
   },
-  {
+{
     id: 429,
     athlete: 'Laviai & Lina Nielsen',
     title: '',
     athletesSports: 'V Ups',
-    videoURL: '/videos/exercises/Laviai & Lina Nielsen_V Ups.mp4',
-    videoURL_360p: '/videos/exercises/Laviai & Lina Nielsen_V Ups.mp4',
+    videoURL: 'https://files.catbox.moe/4wio0y.mp4',
+    videoURL_360p: 'https://files.catbox.moe/4wio0y.mp4',
     poster: '/videos/exercises/Laviai & Lina Nielsen_V Ups_thumb.jpg'
   },
-  {
+{
     id: 430,
     athlete: 'Lebron James',
     title: ' Dumbell Front Raise with back step',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_ Dumbell Front Raise with back step.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_ Dumbell Front Raise with back step.mp4',
+    videoURL: 'https://files.catbox.moe/cztxw2.mp4',
+    videoURL_360p: 'https://files.catbox.moe/cztxw2.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_ Dumbell Front Raise with back step_thumb.jpg'
   },
-  {
+{
     id: 431,
     athlete: 'Lebron James',
     title: 'Ankle Stability Drill',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Ankle Stability Drill.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Ankle Stability Drill.mp4',
+    videoURL: 'https://files.catbox.moe/aflwol.mp4',
+    videoURL_360p: 'https://files.catbox.moe/aflwol.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Ankle Stability Drill_thumb.jpg'
   },
-  {
+{
     id: 432,
     athlete: 'Lebron James',
     title: 'Back Raises with Extension',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Back Raises with Extension.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Back Raises with Extension.mp4',
+    videoURL: 'https://files.catbox.moe/kv3slz.mp4',
+    videoURL_360p: 'https://files.catbox.moe/kv3slz.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Back Raises with Extension_thumb.jpg'
   },
-  {
+{
     id: 433,
     athlete: 'Lebron James',
     title: 'Banded Side Lunge 1',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Banded Side Lunge 1.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Banded Side Lunge 1.mp4',
+    videoURL: 'https://files.catbox.moe/51zj7e.mp4',
+    videoURL_360p: 'https://files.catbox.moe/51zj7e.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Banded Side Lunge 1_thumb.jpg'
   },
-  {
+{
     id: 434,
     athlete: 'Lebron James',
     title: 'Banded Side Lunge 2',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Banded Side Lunge 2.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Banded Side Lunge 2.mp4',
+    videoURL: 'https://files.catbox.moe/nchlkw.mp4',
+    videoURL_360p: 'https://files.catbox.moe/nchlkw.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Banded Side Lunge 2_thumb.jpg'
   },
-  {
+{
     id: 435,
     athlete: 'Lebron James',
     title: 'Banded X Walk',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Banded X Walk.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Banded X Walk.mp4',
+    videoURL: 'https://files.catbox.moe/t79ejq.mp4',
+    videoURL_360p: 'https://files.catbox.moe/t79ejq.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Banded X Walk_thumb.jpg'
   },
-  {
+{
     id: 436,
     athlete: 'Lebron James',
     title: 'Bar knee raises 1',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Bar knee raises 1.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Bar knee raises 1.mp4',
+    videoURL: 'https://files.catbox.moe/3p9bqs.mp4',
+    videoURL_360p: 'https://files.catbox.moe/3p9bqs.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Bar knee raises 1_thumb.jpg'
   },
-  {
+{
     id: 437,
     athlete: 'Lebron James',
     title: 'Bar knee raises 2',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Bar knee raises 2.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Bar knee raises 2.mp4',
+    videoURL: 'https://files.catbox.moe/3vvc6t.mp4',
+    videoURL_360p: 'https://files.catbox.moe/3vvc6t.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Bar knee raises 2_thumb.jpg'
   },
-  {
+{
     id: 438,
     athlete: 'Lebron James',
     title: 'Barbell Biceps Curls',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Barbell Biceps Curls.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Barbell Biceps Curls.mp4',
+    videoURL: 'https://files.catbox.moe/vvzhjd.mp4',
+    videoURL_360p: 'https://files.catbox.moe/vvzhjd.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Barbell Biceps Curls_thumb.jpg'
   },
-  {
+{
     id: 439,
     athlete: 'Lebron James',
     title: 'Bulgarian Split Squat ISO with Kettlebell Shoulder Circles ',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Bulgarian Split Squat ISO with Kettlebell Shoulder Circles .mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Bulgarian Split Squat ISO with Kettlebell Shoulder Circles .mp4',
+    videoURL: 'https://files.catbox.moe/roz1tc.mp4',
+    videoURL_360p: 'https://files.catbox.moe/roz1tc.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Bulgarian Split Squat ISO with Kettlebell Shoulder Circles _thumb.jpg'
   },
-  {
+{
     id: 440,
     athlete: 'Lebron James',
     title: 'Bulgarian Split Squat',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Bulgarian Split Squat.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Bulgarian Split Squat.mp4',
+    videoURL: 'https://files.catbox.moe/wizlsq.mp4',
+    videoURL_360p: 'https://files.catbox.moe/wizlsq.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Bulgarian Split Squat_thumb.jpg'
   },
-  {
+{
     id: 441,
     athlete: 'Lebron James',
     title: 'Cable pull with side lunge',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Cable pull with side lunge.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Cable pull with side lunge.mp4',
+    videoURL: 'https://files.catbox.moe/78cozc.mp4',
+    videoURL_360p: 'https://files.catbox.moe/78cozc.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Cable pull with side lunge_thumb.jpg'
   },
-  {
+{
     id: 442,
     athlete: 'Lebron James',
     title: 'Cardio climbers',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Cardio climbers.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Cardio climbers.mp4',
+    videoURL: 'https://files.catbox.moe/73m7cm.mp4',
+    videoURL_360p: 'https://files.catbox.moe/73m7cm.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Cardio climbers_thumb.jpg'
   },
-  {
+{
     id: 443,
     athlete: 'Lebron James',
     title: 'Cardio climbers',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Cardio climbers_compressed.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Cardio climbers_compressed.mp4',
+    videoURL: 'https://files.catbox.moe/ktmuwc.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ktmuwc.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Cardio climbers_compressed_thumb.jpg'
   },
-  {
+{
     id: 444,
     athlete: 'Lebron James',
     title: 'DB Renegade Dumbell Row',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_DB Renegade Dumbell Row.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_DB Renegade Dumbell Row.mp4',
+    videoURL: 'https://files.catbox.moe/00m2n4.mp4',
+    videoURL_360p: 'https://files.catbox.moe/00m2n4.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_DB Renegade Dumbell Row_thumb.jpg'
   },
-  {
+{
     id: 445,
     athlete: 'Lebron James',
     title: 'Dead Bug Dumbell Press',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Dead Bug Dumbell Press.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Dead Bug Dumbell Press.mp4',
+    videoURL: 'https://files.catbox.moe/b6ypyk.mp4',
+    videoURL_360p: 'https://files.catbox.moe/b6ypyk.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Dead Bug Dumbell Press_thumb.jpg'
   },
-  {
+{
     id: 446,
     athlete: 'Lebron James',
     title: 'Dumbell Push ups With Row',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Dumbell Push ups With Row.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Dumbell Push ups With Row.mp4',
+    videoURL: 'https://files.catbox.moe/cpmzan.mp4',
+    videoURL_360p: 'https://files.catbox.moe/cpmzan.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Dumbell Push ups With Row_thumb.jpg'
   },
-  {
+{
     id: 447,
     athlete: 'Lebron James',
     title: 'Hip flexor leg raises',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Hip flexor leg raises.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Hip flexor leg raises.mp4',
+    videoURL: 'https://files.catbox.moe/qy60lb.mp4',
+    videoURL_360p: 'https://files.catbox.moe/qy60lb.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Hip flexor leg raises_thumb.jpg'
   },
-  {
+{
     id: 448,
     athlete: 'Lebron James',
     title: 'Incline Dumbell Press',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Incline Dumbell Press.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Incline Dumbell Press.mp4',
+    videoURL: 'https://files.catbox.moe/jpoh8z.mp4',
+    videoURL_360p: 'https://files.catbox.moe/jpoh8z.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Incline Dumbell Press_thumb.jpg'
   },
-  {
+{
     id: 449,
     athlete: 'Lebron James',
     title: 'Landmine shoulder press with rotation',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Landmine shoulder press with rotation.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Landmine shoulder press with rotation.mp4',
+    videoURL: 'https://files.catbox.moe/y5smnp.mp4',
+    videoURL_360p: 'https://files.catbox.moe/y5smnp.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Landmine shoulder press with rotation_thumb.jpg'
   },
-  {
+{
     id: 450,
     athlete: 'Lebron James',
     title: 'Neutral Grip Pull Ups',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Neutral Grip Pull Ups.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Neutral Grip Pull Ups.mp4',
+    videoURL: 'https://files.catbox.moe/8g686z.mp4',
+    videoURL_360p: 'https://files.catbox.moe/8g686z.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Neutral Grip Pull Ups_thumb.jpg'
   },
-  {
+{
     id: 451,
     athlete: 'Lebron James',
     title: 'Rotation Pull Drop Step',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Rotation Pull Drop Step.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Rotation Pull Drop Step.mp4',
+    videoURL: 'https://files.catbox.moe/kye70q.mp4',
+    videoURL_360p: 'https://files.catbox.moe/kye70q.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Rotation Pull Drop Step_thumb.jpg'
   },
-  {
+{
     id: 452,
     athlete: 'Lebron James',
     title: 'Side Lunge with feet reach',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Side Lunge with feet reach.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Side Lunge with feet reach.mp4',
+    videoURL: 'https://files.catbox.moe/k7nuah.mp4',
+    videoURL_360p: 'https://files.catbox.moe/k7nuah.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Side Lunge with feet reach_thumb.jpg'
   },
-  {
+{
     id: 453,
     athlete: 'Lebron James',
     title: 'Single leg lateral DB squat',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Single leg lateral DB squat.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Single leg lateral DB squat.mp4',
+    videoURL: 'https://files.catbox.moe/eb9abx.mp4',
+    videoURL_360p: 'https://files.catbox.moe/eb9abx.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Single leg lateral DB squat_thumb.jpg'
   },
-  {
+{
     id: 454,
     athlete: 'Lebron James',
     title: 'Single Leg RDL 1',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Single Leg RDL 1.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Single Leg RDL 1.mp4',
+    videoURL: 'https://files.catbox.moe/q5ox66.mp4',
+    videoURL_360p: 'https://files.catbox.moe/q5ox66.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Single Leg RDL 1_thumb.jpg'
   },
-  {
+{
     id: 455,
     athlete: 'Lebron James',
     title: 'Single Leg RDL 2',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Single Leg RDL 2.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Single Leg RDL 2.mp4',
+    videoURL: 'https://files.catbox.moe/tfva04.mp4',
+    videoURL_360p: 'https://files.catbox.moe/tfva04.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Single Leg RDL 2_thumb.jpg'
   },
-  {
+{
     id: 456,
     athlete: 'Lebron James',
     title: 'Stability shoulder press',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Stability shoulder press.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Stability shoulder press.mp4',
+    videoURL: 'https://files.catbox.moe/hmhcet.mp4',
+    videoURL_360p: 'https://files.catbox.moe/hmhcet.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Stability shoulder press_thumb.jpg'
   },
-  {
+{
     id: 457,
     athlete: 'Lebron James',
     title: 'Trampoline Jumps',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Trampoline Jumps.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Trampoline Jumps.mp4',
+    videoURL: 'https://files.catbox.moe/hmhcet.mp4',
+    videoURL_360p: 'https://files.catbox.moe/hmhcet.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Trampoline Jumps_thumb.jpg'
   },
-  {
+{
     id: 458,
     athlete: 'Lebron James',
     title: 'WAFF Ankle',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_WAFF Ankle.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_WAFF Ankle.mp4',
+    videoURL: 'https://files.catbox.moe/ts6usj.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ts6usj.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_WAFF Ankle_thumb.jpg'
   },
-  {
+{
     id: 459,
     athlete: 'Lebron James',
     title: 'Wide Half Squat',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Wide Half Squat.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Wide Half Squat.mp4',
+    videoURL: 'https://files.catbox.moe/wgszrz.mp4',
+    videoURL_360p: 'https://files.catbox.moe/wgszrz.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Wide Half Squat_thumb.jpg'
   },
-  {
+{
     id: 460,
     athlete: 'Lebron James',
     title: 'Wide Squat',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Wide Squat.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Wide Squat.mp4',
+    videoURL: 'https://files.catbox.moe/4sni6y.mp4',
+    videoURL_360p: 'https://files.catbox.moe/4sni6y.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Wide Squat_thumb.jpg'
   },
-  {
+{
     id: 461,
     athlete: 'Lebron James',
     title: 'Yoga ball back raises 1',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Yoga ball back raises 1.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Yoga ball back raises 1.mp4',
+    videoURL: 'https://files.catbox.moe/yyz889.mp4',
+    videoURL_360p: 'https://files.catbox.moe/yyz889.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Yoga ball back raises 1_thumb.jpg'
   },
-  {
+{
     id: 462,
     athlete: 'Lebron James',
     title: 'Yoga ball back raises 2',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Yoga ball back raises 2.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Yoga ball back raises 2.mp4',
+    videoURL: 'https://files.catbox.moe/ncrqkq.mp4',
+    videoURL_360p: 'https://files.catbox.moe/ncrqkq.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Yoga ball back raises 2_thumb.jpg'
   },
-  {
+{
     id: 463,
     athlete: 'Lebron James',
     title: 'Yoga ball side lifts',
     athletesSports: 'Basketball',
-    videoURL: '/videos/exercises/Lebron James_Basketball_Yoga ball side lifts.mp4',
-    videoURL_360p: '/videos/exercises/Lebron James_Basketball_Yoga ball side lifts.mp4',
+    videoURL: 'https://files.catbox.moe/51zfkp.mp4',
+    videoURL_360p: 'https://files.catbox.moe/51zfkp.mp4',
     poster: '/videos/exercises/Lebron James_Basketball_Yoga ball side lifts_thumb.jpg'
-  },*/
+  }
+,
   {
     id: 464,
     athlete: 'Lieke Klaver',
