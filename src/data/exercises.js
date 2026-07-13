@@ -8020,6 +8020,339 @@ athletesSports: 'Long Jump',
 videoURL: 'https://files.catbox.moe/fmivd5.mp4',
 videoURL_360p: 'https://files.catbox.moe/fmivd5.mp4',
 poster: '/videos/exercises/Khadi Sagnia_Long Jump_Vertical jump_thumb.jpg'
+},,
+{
+id: 949,
+athlete: 'Djordje Bujisic',
+title: '1 2 3 Slip In 3 2',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/959zlu.mp4',
+videoURL_360p: 'https://files.catbox.moe/959zlu.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 2 3 Slip In 3 2_thumb.jpg'
 },
+{
+id: 950,
+athlete: 'Djordje Bujisic',
+title: '1 2 3',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/74nd0e.mp4',
+videoURL_360p: 'https://files.catbox.moe/74nd0e.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 2 3_thumb.jpg'
+},
+{
+id: 951,
+athlete: 'Djordje Bujisic',
+title: '1 2 5',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/ck86ey.mp4',
+videoURL_360p: 'https://files.catbox.moe/ck86ey.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 2 5_thumb.jpg'
+},
+{
+id: 952,
+athlete: 'Djordje Bujisic',
+title: '1 2 Slip Out 2 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/d4nkxb.mp4',
+videoURL_360p: 'https://files.catbox.moe/d4nkxb.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 2 Slip Out 2 1_thumb.jpg'
+},
+{
+id: 953,
+athlete: 'Djordje Bujisic',
+title: '1 3 5 3',
+athletesSports: 'Boxing',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 3 5 3_thumb.jpg'
+},
+{
+id: 954,
+athlete: 'Djordje Bujisic',
+title: '1 3',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/solffn.mp4',
+videoURL_360p: 'https://files.catbox.moe/solffn.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 3_thumb.jpg'
+},
+{
+id: 955,
+athlete: 'Djordje Bujisic',
+title: '1 6 3 Slip In 3',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/hmcsmb.mp4',
+videoURL_360p: 'https://files.catbox.moe/hmcsmb.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 6 3 Slip In 3_thumb.jpg'
+},
+{
+id: 956,
+athlete: 'Djordje Bujisic',
+title: '1 6 3',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/dccp3e.mp4',
+videoURL_360p: 'https://files.catbox.moe/dccp3e.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 6 3_thumb.jpg'
+},
+{
+id: 957,
+athlete: 'Djordje Bujisic',
+title: '1 Klackalica 1 2 ',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/68ch89.mp4',
+videoURL_360p: 'https://files.catbox.moe/68ch89.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 Klackalica 1 2 _thumb.jpg'
+},
+{
+id: 958,
+athlete: 'Djordje Bujisic',
+title: '1 Klackalica 1 2 3 2',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/2sdzhg.mp4',
+videoURL_360p: 'https://files.catbox.moe/2sdzhg.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 Klackalica 1 2 3 2_thumb.jpg'
+},
+{
+id: 959,
+athlete: 'Djordje Bujisic',
+title: '1 Klackalica 1 2 3',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/imlsuy.mp4',
+videoURL_360p: 'https://files.catbox.moe/imlsuy.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 Klackalica 1 2 3_thumb.jpg'
+},
+{
+id: 960,
+athlete: 'Djordje Bujisic',
+title: '1 Klackalica 1 2',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/t8z257.mp4',
+videoURL_360p: 'https://files.catbox.moe/t8z257.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 Klackalica 1 2_thumb.jpg'
+},
+{
+id: 961,
+athlete: 'Djordje Bujisic',
+title: '1 Klackalica 2 3 2',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/xa7msh.mp4',
+videoURL_360p: 'https://files.catbox.moe/xa7msh.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 Klackalica 2 3 2_thumb.jpg'
+},
+{
+id: 962,
+athlete: 'Djordje Bujisic',
+title: '1 Klackalica 2 3',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/dihb6v.mp4',
+videoURL_360p: 'https://files.catbox.moe/dihb6v.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 Klackalica 2 3_thumb.jpg'
+},
+{
+id: 963,
+athlete: 'Djordje Bujisic',
+title: '1 Klackalica 2',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/zf12bc.mp4',
+videoURL_360p: 'https://files.catbox.moe/zf12bc.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_1 Klackalica 2_thumb.jpg'
+},
+{
+id: 964,
+athlete: 'Djordje Bujisic',
+title: 'Boxing Coordination Exercise 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/3ozp3j.mp4',
+videoURL_360p: 'https://files.catbox.moe/3ozp3j.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Boxing Coordination Exercise 1_thumb.jpg'
+},
+{
+id: 965,
+athlete: 'Djordje Bujisic',
+title: 'Boxing Coordination Exercise 2',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/b5jkf0.mp4',
+videoURL_360p: 'https://files.catbox.moe/b5jkf0.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Boxing Coordination Exercise 2_thumb.jpg'
+},
+{
+id: 966,
+athlete: 'Djordje Bujisic',
+title: 'Boxing Coordination Exercise 3',
+athletesSports: 'Boxing',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Boxing Coordination Exercise 3_thumb.jpg'
+},
+{
+id: 967,
+athlete: 'Djordje Bujisic',
+title: 'Boxing Coordination Exercise 4',
+athletesSports: 'Boxing',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Boxing Coordination Exercise 4_thumb.jpg'
+},
+{
+id: 968,
+athlete: 'Djordje Bujisic',
+title: 'Boxing Coordination Exercise 5',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/rgsf1r.mp4',
+videoURL_360p: 'https://files.catbox.moe/rgsf1r.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Boxing Coordination Exercise 5_thumb.jpg'
+},
+{
+id: 969,
+athlete: 'Djordje Bujisic',
+title: 'Check Hook To Left',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/k65z4v.mp4',
+videoURL_360p: 'https://files.catbox.moe/k65z4v.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Check Hook To Left_thumb.jpg'
+},
+{
+id: 970,
+athlete: 'Djordje Bujisic',
+title: 'Check Hook to Right',
+athletesSports: 'Boxing',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Check Hook to Right_thumb.jpg'
+},
+{
+id: 971,
+athlete: 'Djordje Bujisic',
+title: 'Feet Battle',
+athletesSports: 'Boxing',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Feet Battle_thumb.jpg'
+},
+{
+id: 972,
+athlete: 'Djordje Bujisic',
+title: 'Footwork Exercise',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/skrpq5.mp4',
+videoURL_360p: 'https://files.catbox.moe/skrpq5.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Footwork Exercise_thumb.jpg'
+},
+{
+id: 973,
+athlete: 'Djordje Bujisic',
+title: 'Motoric exercise in pair 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/5g0c37.mp4',
+videoURL_360p: 'https://files.catbox.moe/5g0c37.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Motoric exercise in pair 1_thumb.jpg'
+},
+{
+id: 974,
+athlete: 'Djordje Bujisic',
+title: 'Movement exercise 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/y39qei.mp4',
+videoURL_360p: 'https://files.catbox.moe/y39qei.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Movement exercise 1_thumb.jpg'
+},
+{
+id: 975,
+athlete: 'Djordje Bujisic',
+title: 'Movement exercise 2',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/l1l83k.mp4',
+videoURL_360p: 'https://files.catbox.moe/l1l83k.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Movement exercise 2_thumb.jpg'
+},
+{
+id: 976,
+athlete: 'Djordje Bujisic',
+title: 'Presretanje 1 Slip In 1',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/g54by8.mp4',
+videoURL_360p: 'https://files.catbox.moe/g54by8.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Presretanje 1 Slip In 1_thumb.jpg'
+},
+{
+id: 977,
+athlete: 'Djordje Bujisic',
+title: 'Roll under and punches',
+athletesSports: 'Boxing',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Roll under and punches_thumb.jpg'
+},
+{
+id: 978,
+athlete: 'Djordje Bujisic',
+title: 'Ryth hooks',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/kn9alp.mp4',
+videoURL_360p: 'https://files.catbox.moe/kn9alp.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Ryth hooks_thumb.jpg'
+},
+{
+id: 979,
+athlete: 'Djordje Bujisic',
+title: 'Rythm directs',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/xdzbo7.mp4',
+videoURL_360p: 'https://files.catbox.moe/xdzbo7.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Rythm directs_thumb.jpg'
+},
+{
+id: 980,
+athlete: 'Djordje Bujisic',
+title: 'Rythmic directs',
+athletesSports: 'Boxing',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Rythmic directs_thumb.jpg'
+},
+{
+id: 981,
+athlete: 'Djordje Bujisic',
+title: 'Scissor Directs',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/ndws7i.mp4',
+videoURL_360p: 'https://files.catbox.moe/ndws7i.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Scissor Directs_thumb.jpg'
+},
+{
+id: 982,
+athlete: 'Djordje Bujisic',
+title: 'Single leg slips',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/pxyit2.mp4',
+videoURL_360p: 'https://files.catbox.moe/pxyit2.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Single leg slips_thumb.jpg'
+},
+{
+id: 983,
+athlete: 'Djordje Bujisic',
+title: 'Skipping Directs',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/i2d73l.mp4',
+videoURL_360p: 'https://files.catbox.moe/i2d73l.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Skipping Directs_thumb.jpg'
+},
+{
+id: 984,
+athlete: 'Djordje Bujisic',
+title: 'Tythm Uppercuts',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/zg4uto.mp4',
+videoURL_360p: 'https://files.catbox.moe/zg4uto.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Tythm Uppercuts_thumb.jpg'
+},
+{
+id: 985,
+athlete: 'Djordje Bujisic',
+title: 'Warm up in pair',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/1vgwjz.mp4',
+videoURL_360p: 'https://files.catbox.moe/1vgwjz.mp4',
+poster: '/videos/exercises/Djordje Bujisic_Boxing_Warm up in pair_thumb.jpg'
+}
 ]; 
 export default exercises; 
