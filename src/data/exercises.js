@@ -8020,7 +8020,7 @@ athletesSports: 'Long Jump',
 videoURL: 'https://files.catbox.moe/fmivd5.mp4',
 videoURL_360p: 'https://files.catbox.moe/fmivd5.mp4',
 poster: '/videos/exercises/Khadi Sagnia_Long Jump_Vertical jump_thumb.jpg'
-},,
+},
 {
 id: 949,
 athlete: 'Djordje Bujisic',
