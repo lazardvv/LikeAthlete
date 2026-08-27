@@ -5,7 +5,13 @@ const FullScreenVideoModal = ({ exercise, onClose }) => {
   if (!exercise) return null;
   if (typeof document === 'undefined') return null;
 
-  const isMobile = typeof window !== 'undefined' && window.innerWidth <= 768;
+  React.useEffect(() => {
+    const onKey = (e) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
 
   const modal = (
     <div
@@ -13,21 +19,23 @@ const FullScreenVideoModal = ({ exercise, onClose }) => {
       style={{
         position: 'fixed',
         inset: 0,
-        backgroundColor: 'rgba(0,0,0,0.85)',
+        backgroundColor: 'rgba(0,0,0,0.6)',
         backdropFilter: 'blur(6px)',
         zIndex: 99999,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 0
+        padding: '12px'
       }}
     >
       <div
         onClick={(e) => e.stopPropagation()}
         style={{
-          width: '100vw',
-          height: '100vh',
-          backgroundColor: 'transparent',
+          width: 'min(96vw, 880px)',
+          maxWidth: '96vw',
+          maxHeight: '90vh',
+          backgroundColor: '#000',
+          borderRadius: 12,
           overflow: 'hidden',
           position: 'relative',
           display: 'flex',
@@ -39,8 +47,8 @@ const FullScreenVideoModal = ({ exercise, onClose }) => {
           onClick={onClose}
           style={{
             position: 'absolute',
-            top: 12,
-            right: 12,
+            top: 10,
+            right: 10,
             zIndex: 40,
             width: 44,
             height: 44,
@@ -55,6 +63,10 @@ const FullScreenVideoModal = ({ exercise, onClose }) => {
           ×
         </button>
 
+        <div style={{ padding: '10px 14px', color: '#fff', textAlign: 'center', fontWeight: 700 }}>
+          {exercise.exerciseTitle || exercise.title}
+        </div>
+
         <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#000' }}>
           {exercise.videoURL_360p ? (
             <video
@@ -65,9 +77,7 @@ const FullScreenVideoModal = ({ exercise, onClose }) => {
               style={{
                 width: '100%',
                 height: '100%',
-                objectFit: 'contain',
-                maxWidth: '100%',
-                maxHeight: '100%'
+                objectFit: 'contain'
               }}
             >
               <source src={exercise.videoURL_360p || exercise.videoURL} type="video/mp4" />

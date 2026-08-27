@@ -184,8 +184,8 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
 
   return (
     <>
-      <div className="exercise-card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        <video ref={videoRef} className="video-element" muted preload="metadata" poster={exercise.poster}>
+      <div className="exercise-card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={() => { if (isMobile) setShowModal(true); }}>
+        <video ref={videoRef} className="video-element" muted preload="metadata" poster={exercise.poster} onClick={(e) => { e.stopPropagation(); if (isMobile) setShowModal(true); }}>
           Your browser does not support the video tag.
         </video>
 

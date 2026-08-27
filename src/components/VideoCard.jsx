@@ -188,7 +188,7 @@ const VideoCard = ({ exercise }) => {
       >
       {/* Video element */}
       {isMegaVideo ? (
-        <div className="iframe-wrapper" ref={mediaRef}>
+        <div className="iframe-wrapper" ref={mediaRef} onClick={(e) => { e.stopPropagation(); if (isMobile) setShowModal(true); }}>
           <iframe
             className="video-iframe"
             title={exercise.title}
@@ -205,6 +205,7 @@ const VideoCard = ({ exercise }) => {
             muted
             preload="metadata"
             poster={exercise.poster}
+            onClick={(e) => { e.stopPropagation(); if (isMobile) { setShowModal(true); } }}
             style={{
               width: '100%',
               height: 'auto',
@@ -220,6 +221,7 @@ const VideoCard = ({ exercise }) => {
             src={exercise.poster}
             alt="poster loader"
             style={{ display: 'none' }}
+            onClick={(e) => { e.stopPropagation(); if (isMobile) setShowModal(true); }}
             onLoad={() => setIsPosterLoaded(true)}
           />
 
