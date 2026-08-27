@@ -575,6 +575,28 @@ a {
   opacity: 1;
 }
 
+/* Preview button positioned top-left inside exercise-card */
+.exercise-card .preview-button {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  z-index: 6;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .exercise-card .preview-button {
+    top: 0.45rem;
+    left: 0.45rem;
+    padding: 0.28rem 0.36rem;
+  }
+}
+
 @media (max-width: 768px) {
   .quality-dropdown {
     top: 0.6rem;

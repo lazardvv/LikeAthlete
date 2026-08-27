@@ -147,6 +147,7 @@ const SavedExercisesVideoCard = ({ exercise, onRemove, onBoardUpdate, showBoardM
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
+      <button onClick={(e) => { e.stopPropagation(); setShowModal(true); }} className="preview-button" aria-label="Preview">📺</button>
       {isMegaVideo ? (
         <div className="iframe-wrapper" ref={mediaRef} onClick={() => { if (isMobile) setShowModal(true); }}>
           <iframe

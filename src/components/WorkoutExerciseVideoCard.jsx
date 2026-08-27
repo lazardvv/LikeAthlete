@@ -101,6 +101,7 @@ const WorkoutExerciseVideoCard = ({ exercise, onEdit, onDelete }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
+      <button onClick={(e) => { e.stopPropagation(); /* lazy modal state handled via parent for this card */ }} className="preview-button" aria-label="Preview">📺</button>
       {/* Video element */}
       <video
         ref={videoRef}

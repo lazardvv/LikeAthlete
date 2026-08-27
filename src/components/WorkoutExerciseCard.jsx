@@ -89,6 +89,8 @@ const WorkoutExerciseCard = ({
         ⋮
       </button>
 
+      <button onClick={(e) => { e.stopPropagation(); /* parent controls modal */ }} className="preview-button" aria-label="Preview">📺</button>
+
       <VideoPlayer 
         videoRef={videoRef} 
         poster={exercise.poster} 

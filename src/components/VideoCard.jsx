@@ -186,6 +186,11 @@ const VideoCard = ({ exercise }) => {
         onClick={() => { if (isMobile) setShowModal(true); }}
         role={isMobile ? 'button' : undefined}
       >
+        <button
+          onClick={(e) => { e.stopPropagation(); setShowModal(true); }}
+          className="preview-button"
+          aria-label="Preview"
+        >📺</button>
       {/* Video element */}
       {isMegaVideo ? (
         <div className="iframe-wrapper" ref={mediaRef} onClick={(e) => { e.stopPropagation(); if (isMobile) setShowModal(true); }}>

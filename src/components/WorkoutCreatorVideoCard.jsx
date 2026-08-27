@@ -185,6 +185,7 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
   return (
     <>
       <div className="exercise-card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={() => { if (isMobile) setShowModal(true); }}>
+        <button onClick={(e) => { e.stopPropagation(); setShowModal(true); }} className="preview-button" aria-label="Preview">📺</button>
         <video ref={videoRef} className="video-element" muted preload="metadata" poster={exercise.poster} onClick={(e) => { e.stopPropagation(); if (isMobile) setShowModal(true); }}>
           Your browser does not support the video tag.
         </video>
@@ -249,6 +250,9 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
             <FullScreenVideoModal exercise={exercise} onClose={() => setShowModal(false)} />
           )}
         </div>
+      )}
+      {showModal && (
+        <FullScreenVideoModal exercise={exercise} onClose={() => setShowModal(false)} />
       )}
     </>
   );
