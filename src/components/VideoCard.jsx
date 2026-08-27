@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import athletes from '../data/athletes';
 import { saveExercise, getSavedExercises } from '../../services/appwriteSavedExercises';
 import { useAuth } from '../context/AuthContext';
+import FullScreenVideoModal from './FullScreenVideoModal';
 
 const VideoCard = ({ exercise }) => {
   const [isSaved, setIsSaved] = useState(false);
@@ -47,6 +48,21 @@ const VideoCard = ({ exercise }) => {
       checkIfSaved();
     }
   }, [exercise.id, userId]);
+
+  const [isMobile, setIsMobile] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia && window.matchMedia('(max-width: 768px)');
+    const update = () => setIsMobile(mq ? mq.matches : window.innerWidth <= 768);
+    update();
+    if (mq && mq.addEventListener) mq.addEventListener('change', update);
+    window.addEventListener('resize', update);
+    return () => {
+      if (mq && mq.removeEventListener) mq.removeEventListener('change', update);
+      window.removeEventListener('resize', update);
+    };
+  }, []);
 
   const handleSave = async () => {
     try {
@@ -161,12 +177,15 @@ const VideoCard = ({ exercise }) => {
   }, [isVisible, exercise.videoURL_360p, isMegaVideo]);
 
   return (
-    <div
-      className="exercise-card"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      onTouchStart={() => { setHovered(true); }}
-    >
+    <>
+      <div
+        className="exercise-card"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        onTouchStart={() => { setHovered(true); }}
+        onClick={() => { if (isMobile) setShowModal(true); }}
+        role={isMobile ? 'button' : undefined}
+      >
       {/* Video element */}
       {isMegaVideo ? (
         <div className="iframe-wrapper" ref={mediaRef}>
@@ -213,13 +232,19 @@ const VideoCard = ({ exercise }) => {
 
       {/* Controls */}
       <div className={`quality-dropdown ${hovered ? 'visible' : ''}`}>
-        <NavLink to={`/exercise/${exercise.id}`} className="exercise-detail-link">🔍</NavLink>
+        <NavLink
+          to={`/exercise/${exercise.id}`}
+          className="exercise-detail-link"
+          onClick={(e) => {
+            if (isMobile) { e.preventDefault(); e.stopPropagation(); setShowModal(true); }
+          }}
+        >🔍</NavLink>
         {isSaved ? (
-          <button disabled className="saved-button" aria-label="Sačuvano">✅</button>
+          <button disabled className="saved-button" aria-label="Sačuvano" onClick={(e) => e.stopPropagation()}>✅</button>
         ) : (
-          <button onClick={handleSave} className="save-button" aria-label="Sačuvaj vježbu">💾</button>
+          <button onClick={(e) => { e.stopPropagation(); handleSave(); }} className="save-button" aria-label="Sačuvaj vježbu">💾</button>
         )}
-        <button onClick={handleFullscreen} className="fullscreen-button" aria-label="Fullscreen">⛶</button>
+        <button onClick={(e) => { e.stopPropagation(); handleFullscreen(); }} className="fullscreen-button" aria-label="Fullscreen">⛶</button>
         {!isMegaVideo && (
           <>
             <label htmlFor="quality-select" className="sr-only">Kvalitet videa</label>
@@ -263,6 +288,10 @@ const VideoCard = ({ exercise }) => {
         })()}
       </div>
     </div>
+    {showModal && (
+      <FullScreenVideoModal exercise={exercise} onClose={() => setShowModal(false)} />
+    )}
+    </>
   );
 };
 

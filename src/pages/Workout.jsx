@@ -109,6 +109,19 @@ const Workout = () => {
   const [restStarted, setRestStarted] = useState(false);
   const restInitialRef = useRef(0);
   const [previewExercise, setPreviewExercise] = useState(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia && window.matchMedia('(max-width: 768px)');
+    const update = () => setIsMobile(mq ? mq.matches : window.innerWidth <= 768);
+    update();
+    if (mq && mq.addEventListener) mq.addEventListener('change', update);
+    window.addEventListener('resize', update);
+    return () => {
+      if (mq && mq.removeEventListener) mq.removeEventListener('change', update);
+      window.removeEventListener('resize', update);
+    };
+  }, []);
 
   const playBeep = () => {
     if (!audioContextRef.current) {
@@ -481,100 +494,137 @@ const Workout = () => {
             ))}
           </div>
 
-          {/* 3-column layout for exercises */}
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '20px', marginTop: '20px' }}>
-            {/* Previous Exercise */}
-            <div style={{ flex: 1, textAlign: 'center' }}>
-              {previousExercise ? (
-                <>
-                        <video
-                          className="video-element"
-                          muted
-                          poster={previousExercise.poster}
-                          style={{
-                            width: '100%',
-                            maxWidth: '300px',
-                            maxHeight: '60vh',
-                            height: 'auto',
-                            objectFit: 'contain',
-                            filter: isRestExercise(previousExercise) ? 'none' : 'grayscale(100%)',
-                            opacity: isRestExercise(previousExercise) ? 1 : 0.6
-                          }}
-                        >
-                          <source src={previousExercise.videoURL_360p} type="video/mp4" />
-                          Your browser does not support the video tag.
-                        </video>
-                  <p>{previousExercise.exerciseTitle}</p>
-                  <button onClick={moveToPreviousExercise} style={{ padding: '5px 10px', backgroundColor: '#2196F3', color: 'white', border: 'none', borderRadius: '3px', cursor: 'pointer' }}>← Previous</button>
-                </>
-              ) : (
-                <div style={{ height: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <p>No previous exercise</p>
-                </div>
-              )}
-            </div>
+          {isMobile ? (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginTop: 20, alignItems: 'center' }}>
+              <div style={{ width: '100%', textAlign: 'center' }}>
+                <h4 style={{ marginBottom: 8 }}>Current</h4>
+                <video
+                  key={currentExerciseIndex}
+                  ref={currentVideoRef}
+                  className="video-element"
+                  muted
+                  autoPlay
+                  loop
+                  controls
+                  poster={currentExercise.poster}
+                  style={{ width: '100%', maxHeight: '60vh', objectFit: 'contain', borderRadius: 8 }}
+                >
+                  <source src={currentExercise.videoURL_360p} type="video/mp4" />
+                </video>
+                <p style={{ marginTop: 8, fontWeight: 700 }}>{currentExercise.exerciseTitle}</p>
+              </div>
 
-            {/* Current Exercise */}
-            <div style={{ flex: 1, textAlign: 'center' }}>
-              <h4>Current</h4>
-              <video
-                key={currentExerciseIndex}
-                ref={currentVideoRef}
-                className="video-element"
-                muted
-                autoPlay
-                loop
-                controls
-                poster={currentExercise.poster}
-                style={{
-                  width: '100%',
-                  maxWidth: '400px',
-                  maxHeight: '60vh',
-                  height: 'auto',
-                  objectFit: 'contain',
-                }}
-              >
-                <source src={currentExercise.videoURL_360p} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              <p>{currentExercise.exerciseTitle}</p>
-            </div>
-
-            {/* Next Exercise */}
-            <div style={{ flex: 1, textAlign: 'center' }}>
-              {nextExercise ? (
-                <>
-                  <h4>Next Up</h4>
-                  <video
-                    className="video-element"
-                    muted
-                    poster={nextExercise.poster}
-                    style={{
-                      width: '100%',
-                      maxWidth: '300px',
-                      maxHeight: '60vh',
-                      height: 'auto',
-                      objectFit: 'contain',
-                      filter: isRestExercise(nextExercise) ? 'none' : 'grayscale(100%)',
-                      opacity: isRestExercise(nextExercise) ? 1 : 0.6
-                    }}
-                  >
-                    <source src={nextExercise.videoURL_360p} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                  <p>{nextExercise.exerciseTitle}</p>
-                  <div style={{ display: 'flex', gap: '8px', justifyContent: 'center' }}>
-                    <button onClick={() => setPreviewExercise(nextExercise)} style={{ padding: '5px 10px', backgroundColor: '#607d8b', color: 'white', border: 'none', borderRadius: '3px', cursor: 'pointer' }}>Preview</button>
-                    <button onClick={moveToNextExercise} style={{ padding: '5px 10px', backgroundColor: '#4CAF50', color: 'white', border: 'none', borderRadius: '3px', cursor: 'pointer' }}>Next →</button>
-                  </div>
-                </>
-              ) : (
-                <div style={{ height: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <div style={{ width: '100%', textAlign: 'center' }}>
+                <h4 style={{ marginBottom: 8 }}>Next</h4>
+                {nextExercise ? (
+                  <>
+                    <img src={nextExercise.poster} alt="next" style={{ width: '100%', borderRadius: 8, objectFit: 'cover' }} />
+                    <p style={{ marginTop: 8 }}>{nextExercise.exerciseTitle}</p>
+                    <div style={{ display: 'flex', gap: 8, justifyContent: 'center' }}>
+                      <button onClick={() => setPreviewExercise(nextExercise)} style={{ padding: '8px 12px', backgroundColor: '#607d8b', color: 'white', border: 'none', borderRadius: 6 }}>Preview</button>
+                      <button onClick={moveToNextExercise} style={{ padding: '8px 12px', backgroundColor: '#4CAF50', color: 'white', border: 'none', borderRadius: 6 }}>Next →</button>
+                    </div>
+                  </>
+                ) : (
                   <p>Workout Complete</p>
-                </div>
-              )}
+                )}
+              </div>
             </div>
-          </div>
+          ) : (
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '20px', marginTop: '20px' }}>
+              {/* Previous Exercise */}
+              <div style={{ flex: 1, textAlign: 'center' }}>
+                {previousExercise ? (
+                  <>
+                    <video
+                      className="video-element"
+                      muted
+                      poster={previousExercise.poster}
+                      style={{
+                        width: '100%',
+                        maxWidth: '300px',
+                        maxHeight: '60vh',
+                        height: 'auto',
+                        objectFit: 'contain',
+                        filter: isRestExercise(previousExercise) ? 'none' : 'grayscale(100%)',
+                        opacity: isRestExercise(previousExercise) ? 1 : 0.6
+                      }}
+                    >
+                      <source src={previousExercise.videoURL_360p} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <p>{previousExercise.exerciseTitle}</p>
+                    <button onClick={moveToPreviousExercise} style={{ padding: '5px 10px', backgroundColor: '#2196F3', color: 'white', border: 'none', borderRadius: '3px', cursor: 'pointer' }}>← Previous</button>
+                  </>
+                ) : (
+                  <div style={{ height: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <p>No previous exercise</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Current Exercise */}
+              <div style={{ flex: 1, textAlign: 'center' }}>
+                <h4>Current</h4>
+                <video
+                  key={currentExerciseIndex}
+                  ref={currentVideoRef}
+                  className="video-element"
+                  muted
+                  autoPlay
+                  loop
+                  controls
+                  poster={currentExercise.poster}
+                  style={{
+                    width: '100%',
+                    maxWidth: '400px',
+                    maxHeight: '60vh',
+                    height: 'auto',
+                    objectFit: 'contain',
+                  }}
+                >
+                  <source src={currentExercise.videoURL_360p} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <p>{currentExercise.exerciseTitle}</p>
+              </div>
+
+              {/* Next Exercise */}
+              <div style={{ flex: 1, textAlign: 'center' }}>
+                {nextExercise ? (
+                  <>
+                    <h4>Next Up</h4>
+                    <video
+                      className="video-element"
+                      muted
+                      poster={nextExercise.poster}
+                      style={{
+                        width: '100%',
+                        maxWidth: '300px',
+                        maxHeight: '60vh',
+                        height: 'auto',
+                        objectFit: 'contain',
+                        filter: isRestExercise(nextExercise) ? 'none' : 'grayscale(100%)',
+                        opacity: isRestExercise(nextExercise) ? 1 : 0.6
+                      }}
+                    >
+                      <source src={nextExercise.videoURL_360p} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <p>{nextExercise.exerciseTitle}</p>
+                    <div style={{ display: 'flex', gap: '8px', justifyContent: 'center' }}>
+                      <button onClick={() => setPreviewExercise(nextExercise)} style={{ padding: '5px 10px', backgroundColor: '#607d8b', color: 'white', border: 'none', borderRadius: '3px', cursor: 'pointer' }}>Preview</button>
+                      <button onClick={moveToNextExercise} style={{ padding: '5px 10px', backgroundColor: '#4CAF50', color: 'white', border: 'none', borderRadius: '3px', cursor: 'pointer' }}>Next →</button>
+                    </div>
+                  </>
+                ) : (
+                  <div style={{ height: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <p>Workout Complete</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
 
           <div className="exercise-details" style={{ marginTop: '20px' }}>
             <div style={{

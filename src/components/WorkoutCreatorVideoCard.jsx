@@ -4,6 +4,7 @@ import athletes from '../data/athletes';
 import { getSavedExercises } from '../../services/appwriteSavedExercises';
 import { addExerciseToWorkout } from '../../services/appwriteWorkoutExercises';
 import { useAuth } from '../context/AuthContext';
+import FullScreenVideoModal from './FullScreenVideoModal';
 
 const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout }) => {
   const [isSaved, setIsSaved] = useState(false);
@@ -44,6 +45,21 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
     };
     if (userId) checkIfSaved();
   }, [exercise.id, userId]);
+
+  const [isMobile, setIsMobile] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia && window.matchMedia('(max-width: 768px)');
+    const update = () => setIsMobile(mq ? mq.matches : window.innerWidth <= 768);
+    update();
+    if (mq && mq.addEventListener) mq.addEventListener('change', update);
+    window.addEventListener('resize', update);
+    return () => {
+      if (mq && mq.removeEventListener) mq.removeEventListener('change', update);
+      window.removeEventListener('resize', update);
+    };
+  }, []);
 
   const handleAddToWorkout = () => {
     if (!userId) {
@@ -228,6 +244,10 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
               <button className="cancel-button" onClick={() => setShowWorkoutPopup(false)}>Cancel</button>
             </div>
           </div>
+
+          {showModal && (
+            <FullScreenVideoModal exercise={exercise} onClose={() => setShowModal(false)} />
+          )}
         </div>
       )}
     </>
