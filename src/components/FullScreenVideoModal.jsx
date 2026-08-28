@@ -1,7 +1,7 @@
 import React from 'react';
 import { createPortal } from 'react-dom';
 
-const FullScreenVideoModal = ({ exercise, onClose }) => {
+const FullScreenVideoModal = ({ exercise, onClose, onAddToWorkout, currentWorkout }) => {
   if (!exercise) return null;
   if (typeof document === 'undefined') return null;
 
@@ -62,6 +62,35 @@ const FullScreenVideoModal = ({ exercise, onClose }) => {
         >
           ×
         </button>
+
+        {onAddToWorkout && (
+          <button
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              onClose();
+              onAddToWorkout();
+            }}
+            style={{
+              position: 'absolute',
+              top: 12,
+              left: 12,
+              zIndex: 40,
+              border: 'none',
+              borderRadius: 999,
+              background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+              color: '#fff',
+              cursor: 'pointer',
+              fontSize: 14,
+              fontWeight: 700,
+              padding: '10px 14px',
+              boxShadow: '0 8px 20px rgba(16, 185, 129, 0.35)'
+            }}
+          >
+            ➕ Add to Workout
+          </button>
+        )}
 
         <div style={{ padding: '10px 14px', color: '#fff', textAlign: 'center', fontWeight: 700 }}>
           {exercise.exerciseTitle || exercise.title}

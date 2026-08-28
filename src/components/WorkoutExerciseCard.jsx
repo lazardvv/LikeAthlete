@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from 'react'
 import VideoPlayer from './VideoPlayer'
 import QualityControls from './QualityControls'
 import ExerciseInfo from './ExerciseInfo'
+import FullScreenVideoModal from './FullScreenVideoModal'
 
 const WorkoutExerciseCard = ({ 
   exercise, 
@@ -26,6 +27,7 @@ const WorkoutExerciseCard = ({
   const [menuOpen, setMenuOpen] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
   const [isPosterLoaded, setIsPosterLoaded] = useState(false)
+  const [showModal, setShowModal] = useState(false)
 
   const handleMouseEnter = () => {
     setHovered(true)
@@ -89,7 +91,7 @@ const WorkoutExerciseCard = ({
         ⋮
       </button>
 
-      <button onClick={(e) => { e.stopPropagation(); /* parent controls modal */ }} className="preview-button" aria-label="Preview">📺</button>
+      <button onClick={(e) => { e.stopPropagation(); setShowModal(true); }} className="preview-button" aria-label="Preview">📺</button>
 
       <VideoPlayer 
         videoRef={videoRef} 
@@ -116,6 +118,10 @@ const WorkoutExerciseCard = ({
       <div className="exercise-info">
         <ExerciseInfo exercise={exercise} />
       </div>
+
+      {showModal && (
+        <FullScreenVideoModal exercise={exercise} onClose={() => setShowModal(false)} />
+      )}
     </div>
   )
 }

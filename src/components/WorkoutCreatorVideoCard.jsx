@@ -61,7 +61,12 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
     };
   }, []);
 
-  const handleAddToWorkout = () => {
+  const handleAddToWorkout = (e) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+
     if (!userId) {
       showNotification('Morate biti prijavljeni da biste dodali vježbu u trening.', 'error');
       return;
@@ -70,6 +75,8 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
       showNotification('Morate prvo odabrati ili kreirati trening.', 'error');
       return;
     }
+
+    setShowModal(false);
     setShowWorkoutPopup(true);
   };
 
@@ -195,7 +202,7 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
 
         <div className={`quality-dropdown ${hovered || isMobile ? 'visible' : ''}`}>
           <NavLink to={`/exercise/${exercise.id}`} className="exercise-detail-link">🔍</NavLink>
-          <button onClick={handleAddToWorkout} className="add-to-workout-button" disabled={!currentWorkout}>
+          <button onClick={(e) => handleAddToWorkout(e)} className="add-to-workout-button" disabled={!currentWorkout}>
             ➕ 
           </button>
           <button onClick={handleFullscreen} className="fullscreen-button" aria-label="Fullscreen">⛶</button>
@@ -245,14 +252,15 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
               <button className="cancel-button" onClick={() => setShowWorkoutPopup(false)}>Cancel</button>
             </div>
           </div>
-
-          {showModal && (
-            <FullScreenVideoModal exercise={exercise} onClose={() => setShowModal(false)} />
-          )}
         </div>
       )}
       {showModal && (
-        <FullScreenVideoModal exercise={exercise} onClose={() => setShowModal(false)} />
+        <FullScreenVideoModal
+          exercise={exercise}
+          currentWorkout={currentWorkout}
+          onAddToWorkout={(e) => handleAddToWorkout(e)}
+          onClose={() => setShowModal(false)}
+        />
       )}
     </>
   );
