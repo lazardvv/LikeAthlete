@@ -14,6 +14,10 @@ const ExerciseItem = ({
   handleDragStart,
   handleDragOver,
   handleDrop
+  ,
+  handleTouchStart,
+  handleTouchMove,
+  handleTouchEnd
 }) => {
   const [showModal, setShowModal] = useState(false)
 
@@ -21,10 +25,14 @@ const ExerciseItem = ({
     <>
       <li
         className="workout-list-item"
+        data-index={index}
         draggable
         onDragStart={(e) => handleDragStart(e, index)}
         onDragOver={handleDragOver}
         onDrop={(e) => handleDrop(e, index)}
+        onTouchStart={(e) => handleTouchStart && handleTouchStart(e, index)}
+        onTouchMove={(e) => handleTouchMove && handleTouchMove(e)}
+        onTouchEnd={(e) => handleTouchEnd && handleTouchEnd(e, index)}
       >
         <div className="video-container">
           <button
@@ -89,7 +97,7 @@ const ExerciseItem = ({
             </div>
           )}
         </div>
-        <div className="drag-handle">⋮⋮</div>
+        <div className="drag-handle" aria-hidden>⋮⋮</div>
       </li>
 
       {showModal && (

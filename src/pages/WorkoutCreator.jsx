@@ -390,6 +390,49 @@ const WorkoutCreator = () => {
     }
   }
 
+  /* Touch-based reorder fallback for mobile */
+  const touchState = { startIndex: null, touchY: 0 }
+
+  const handleTouchStart = (e, index) => {
+    const touch = e.touches && e.touches[0]
+    if (!touch) return
+    touchState.startIndex = index
+    touchState.touchY = touch.clientY
+    e.currentTarget.classList.add('dragging')
+  }
+
+  const handleTouchMove = (e) => {
+    const touch = e.touches && e.touches[0]
+    if (!touch) return
+    const el = document.elementFromPoint(touch.clientX, touch.clientY)
+    if (!el) return
+    const li = el.closest && el.closest('.workout-list-item')
+    document.querySelectorAll('.workout-list-item').forEach(n => n.classList.remove('drop-target'))
+    if (li) li.classList.add('drop-target')
+  }
+
+  const handleTouchEnd = async (e, targetIndex) => {
+    const startIndex = touchState.startIndex
+    document.querySelectorAll('.workout-list-item').forEach(n => n.classList.remove('drop-target','dragging'))
+    touchState.startIndex = null
+    touchState.touchY = 0
+    if (startIndex === null || startIndex === undefined) return
+    if (startIndex === targetIndex) return
+
+    const updatedExercises = [...workoutExercises]
+    const [draggedItem] = updatedExercises.splice(startIndex, 1)
+    updatedExercises.splice(targetIndex, 0, draggedItem)
+    setWorkoutExercises(updatedExercises)
+
+    try {
+      const exerciseIds = updatedExercises.map(ex => ex.$id)
+      await updateExerciseOrder(userId, currentWorkout, exerciseIds)
+    } catch (error) {
+      console.error('Error updating exercise order (touch):', error)
+      setWorkoutExercises(workoutExercises)
+    }
+  }
+
   /* =========================
      DELETE
      ========================= */
