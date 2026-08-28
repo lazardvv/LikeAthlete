@@ -193,7 +193,7 @@ const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout })
         <img src={exercise.poster} alt="poster loader" style={{ display: 'none' }} onLoad={() => setIsPosterLoaded(true)} />
         {!isPosterLoaded && <div className="poster-skeleton" />}
 
-        <div className={`quality-dropdown ${hovered ? 'visible' : ''}`}>
+        <div className={`quality-dropdown ${hovered || isMobile ? 'visible' : ''}`}>
           <NavLink to={`/exercise/${exercise.id}`} className="exercise-detail-link">🔍</NavLink>
           <button onClick={handleAddToWorkout} className="add-to-workout-button" disabled={!currentWorkout}>
             ➕ 

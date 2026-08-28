@@ -238,7 +238,7 @@ const VideoCard = ({ exercise }) => {
       )}
 
       {/* Controls */}
-      <div className={`quality-dropdown ${hovered ? 'visible' : ''}`}>
+      <div className={`quality-dropdown ${hovered || isMobile ? 'visible' : ''}`}>
         <NavLink
           to={`/exercise/${exercise.id}`}
           className="exercise-detail-link"

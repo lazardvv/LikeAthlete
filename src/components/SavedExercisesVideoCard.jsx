@@ -173,7 +173,7 @@ const SavedExercisesVideoCard = ({ exercise, onRemove, onBoardUpdate, showBoardM
       )}
 
       {/* Delete and Fullscreen buttons in top-right corner */}
-      <div className={`quality-dropdown ${hovered ? 'visible' : ''}`} style={{ flexDirection: 'row-reverse' }}>
+      <div className={`quality-dropdown ${hovered || isMobile ? 'visible' : ''}`} style={{ flexDirection: 'row-reverse' }}>
         <button onClick={(e) => { e.stopPropagation(); handleRemove(); }} className="save-button" aria-label="Obriši">
           ❌ 
         </button>
