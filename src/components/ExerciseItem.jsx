@@ -27,7 +27,24 @@ const ExerciseItem = ({
         className="workout-list-item"
         data-index={index}
         draggable
-        onDragStart={(e) => handleDragStart(e, index)}
+        onDragStart={(e) => {
+          e.dataTransfer.effectAllowed = 'move';
+          e.dataTransfer.setData('text/plain', String(index));
+
+          const dragGhost = e.currentTarget.cloneNode(true);
+          dragGhost.style.position = 'fixed';
+          dragGhost.style.top = '-1000px';
+          dragGhost.style.left = '-1000px';
+          dragGhost.style.width = `${e.currentTarget.offsetWidth}px`;
+          dragGhost.style.opacity = '0.9';
+          dragGhost.style.pointerEvents = 'none';
+          dragGhost.style.zIndex = '99999';
+          document.body.appendChild(dragGhost);
+          e.dataTransfer.setDragImage(dragGhost, 18, 18);
+          requestAnimationFrame(() => dragGhost.remove());
+
+          if (handleDragStart) handleDragStart(e, index);
+        }}
         onDragOver={handleDragOver}
         onDrop={(e) => handleDrop(e, index)}
         onTouchStart={(e) => handleTouchStart && handleTouchStart(e, index)}

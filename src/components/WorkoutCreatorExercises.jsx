@@ -7,6 +7,7 @@ import { useAuth } from '../context/AuthContext';
 import { addExerciseToWorkout } from '../../services/appwriteWorkoutExercises';
 import { getSavedExercises } from '../../services/appwriteSavedExercises';
 import { getBoardsForUser, getExercisesForBoard } from '../../services/appwriteUserBoards';
+import { filterExercisesByBoard } from '../utils/exerciseId';
 
 
 const WorkoutCreatorExercises = ({ currentWorkout, onExerciseAdded }) => {
@@ -97,7 +98,7 @@ const WorkoutCreatorExercises = ({ currentWorkout, onExerciseAdded }) => {
     setSelectedBoard(boardName);
     try {
       const exerciseIds = await getExercisesForBoard(userId, boardName);
-      const filtered = savedExercises.filter((ex) => exerciseIds.includes(ex.$id));
+      const filtered = filterExercisesByBoard(savedExercises, exerciseIds);
       setLoadedExercises(filtered.length > 0 ? filtered : savedExercises);
     } catch (error) {
       console.error('Greška pri filteriranju po boardu:', error);

@@ -10,6 +10,7 @@ import {
 import { useAuth } from '../context/AuthContext';
 import { Navigate } from 'react-router-dom';
 import BoardToggleButton from '../components/BoardToggleButton';
+import { filterExercisesByBoard } from '../utils/exerciseId';
 
 const SavedExercises = () => {
   const { user } = useAuth();
@@ -89,7 +90,7 @@ const SavedExercises = () => {
         }
 
         const exerciseIds = await getExercisesForBoard(userId, activeBoard);
-        const filtered = savedExercises.filter((ex) => exerciseIds.includes(ex.$id));
+        const filtered = filterExercisesByBoard(savedExercises, exerciseIds);
 
         if (filtered.length === 0) {
           setActiveBoard(null);
@@ -113,7 +114,7 @@ const SavedExercises = () => {
 
     try {
       const exerciseIds = await getExercisesForBoard(userId, boardName);
-      const filtered = savedExercises.filter((ex) => exerciseIds.includes(ex.$id));
+      const filtered = filterExercisesByBoard(savedExercises, exerciseIds);
 
       if (filtered.length === 0) {
         setActiveBoard(null);

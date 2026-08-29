@@ -8353,6 +8353,132 @@ athletesSports: 'Boxing',
 videoURL: 'https://files.catbox.moe/1vgwjz.mp4',
 videoURL_360p: 'https://files.catbox.moe/1vgwjz.mp4',
 poster: '/videos/exercises/Djordje Bujisic_Boxing_Warm up in pair_thumb.jpg'
-}
+},
+{
+id: 986,
+athlete: 'Tyreke Hill',
+title: 'Nordic Hamstring Curls',
+athletesSports: 'NFL',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Tyreke Hill_NFL_Nordic Hamstring Curls_thumb.jpg'
+},
+{
+id: 987,
+athlete: 'Unknown',
+title: 'triple jump from 2 feet',
+athletesSports: 'Triple jump',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Unknown_Triple jump_triple jump from 2 feet_thumb.jpg'
+},
+{
+id: 988,
+athlete: 'Unknown',
+title: 'Back Bridge',
+athletesSports: 'Unknown',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Unknown_Unknown_Back Bridge_thumb.jpg'
+},
+{
+id: 989,
+athlete: 'Unknown',
+title: 'Copenhagen Plank With Knee Drive',
+athletesSports: 'Unknown',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Unknown_Unknown_Copenhagen Plank With Knee Drive_thumb.jpg'
+},
+{
+id: 990,
+athlete: 'Unknown',
+title: 'Copenhagen plank',
+athletesSports: 'Unknown',
+videoURL: 'https://files.catbox.moe/85lw7s.mp4',
+videoURL_360p: 'https://files.catbox.moe/85lw7s.mp4',
+poster: '/videos/exercises/Unknown_Unknown_Copenhagen plank_thumb.jpg'
+},
+{
+id: 991,
+athlete: 'Unknown',
+title: 'Crab toe touches',
+athletesSports: 'Unknown',
+videoURL: 'https://files.catbox.moe/6r6f46.mp4',
+videoURL_360p: 'https://files.catbox.moe/6r6f46.mp4',
+poster: '/videos/exercises/Unknown_Unknown_Crab toe touches_thumb.jpg'
+},
+{
+id: 992,
+athlete: 'Unknown',
+title: 'Side Plank Leg Lifts',
+athletesSports: 'Unknown',
+videoURL: 'https://files.catbox.moe/wg1ejk.mp4',
+videoURL_360p: 'https://files.catbox.moe/wg1ejk.mp4',
+poster: '/videos/exercises/Unknown_Unknown_Side Plank Leg Lifts_thumb.jpg'
+},
+{
+id: 993,
+athlete: 'Unknown',
+title: 'Side Plank Star',
+athletesSports: 'Unknown',
+videoURL: 'https://files.catbox.moe/jqhq9x.mp4',
+videoURL_360p: 'https://files.catbox.moe/jqhq9x.mp4',
+poster: '/videos/exercises/Unknown_Unknown_Side Plank Star_thumb.jpg'
+},
+{
+id: 994,
+athlete: 'Unknown',
+title: 'Side Plank With Knee Drive',
+athletesSports: 'Unknown',
+videoURL: 'https://files.catbox.moe/dxz92t.mp4',
+videoURL_360p: 'https://files.catbox.moe/dxz92t.mp4',
+poster: '/videos/exercises/Unknown_Unknown_Side Plank With Knee Drive_thumb.jpg'
+},
+{
+id: 995,
+athlete: 'Unknown',
+title: 'Side Star Plank On Elbow',
+athletesSports: 'Unknown',
+videoURL: 'https://files.catbox.moe/urt70w.mp4',
+videoURL_360p: 'https://files.catbox.moe/urt70w.mp4',
+poster: '/videos/exercises/Unknown_Unknown_Side Star Plank On Elbow_thumb.jpg'
+},
+{
+id: 996,
+athlete: 'Will Claye',
+title: 'Resisted Single leg bounds',
+athletesSports: 'Triple jump',
+videoURL: 'https://files.catbox.moe/761969.mp4',
+videoURL_360p: 'https://files.catbox.moe/761969.mp4',
+poster: '/videos/exercises/Will Claye_Triple jump_Resisted Single leg bounds_thumb.jpg'
+},
+{
+id: 997,
+athlete: 'Will Claye',
+title: 'Weighted lunge jumps',
+athletesSports: 'Triple jump',
+videoURL: 'https://files.catbox.moe/aug6zp.mp4',
+videoURL_360p: 'https://files.catbox.moe/aug6zp.mp4',
+poster: '/videos/exercises/Will Claye_Triple jump_Weighted lunge jumps_thumb.jpg'
+},
+{
+id: 998,
+athlete: 'Dmitry Bivol',
+title: 'Kettlebell Core Exercise',
+athletesSports: 'Boxing',
+videoURL: '',
+videoURL_360p: '',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Kettlebell Core Exercise_thumb.jpg'
+},
+{
+id: 999,
+athlete: 'Dmitry Bivol',
+title: 'Spider-Man Plank',
+athletesSports: 'Boxing',
+videoURL: 'https://files.catbox.moe/fmmr3j.mp4',
+videoURL_360p: 'https://files.catbox.moe/fmmr3j.mp4',
+poster: '/videos/exercises/Dmitry Bivol_Boxing_Spider-Man Plank_thumb.jpg'
+},
 ]; 
 export default exercises; 
