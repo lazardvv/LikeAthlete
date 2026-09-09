@@ -61,7 +61,7 @@ const Navbar = () => {
                                     </div>
                                     <ul className="dropdown__submenu">
                                          <NavLink to='workoutcreator'><li className='dropdown__sublink'><i className='ri-file-list-line'></i>WorkoutCreator</li></NavLink>
-                                         <NavLink to='payments'><li className='dropdown__sublink'><i className='ri-cash-line'></i>Payments</li></NavLink>
+                                         <NavLink to='payments'><li className='dropdown__sublink'><i className='ri-video-line'></i>Upload video</li></NavLink>
                                          <NavLink to='refunds'><li className='dropdown__sublink'><i className='ri-refund-2-line'></i>Refunds</li></NavLink>
                                     </ul>
                                 </li>

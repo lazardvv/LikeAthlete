@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const multer = require('multer');
 const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
@@ -7,6 +8,10 @@ require('dotenv').config();
 
 const app = express();
 const port = 3001;
+
+fs.mkdirSync('uploads', { recursive: true });
+
+app.use(cors());
 
 // Multer setup
 const upload = multer({ dest: 'uploads/' });
@@ -30,6 +35,47 @@ async function uploadToAppwrite(filePath, fileName) {
   );
   return `${process.env.APPWRITE_ENDPOINT}/storage/buckets/${process.env.APPWRITE_BUCKET_ID}/files/${response.$id}/view?project=${process.env.APPWRITE_PROJECT_ID}`;
 }
+
+app.post('/upload-catbox', upload.single('file'), async (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ error: 'Video file is required.' });
+  }
+
+  try {
+    const fileBuffer = fs.readFileSync(req.file.path);
+    const fileBlob = new Blob([fileBuffer], { type: req.file.mimetype || 'application/octet-stream' });
+
+    const formData = new FormData();
+    formData.append('reqtype', 'fileupload');
+    formData.append('fileToUpload', fileBlob, req.file.originalname);
+
+    const catboxResponse = await fetch('https://catbox.moe/user/api.php', {
+      method: 'POST',
+      body: formData,
+    });
+
+    const rawText = await catboxResponse.text();
+
+    if (!catboxResponse.ok) {
+      throw new Error(`Catbox responded with ${catboxResponse.status}: ${rawText.slice(0, 300)}`);
+    }
+
+    const url = rawText.trim();
+
+    if (!url || !/^https?:\/\//i.test(url)) {
+      throw new Error(`Catbox did not return a valid URL. Response: ${rawText.slice(0, 300)}`);
+    }
+
+    res.json({ url });
+  } catch (error) {
+    console.error('Catbox upload error:', error);
+    res.status(500).json({ error: error.message || 'Catbox upload failed' });
+  } finally {
+    if (req.file?.path && fs.existsSync(req.file.path)) {
+      fs.unlinkSync(req.file.path);
+    }
+  }
+});
 
 // Upload route
 app.post('/upload', upload.single('file'), async (req, res) => {
