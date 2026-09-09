@@ -1,74 +1,79 @@
 // services/appwriteSavedExercises.js
-import { databases } from './appwriteConfig';
-import { Query, ID } from 'appwrite';
+import { supabase, DEV_USER_ID, isDevMode } from './appwriteConfig';
 
-const DATABASE_ID = '69f631a1002a93eb8a1c';
-const COLLECTION_ID = 'saved_exercises';
+const normalizeUserId = (userName) => userName || (isDevMode ? DEV_USER_ID : DEV_USER_ID);
 
-/**
- * Vraća sve sačuvane vježbe za korisnika koristeći USER NAME.
- */
+const mapSavedExercise = (row) => {
+  if (!row) return null;
+
+  return {
+    ...row,
+    $id: String(row.id),
+    userId: row.user_id,
+    exerciseId: String(row.exercise_id),
+    savedAt: row.saved_at,
+    exerciseTitle: row.exercise_title,
+    athlete: row.athlete,
+    athletesSport: row.athletes_sport,
+    videoURL: row.video_url,
+    videoURL_360p: row.video_url_360p,
+    poster: row.poster_url,
+  };
+};
+
 export const getSavedExercises = async (userName) => {
   try {
-    const response = await databases.listDocuments(
-      DATABASE_ID,
-      COLLECTION_ID,
-      [
-        Query.equal('userId', userName),     // ✅ user name
-        Query.orderDesc('$createdAt'),       // opcionalno: najnovije prve
-        // Query.limit(100),                  // ako imaš >100, ubaci cursorAfter paginaciju
-      ]
-    );
-    return response.documents;
+    const userId = normalizeUserId(userName);
+    const { data, error } = await supabase
+      .from('saved_exercises')
+      .select('*')
+      .eq('user_id', userId)
+      .order('created_at', { ascending: false });
+
+    if (error) throw error;
+    return (data || []).map(mapSavedExercise);
   } catch (error) {
     console.error('Greška pri dohvatanju sačuvanih vježbi:', error);
     throw error;
   }
 };
 
-/**
- * Sačuvaj vježbu za korisnika koristeći USER NAME kao 'userId'.
- * Sprečava duplikate po (userId, exerciseId).
- */
 export const saveExercise = async (exercise, userName) => {
   try {
-    const exerciseIdNum = Number(exercise.id);
+    const userId = normalizeUserId(userName);
+    const exerciseId = String(exercise.id ?? exercise.exerciseId ?? '');
 
-    // Pre-check duplikata
-    const existing = await databases.listDocuments(
-      DATABASE_ID,
-      COLLECTION_ID,
-      [
-        Query.equal('userId', userName),         // ✅ user name
-        Query.equal('exerciseId', exerciseIdNum),
-        Query.limit(1),
-      ]
-    );
+    const { data: existing, error: existingError } = await supabase
+      .from('saved_exercises')
+      .select('id')
+      .eq('user_id', userId)
+      .eq('exercise_id', exerciseId)
+      .maybeSingle();
 
-    if (existing.total > 0) {
+    if (existingError) throw existingError;
+    if (existing) {
       console.log('Vježba je već sačuvana.');
       return null;
     }
 
-    // Kreiranje novog dokumenta
-    const response = await databases.createDocument(
-      DATABASE_ID,
-      COLLECTION_ID,
-      ID.unique(), // Ako si na starijem SDK-u, zamijeni sa 'unique()'
-      {
-        userId: userName,                         // ✅ user name
-        exerciseId: exerciseIdNum,
-        savedAt: new Date().toISOString(),
-        exerciseTitle: exercise.title,
+    const { data, error } = await supabase
+      .from('saved_exercises')
+      .insert({
+        user_id: userId,
+        exercise_id: exerciseId,
+        saved_at: new Date().toISOString(),
+        exercise_title: exercise.title,
         athlete: exercise.athlete,
-        athletesSport: exercise.athletesSport,    // ✅ ispravljeno (bez 's' na kraju)
-        videoURL: exercise.videoURL || null,
-        videoURL_360p: exercise.videoURL_360p || null,
-        poster: exercise.poster || null,
-      }
-    );
+        athletes_sport: exercise.athletesSport,
+        video_url: exercise.videoURL || null,
+        video_url_360p: exercise.videoURL_360p || null,
+        poster_url: exercise.poster || null,
+      })
+      .select()
+      .single();
 
-    return response;
+    if (error) throw error;
+    return mapSavedExercise(data);
   } catch (error) {
     console.error('Greška pri čuvanju vježbe:', error);
     throw error;
@@ -77,7 +82,14 @@ export const saveExercise = async (exercise, userName) => {
 
 export const deleteSavedExercise = async (documentId) => {
   try {
-    await databases.deleteDocument(DATABASE_ID, COLLECTION_ID, documentId);
+    if (!documentId) return;
+
+    const { error } = await supabase
+      .from('saved_exercises')
+      .delete()
+      .eq('id', documentId);
+
+    if (error) throw error;
   } catch (error) {
     console.error('Greška pri brisanju vježbe:', error);
     throw error;

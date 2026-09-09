@@ -112,7 +112,7 @@ const WorkoutCreator = () => {
   const [replacingExerciseId, setReplacingExerciseId] = useState(null)
 
   const { user } = useAuth()
-  const userId = user?.name
+  const userId = user?.id || user?.name || 'dev-user-1'
   const navigate = useNavigate()
 
   useEffect(() => {

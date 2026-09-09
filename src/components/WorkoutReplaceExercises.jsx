@@ -2,15 +2,29 @@ import React, { useState, useEffect, useRef } from 'react';
 import Masonry from 'react-masonry-css';
 import WorkoutReplaceVideoCard from './WorkoutReplaceVideoCard';
 import SearchBar from './SearchBar';
-import exercises from '../data/exercises';
+import { getExercises } from '../../services/exerciseCatalog';
 
 const WorkoutReplaceExercises = ({ currentWorkout, onReplace, onCancel }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [page, setPage] = useState(1);
   const [loadedExercises, setLoadedExercises] = useState([]);
+  const [allExercises, setAllExercises] = useState([]);
   const [hasMore, setHasMore] = useState(true);
   const loaderRef = useRef(null);
   const pageSize = 10;
+
+  useEffect(() => {
+    const fetchExercises = async () => {
+      try {
+        const data = await getExercises();
+        setAllExercises(data);
+      } catch (error) {
+        console.error('Failed to load exercises from Supabase:', error);
+      }
+    };
+
+    fetchExercises();
+  }, []);
 
   const normalize = (text) =>
     text.toLowerCase().replace(/[^a-z0-9]+/g, ' ').split(' ').filter(Boolean);
@@ -24,11 +38,11 @@ const WorkoutReplaceExercises = ({ currentWorkout, onReplace, onCancel }) => {
   };
 
   useEffect(() => {
-    const filtered = exercises.filter((exercise) => matchesSearch(exercise, searchTerm));
+    const filtered = allExercises.filter((exercise) => matchesSearch(exercise, searchTerm));
     const newExercises = filtered.slice(0, page * pageSize);
     setLoadedExercises(newExercises);
     setHasMore(newExercises.length < filtered.length);
-  }, [searchTerm, page]);
+  }, [searchTerm, page, allExercises]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

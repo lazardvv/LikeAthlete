@@ -11,7 +11,7 @@ const WorkoutCreatorCard = ({ onWorkoutSelect }) => {
   const [selectedWorkout, setSelectedWorkout] = useState('');
   const [loading, setLoading] = useState(false);
   const { user } = useAuth();
-  const userId = user?.name;
+  const userId = user?.id || user?.name || 'dev-user-1';
 
   useEffect(() => {
     const fetchWorkouts = async () => {

@@ -15,7 +15,7 @@ import { filterExercisesByBoard } from '../utils/exerciseId';
 const SavedExercises = () => {
   const { user } = useAuth();
   if (!user) return <Navigate to="/login" />;
-  const userId = user?.name;
+  const userId = user?.id || user?.name || 'dev-user-1';
 
   const [savedExercises, setSavedExercises] = useState([]);
   const [filteredExercises, setFilteredExercises] = useState([]);

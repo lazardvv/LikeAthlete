@@ -1,16 +1,40 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Masonry from 'react-masonry-css';
-import exercises from '../data/exercises';
 import VideoCard from '../components/VideoCard';
+import { getExerciseById, getExercises } from '../../services/exerciseCatalog';
 
 const ExerciseDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [quality, setQuality] = useState('360p');
   const [videoSrc, setVideoSrc] = useState('');
+  const [exercise, setExercise] = useState(null);
+  const [similarExercises, setSimilarExercises] = useState([]);
 
-  const exercise = exercises.find((ex) => ex.id === parseInt(id));
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const current = await getExerciseById(id);
+        setExercise(current);
+
+        if (current) {
+          const all = await getExercises();
+          const keywords = (current.title || '').toLowerCase().split(' ');
+          const related = all.filter((ex) => {
+            if (ex.id === current.id) return false;
+            return keywords.some((word) => word && ex.title && ex.title.toLowerCase().includes(word));
+          }).slice(0, 8);
+          setSimilarExercises(related);
+        }
+      } catch (error) {
+        console.error('Failed to fetch exercise detail from Supabase:', error);
+      }
+    };
+
+    fetchData();
+  }, [id]);
+
   if (!exercise) return <p>Vježba nije pronađena.</p>;
 
   // Set initial video source when component mounts
@@ -23,17 +47,6 @@ const ExerciseDetail = () => {
     setQuality(selectedQuality);
     setVideoSrc(selectedQuality === '360p' ? exercise.videoURL_360p : exercise.videoURL);
   };
-
-  const getSimilarExercises = () => {
-    const keywords = exercise.title.toLowerCase().split(' ');
-    return exercises.filter((ex) => {
-      if (ex.id === exercise.id) return false;
-      return keywords.some((word) => ex.title.toLowerCase().includes(word));
-    });
-  };
-
-
-  const similarExercises = getSimilarExercises();
 
   const breakpointColumnsObj = {
     default: 4,

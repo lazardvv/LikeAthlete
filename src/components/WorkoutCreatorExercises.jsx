@@ -12,7 +12,7 @@ import { filterExercisesByBoard } from '../utils/exerciseId';
 
 const WorkoutCreatorExercises = ({ currentWorkout, onExerciseAdded }) => {
   const { user } = useAuth();
-  const userId = user?.name;
+  const userId = user?.id || user?.name || 'dev-user-1';
 
   const [searchTerm, setSearchTerm] = useState('');
   const [page, setPage] = useState(1);

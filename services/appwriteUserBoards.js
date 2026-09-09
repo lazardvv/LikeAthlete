@@ -1,27 +1,42 @@
-import { databases } from './appwriteConfig';
-import { Query } from 'appwrite';
+import { supabase, DEV_USER_ID, isDevMode } from './appwriteConfig';
 
-const DATABASE_ID = '69f631a1002a93eb8a1c';
-const COLLECTION_ID = 'userBoards';
+const normalizeUserId = (userId) => userId || (isDevMode ? DEV_USER_ID : DEV_USER_ID);
 
 export const addExerciseToBoard = async (userId, exerciseId, boardName) => {
   try {
-    const existing = await databases.listDocuments(DATABASE_ID, COLLECTION_ID, [
-      Query.equal('userId', userId),
-      Query.equal('exerciseId', exerciseId),
-      Query.equal('boardName', boardName),
-    ]);
+    const normalizedUserId = normalizeUserId(userId);
+    const targetExerciseId = String(exerciseId);
+    const targetBoardName = String(boardName).trim();
 
-    if (existing.total > 0) return null;
+    const { data: existing, error: existingError } = await supabase
+      .from('user_boards')
+      .select('id')
+      .eq('user_id', normalizedUserId)
+      .eq('exercise_id', targetExerciseId)
+      .eq('board_name', targetBoardName)
+      .maybeSingle();
 
-    const response = await databases.createDocument(DATABASE_ID, COLLECTION_ID, 'unique()', {
-      userId,
-      exerciseId,
-      boardName,
-      
-    });
+    if (existingError) throw existingError;
+    if (existing) return null;
 
-    return response;
+    const { data, error } = await supabase
+      .from('user_boards')
+      .insert({
+        user_id: normalizedUserId,
+        exercise_id: targetExerciseId,
+        board_name: targetBoardName,
+      })
+      .select()
+      .single();
+
+    if (error) throw error;
+    return {
+      ...data,
+      $id: String(data.id),
+      userId: data.user_id,
+      exerciseId: data.exercise_id,
+      boardName: data.board_name,
+    };
   } catch (error) {
     console.error('Greška pri dodavanju vježbe u board:', error);
     throw error;
@@ -30,12 +45,14 @@ export const addExerciseToBoard = async (userId, exerciseId, boardName) => {
 
 export const getBoardsForUser = async (userId) => {
   try {
-    const response = await databases.listDocuments(DATABASE_ID, COLLECTION_ID, [
-      Query.equal('userId', userId),
-    ]);
+    const normalizedUserId = normalizeUserId(userId);
+    const { data, error } = await supabase
+      .from('user_boards')
+      .select('board_name')
+      .eq('user_id', normalizedUserId);
 
-    const uniqueBoards = [...new Set(response.documents.map(doc => doc.boardName))];
-    return uniqueBoards;
+    if (error) throw error;
+    return [...new Set((data || []).map((doc) => doc.board_name).filter(Boolean))];
   } catch (error) {
     console.error('Greška pri dohvatanju boardova:', error);
     throw error;
@@ -44,12 +61,15 @@ export const getBoardsForUser = async (userId) => {
 
 export const getExercisesForBoard = async (userId, boardName) => {
   try {
-    const response = await databases.listDocuments(DATABASE_ID, COLLECTION_ID, [
-      Query.equal('userId', userId),
-      Query.equal('boardName', boardName),
-    ]);
+    const normalizedUserId = normalizeUserId(userId);
+    const { data, error } = await supabase
+      .from('user_boards')
+      .select('exercise_id')
+      .eq('user_id', normalizedUserId)
+      .eq('board_name', boardName);
 
-    return response.documents.map(doc => doc.exerciseId);
+    if (error) throw error;
+    return (data || []).map((doc) => String(doc.exercise_id));
   } catch (error) {
     console.error('Greška pri dohvatanju vježbi za board:', error);
     throw error;
@@ -58,12 +78,15 @@ export const getExercisesForBoard = async (userId, boardName) => {
 
 export const getBoardsForExercise = async (userId, exerciseId) => {
   try {
-    const response = await databases.listDocuments(DATABASE_ID, COLLECTION_ID, [
-      Query.equal('userId', userId),
-      Query.equal('exerciseId', exerciseId),
-    ]);
+    const normalizedUserId = normalizeUserId(userId);
+    const { data, error } = await supabase
+      .from('user_boards')
+      .select('board_name')
+      .eq('user_id', normalizedUserId)
+      .eq('exercise_id', String(exerciseId));
 
-    return response.documents.map(doc => doc.boardName);
+    if (error) throw error;
+    return (data || []).map((doc) => doc.board_name);
   } catch (error) {
     console.error('Greška pri dohvatanju boardova za vježbu:', error);
     throw error;
@@ -72,17 +95,20 @@ export const getBoardsForExercise = async (userId, exerciseId) => {
 
 export const removeExerciseFromBoard = async (userId, exerciseId, boardName) => {
   try {
-    const response = await databases.listDocuments(DATABASE_ID, COLLECTION_ID, [
-      Query.equal('userId', userId),
-      Query.equal('exerciseId', exerciseId),
-      Query.equal('boardName', boardName),
-    ]);
+    const normalizedUserId = normalizeUserId(userId);
+    const { data, error } = await supabase
+      .from('user_boards')
+      .select('id')
+      .eq('user_id', normalizedUserId)
+      .eq('exercise_id', String(exerciseId))
+      .eq('board_name', boardName)
+      .maybeSingle();
 
-    if (response.total === 0) return;
+    if (error) throw error;
+    if (!data) return;
 
-    const docId = response.documents[0].$id;
-
-    await databases.deleteDocument(DATABASE_ID, COLLECTION_ID, docId);
+    const deleteError = await supabase.from('user_boards').delete().eq('id', data.id);
+    if (deleteError.error) throw deleteError.error;
   } catch (error) {
     console.error('Greška pri uklanjanju boarda iz vježbe:', error);
     throw error;

@@ -1,79 +1,81 @@
 // services/appwriteWorkoutExercises.js
-import { databases } from './appwriteConfig';
-import { Query, ID } from 'appwrite';
+import { supabase, DEV_USER_ID, isDevMode } from './appwriteConfig';
 
-const DATABASE_ID = '69f631a1002a93eb8a1c';
-const COLLECTION_ID = 'workouts_exercises';
-
-// 0-based ili 1-based; drži konzistentno sa onim što želiš
 const START_FROM = 0;
 
-/* ---------------------------
-   Helper za paginaciju
----------------------------- */
-const listAllDocuments = async (filters = [], pageSize = 100) => {
-  let all = [];
-  let cursor = null;
+const normalizeUserId = (userName) => userName || (isDevMode ? DEV_USER_ID : DEV_USER_ID);
 
-  while (true) {
-    const q = [...filters, Query.limit(pageSize)];
-    if (cursor) q.push(Query.cursorAfter(cursor));
+const mapWorkoutExercise = (row) => {
+  if (!row) return null;
 
-    const res = await databases.listDocuments(DATABASE_ID, COLLECTION_ID, q);
-    all = all.concat(res.documents);
-
-    if (res.documents.length < pageSize) break;
-    cursor = res.documents[res.documents.length - 1].$id;
-  }
-  return all;
+  return {
+    ...row,
+    $id: String(row.id),
+    userId: row.user_id,
+    workoutName: row.workout_name,
+    exerciseId: String(row.exercise_id),
+    exerciseTitle: row.exercise_title,
+    athlete: row.athlete,
+    athletesSport: row.athletes_sport,
+    videoURL: row.video_url,
+    videoURL_360p: row.video_url_360p,
+    poster: row.poster_url,
+    folderId: row.folder_id,
+    userBoard: row.user_board,
+    order: row.order_index,
+    reps: row.reps,
+    time: row.time,
+    load: row.load,
+    equipment: row.equipment,
+    notes: row.notes,
+  };
 };
 
-/* -------------------------------------------
-   Vrati sljedeći redni broj (max(order) + 1)
--------------------------------------------- */
 const getNextOrderForWorkout = async (userName, workoutName) => {
-  const res = await databases.listDocuments(
-    DATABASE_ID,
-    COLLECTION_ID,
-    [
-      Query.equal('userId', userName),      // ✅ user name
-      Query.equal('workoutName', workoutName),
-      Query.orderDesc('order'),
-      Query.limit(1)
-    ]
-  );
+  const userId = normalizeUserId(userName);
+  const { data, error } = await supabase
+    .from('workout_exercises')
+    .select('order_index')
+    .eq('user_id', userId)
+    .eq('workout_name', workoutName)
+    .order('order_index', { ascending: false })
+    .limit(1)
+    .maybeSingle();
 
-  if (!res.documents.length) return START_FROM;
-  const top = res.documents[0];
-  const currentMax = typeof top.order === 'number' ? top.order : (START_FROM - 1);
+  if (error) throw error;
+  const currentMax = typeof data?.order_index === 'number' ? data.order_index : START_FROM - 1;
   return currentMax + 1;
 };
 
-/* ---------------------------
-   Update exercise order
----------------------------- */
 export const updateExerciseOrder = async (userName, workoutName, exerciseIds) => {
   try {
-    // Guard: ažuriraj samo dokumente koji pripadaju korisniku+workoutu
-    const allowedDocs = await listAllDocuments([
-      Query.equal('userId', userName),
-      Query.equal('workoutName', workoutName),
-    ]);
-    const allowed = new Set(allowedDocs.map(d => d.$id));
+    const userId = normalizeUserId(userName);
+    const normalizedIds = (exerciseIds || []).map((id) => Number(id)).filter((id) => !Number.isNaN(id));
 
-    for (let i = 0; i < exerciseIds.length; i++) {
-      const documentId = exerciseIds[i];
-      if (!allowed.has(documentId)) {
-        console.warn(`Skipping document not in this workout/user: ${documentId}`);
-        continue;
-      }
-      await databases.updateDocument(
-        DATABASE_ID,
-        COLLECTION_ID,
-        documentId,
-        { order: START_FROM + i }
-      );
+    if (!normalizedIds.length) return true;
+
+    const { data: allowedDocs, error: fetchError } = await supabase
+      .from('workout_exercises')
+      .select('id')
+      .eq('user_id', userId)
+      .eq('workout_name', workoutName)
+      .in('id', normalizedIds);
+
+    if (fetchError) throw fetchError;
+    const allowed = new Set((allowedDocs || []).map((d) => Number(d.id)));
+
+    for (let i = 0; i < normalizedIds.length; i += 1) {
+      const documentId = normalizedIds[i];
+      if (!allowed.has(documentId)) continue;
+
+      const { error } = await supabase
+        .from('workout_exercises')
+        .update({ order_index: START_FROM + i })
+        .eq('id', documentId);
+
+      if (error) throw error;
     }
+
     return true;
   } catch (error) {
     console.error('Error updating exercise order:', error);
@@ -81,103 +83,96 @@ export const updateExerciseOrder = async (userName, workoutName, exerciseIds) =>
   }
 };
 
-/* ---------------------------
-   Get workouts list (names)
----------------------------- */
 export const getWorkouts = async (userName) => {
   try {
-    const docs = await listAllDocuments([Query.equal('userId', userName)]);
-    return [...new Set(docs.map(doc => doc.workoutName))];
+    const userId = normalizeUserId(userName);
+    const { data, error } = await supabase
+      .from('workout_exercises')
+      .select('workout_name')
+      .eq('user_id', userId);
+
+    if (error) throw error;
+    return [...new Set((data || []).map((doc) => doc.workout_name).filter(Boolean))];
   } catch (error) {
     console.error('Error fetching workouts:', error);
     throw error;
   }
 };
 
-/* ------------------------------------------------------
-   Get exercises for a workout (po user name + sortirano)
-------------------------------------------------------- */
 export const getWorkoutExercises = async (userName, workoutName) => {
   try {
-    const documents = await listAllDocuments([
-      Query.equal('userId', userName),        // ✅ user name
-      Query.equal('workoutName', workoutName),
-      Query.orderAsc('order'),                // 📌 zahtijeva index u Appwrite-u
-    ]);
-    return documents;
+    const userId = normalizeUserId(userName);
+    const { data, error } = await supabase
+      .from('workout_exercises')
+      .select('*')
+      .eq('user_id', userId)
+      .eq('workout_name', workoutName)
+      .order('order_index', { ascending: true });
+
+    if (error) throw error;
+    return (data || []).map(mapWorkoutExercise);
   } catch (error) {
     console.error('Error fetching workout exercises:', error);
     throw error;
   }
 };
 
-/* -------------------------------------------
-   Add exercise to workout (postavlja 'order')
--------------------------------------------- */
 export const addExerciseToWorkout = async (exercise, userName, workoutName, details) => {
   try {
-    const toIntOrNull = (v) =>
-      v !== '' && v !== undefined && v !== null ? parseInt(v, 10) : null;
+    const userId = normalizeUserId(userName);
+    const toIntOrNull = (value) => (value !== '' && value !== undefined && value !== null ? parseInt(value, 10) : null);
 
-    const timeValue = toIntOrNull(details.time);
-    const repsValue = toIntOrNull(details.reps);
-    const loadValue = toIntOrNull(details.load);
+    const nextOrder = await getNextOrderForWorkout(userId, workoutName);
 
-    const nextOrder = await getNextOrderForWorkout(userName, workoutName);
-
-    const response = await databases.createDocument(
-      DATABASE_ID,
-      COLLECTION_ID,
-      ID.unique(), // ako si na starijem SDK-u, koristi 'unique()'
-      {
-        userId: userName,                              // ✅ user name
-        workoutName,
-        exerciseId: String(exercise.id),
-        exerciseTitle: exercise.title,
+    const { data, error } = await supabase
+      .from('workout_exercises')
+      .insert({
+        user_id: userId,
+        workout_name: workoutName,
+        exercise_id: String(exercise.id),
+        exercise_title: exercise.title,
         athlete: exercise.athlete,
-        athletesSport: exercise.athletesSport,         // ✅ ispravno polje
-        videoURL: exercise.videoURL || null,
-        videoURL_360p: exercise.videoURL_360p || null,
-        poster: exercise.poster || null,
-        folderId: exercise.folderId || '',
-        userBoard: '',
-        reps: repsValue,
-        time: timeValue,
-        load: loadValue,
+        athletes_sport: exercise.athletesSport,
+        video_url: exercise.videoURL || null,
+        video_url_360p: exercise.videoURL_360p || null,
+        poster_url: exercise.poster || null,
+        folder_id: exercise.folderId || '',
+        user_board: '',
+        reps: toIntOrNull(details.reps),
+        time: toIntOrNull(details.time),
+        load: toIntOrNull(details.load),
         equipment: details.equipment || '',
         notes: details.notes || '',
-        order: nextOrder
-      }
-    );
+        order_index: nextOrder,
+      })
+      .select()
+      .single();
 
-    return response;
+    if (error) throw error;
+    return mapWorkoutExercise(data);
   } catch (error) {
     console.error('Error adding exercise to workout:', error);
     throw error;
   }
 };
 
-/* ---------------------------
-   Delete workout exercise
----------------------------- */
 export const deleteWorkoutExercise = async (documentId) => {
   try {
-    await databases.deleteDocument(DATABASE_ID, COLLECTION_ID, documentId);
+    if (!documentId) return;
+    const { error } = await supabase.from('workout_exercises').delete().eq('id', documentId);
+    if (error) throw error;
   } catch (error) {
     console.error('Error deleting workout exercise:', error);
     throw error;
   }
 };
 
-/* ----------------------------------------
-   Update workout exercise (edit/replace)
------------------------------------------ */
 export const updateWorkoutExercise = async (documentId, details) => {
   try {
     const parseNumber = (value) => {
       if (value === '' || value === null || value === undefined) return null;
       const num = Number(value);
-      return isNaN(num) ? null : num;
+      return Number.isNaN(num) ? null : num;
     };
 
     const updatePayload = {};
@@ -185,148 +180,142 @@ export const updateWorkoutExercise = async (documentId, details) => {
     if ('reps' in details) updatePayload.reps = parseNumber(details.reps);
     if ('time' in details) updatePayload.time = parseNumber(details.time);
     if ('load' in details) updatePayload.load = parseNumber(details.load);
-
     if ('equipment' in details) updatePayload.equipment = details.equipment ?? '';
     if ('notes' in details) updatePayload.notes = details.notes ?? '';
-
-    // 🎬 meta polja
-    if ('exerciseTitle' in details) updatePayload.exerciseTitle = details.exerciseTitle;
+    if ('exerciseTitle' in details) updatePayload.exercise_title = details.exerciseTitle;
     if ('athlete' in details) updatePayload.athlete = details.athlete;
-    if ('athletesSport' in details) updatePayload.athletesSport = details.athletesSport; // ✅ singular
-    if ('videoURL' in details) updatePayload.videoURL = details.videoURL ?? null;
-    if ('videoURL_360p' in details) updatePayload.videoURL_360p = details.videoURL_360p ?? null;
-    if ('poster' in details) updatePayload.poster = details.poster ?? null;
-    if ('folderId' in details) updatePayload.folderId = details.folderId ?? '';
+    if ('athletesSport' in details) updatePayload.athletes_sport = details.athletesSport;
+    if ('videoURL' in details) updatePayload.video_url = details.videoURL ?? null;
+    if ('videoURL_360p' in details) updatePayload.video_url_360p = details.videoURL_360p ?? null;
+    if ('poster' in details) updatePayload.poster_url = details.poster ?? null;
+    if ('folderId' in details) updatePayload.folder_id = details.folderId ?? '';
 
-    // ne diramo 'order'
+    const { data, error } = await supabase
+      .from('workout_exercises')
+      .update(updatePayload)
+      .eq('id', documentId)
+      .select()
+      .single();
 
-    const response = await databases.updateDocument(
-      DATABASE_ID,
-      COLLECTION_ID,
-      documentId,
-      updatePayload
-    );
-
-    return response;
+    if (error) throw error;
+    return mapWorkoutExercise(data);
   } catch (error) {
     console.error('Error updating workout exercise:', error);
     throw error;
   }
 };
 
-/* ------------------------------------------------------
-   Duplicate workout exercise → odmah iza originala
-------------------------------------------------------- */
 export const duplicateWorkoutExercise = async (userName, workoutName, sourceDocumentId) => {
   try {
-    const exercises = await listAllDocuments([
-      Query.equal('userId', userName),        // ✅ user name
-      Query.equal('workoutName', workoutName),
-      Query.orderAsc('order'),
-    ]);
+    const userId = normalizeUserId(userName);
+    const { data: sourceRows, error: sourceError } = await supabase
+      .from('workout_exercises')
+      .select('*')
+      .eq('user_id', userId)
+      .eq('workout_name', workoutName)
+      .order('order_index', { ascending: true });
 
-    const sourceIndex = exercises.findIndex(d => d.$id === sourceDocumentId);
-    if (sourceIndex === -1) throw new Error('Source exercise not found in this workout.');
+    if (sourceError) throw sourceError;
+    const source = (sourceRows || []).find((doc) => String(doc.id) === String(sourceDocumentId));
+    if (!source) throw new Error('Source exercise not found in this workout.');
 
-    const source = exercises[sourceIndex];
+    const nextOrder = (typeof source.order_index === 'number' ? source.order_index + 1 : START_FROM);
 
-    const dupRes = await databases.createDocument(
-      DATABASE_ID,
-      COLLECTION_ID,
-      ID.unique(),
-      {
-        userId: userName,                          // ✅ user name
-        workoutName,
-        exerciseId: source.exerciseId,
-        exerciseTitle: source.exerciseTitle,
+    const { data, error } = await supabase
+      .from('workout_exercises')
+      .insert({
+        user_id: userId,
+        workout_name: workoutName,
+        exercise_id: source.exercise_id,
+        exercise_title: source.exercise_title,
         athlete: source.athlete,
-        athletesSport: source.athletesSport,
-        videoURL: source.videoURL ?? null,
-        videoURL_360p: source.videoURL_360p ?? null,
-        poster: source.poster ?? null,
-        folderId: source.folderId ?? '',
-        userBoard: source.userBoard ?? '',
-        reps: typeof source.reps === 'number' ? source.reps : null,
-        time: typeof source.time === 'number' ? source.time : null,
-        load: typeof source.load === 'number' ? source.load : null,
-        equipment: source.equipment ?? '',
-        notes: source.notes ?? '',
-        order: (typeof source.order === 'number' ? source.order + 1 : START_FROM)
-      }
-    );
+        athletes_sport: source.athletes_sport,
+        video_url: source.video_url,
+        video_url_360p: source.video_url_360p,
+        poster_url: source.poster_url,
+        folder_id: source.folder_id,
+        user_board: source.user_board,
+        reps: source.reps,
+        time: source.time,
+        load: source.load,
+        equipment: source.equipment,
+        notes: source.notes,
+        order_index: nextOrder,
+      })
+      .select()
+      .single();
 
-    const newOrderIds = [
-      ...exercises.slice(0, sourceIndex + 1).map(e => e.$id),
-      dupRes.$id,
-      ...exercises.slice(sourceIndex + 1).map(e => e.$id),
-    ];
-
-    await updateExerciseOrder(userName, workoutName, newOrderIds);
-
-    return dupRes;
+    if (error) throw error;
+    return mapWorkoutExercise(data);
   } catch (error) {
     console.error('Error duplicating workout exercise:', error);
     throw error;
   }
 };
 
-/* ------------------------------------------------------
-   Duplicate workout exercise → to the END of the workout
-------------------------------------------------------- */
 export const duplicateWorkoutExerciseToEnd = async (userName, workoutName, sourceDocumentId) => {
   try {
-    // Load the source document to copy its fields
-    const exercises = await listAllDocuments([
-      Query.equal('userId', userName),
-      Query.equal('workoutName', workoutName),
-    ]);
+    const userId = normalizeUserId(userName);
+    const { data: source, error: sourceError } = await supabase
+      .from('workout_exercises')
+      .select('*')
+      .eq('user_id', userId)
+      .eq('workout_name', workoutName)
+      .eq('id', Number(sourceDocumentId))
+      .maybeSingle();
 
-    const source = exercises.find(d => d.$id === sourceDocumentId);
+    if (sourceError) throw sourceError;
     if (!source) throw new Error('Source exercise not found in this workout.');
 
-    const nextOrder = await getNextOrderForWorkout(userName, workoutName);
+    const nextOrder = await getNextOrderForWorkout(userId, workoutName);
 
-    const dupRes = await databases.createDocument(
-      DATABASE_ID,
-      COLLECTION_ID,
-      ID.unique(),
-      {
-        userId: userName,
-        workoutName,
-        exerciseId: source.exerciseId,
-        exerciseTitle: source.exerciseTitle,
+    const { data, error } = await supabase
+      .from('workout_exercises')
+      .insert({
+        user_id: userId,
+        workout_name: workoutName,
+        exercise_id: source.exercise_id,
+        exercise_title: source.exercise_title,
         athlete: source.athlete,
-        athletesSport: source.athletesSport,
-        videoURL: source.videoURL ?? null,
-        videoURL_360p: source.videoURL_360p ?? null,
-        poster: source.poster ?? null,
-        folderId: source.folderId ?? '',
-        userBoard: source.userBoard ?? '',
-        reps: typeof source.reps === 'number' ? source.reps : null,
-        time: typeof source.time === 'number' ? source.time : null,
-        load: typeof source.load === 'number' ? source.load : null,
-        equipment: source.equipment ?? '',
-        notes: source.notes ?? '',
-        order: nextOrder
-      }
-    );
+        athletes_sport: source.athletes_sport,
+        video_url: source.video_url,
+        video_url_360p: source.video_url_360p,
+        poster_url: source.poster_url,
+        folder_id: source.folder_id,
+        user_board: source.user_board,
+        reps: source.reps,
+        time: source.time,
+        load: source.load,
+        equipment: source.equipment,
+        notes: source.notes,
+        order_index: nextOrder,
+      })
+      .select()
+      .single();
 
-    return dupRes;
+    if (error) throw error;
+    return mapWorkoutExercise(data);
   } catch (error) {
     console.error('Error duplicating workout exercise to end:', error);
     throw error;
   }
 };
 
-/* ---------------------------
-   Delete entire workout
----------------------------- */
 export const deleteWorkout = async (userName, workoutName) => {
   try {
-    const exercises = await getWorkoutExercises(userName, workoutName);
-    for (const exercise of exercises) {
-      await deleteWorkoutExercise(exercise.$id);
-    }
+    const userId = normalizeUserId(userName);
+    const { data, error } = await supabase
+      .from('workout_exercises')
+      .select('id')
+      .eq('user_id', userId)
+      .eq('workout_name', workoutName);
+
+    if (error) throw error;
+    if (!data || !data.length) return true;
+
+    const ids = data.map((doc) => doc.id);
+    const { error: deleteError } = await supabase.from('workout_exercises').delete().in('id', ids);
+    if (deleteError) throw deleteError;
     return true;
   } catch (error) {
     console.error('Error deleting workout:', error);
@@ -334,20 +323,16 @@ export const deleteWorkout = async (userName, workoutName) => {
   }
 };
 
-/* ---------------------------
-   Rename entire workout
----------------------------- */
 export const renameWorkout = async (userName, oldWorkoutName, newWorkoutName) => {
   try {
-    const exercises = await getWorkoutExercises(userName, oldWorkoutName);
-    for (const exercise of exercises) {
-      await databases.updateDocument(
-        DATABASE_ID,
-        COLLECTION_ID,
-        exercise.$id,
-        { workoutName: newWorkoutName }
-      );
-    }
+    const userId = normalizeUserId(userName);
+    const { error } = await supabase
+      .from('workout_exercises')
+      .update({ workout_name: newWorkoutName })
+      .eq('user_id', userId)
+      .eq('workout_name', oldWorkoutName);
+
+    if (error) throw error;
     return true;
   } catch (error) {
     console.error('Error renaming workout:', error);
@@ -355,149 +340,125 @@ export const renameWorkout = async (userName, oldWorkoutName, newWorkoutName) =>
   }
 };
 
-/* ---------------------------
-   Duplicate entire workout (all items) to a new name
-   - Copies every document for user+workout to new workout name
-   - Reassigns sequential order starting from START_FROM
----------------------------- */
 export const duplicateWorkout = async (userName, sourceWorkoutName, newWorkoutName) => {
   try {
-    if (!userName) throw new Error('Missing userName');
-    const trimmed = String(newWorkoutName || '').trim();
-    if (!trimmed) throw new Error('New workout name is required');
+    const userId = normalizeUserId(userName);
+    const trimmedName = String(newWorkoutName || '').trim();
+    if (!trimmedName) throw new Error('New workout name is required');
 
-    // Load source exercises in order
-    const source = await getWorkoutExercises(userName, sourceWorkoutName);
-    if (!source.length) return { created: 0, ids: [] };
+    const { data: source, error: sourceError } = await supabase
+      .from('workout_exercises')
+      .select('*')
+      .eq('user_id', userId)
+      .eq('workout_name', sourceWorkoutName)
+      .order('order_index', { ascending: true });
 
-    const createdIds = [];
-    for (let i = 0; i < source.length; i++) {
-      const s = source[i];
-      const res = await databases.createDocument(
-        DATABASE_ID,
-        COLLECTION_ID,
-        ID.unique(),
-        {
-          userId: userName,
-          workoutName: trimmed,
-          exerciseId: s.exerciseId ?? null,
-          exerciseTitle: s.exerciseTitle ?? null,
-          athlete: s.athlete ?? null,
-          athletesSport: s.athletesSport ?? '',
-          videoURL: s.videoURL ?? null,
-          videoURL_360p: s.videoURL_360p ?? null,
-          poster: s.poster ?? null,
-          folderId: s.folderId ?? '',
-          userBoard: s.userBoard ?? '',
-          reps: typeof s.reps === 'number' ? s.reps : null,
-          time: typeof s.time === 'number' ? s.time : null,
-          load: typeof s.load === 'number' ? s.load : null,
-          equipment: s.equipment ?? '',
-          notes: s.notes ?? '',
-          order: START_FROM + i,
-        }
-      );
-      createdIds.push(res.$id);
-    }
+    if (sourceError) throw sourceError;
+    if (!source || !source.length) return { created: 0, ids: [] };
 
-    return { created: createdIds.length, ids: createdIds };
+    const rows = source.map((exercise, index) => ({
+      user_id: userId,
+      workout_name: trimmedName,
+      exercise_id: exercise.exercise_id,
+      exercise_title: exercise.exercise_title,
+      athlete: exercise.athlete,
+      athletes_sport: exercise.athletes_sport,
+      video_url: exercise.video_url,
+      video_url_360p: exercise.video_url_360p,
+      poster_url: exercise.poster_url,
+      folder_id: exercise.folder_id,
+      user_board: exercise.user_board,
+      reps: exercise.reps,
+      time: exercise.time,
+      load: exercise.load,
+      equipment: exercise.equipment,
+      notes: exercise.notes,
+      order_index: START_FROM + index,
+    }));
+
+    const { data, error } = await supabase.from('workout_exercises').insert(rows).select();
+    if (error) throw error;
+
+    return { created: data.length, ids: data.map((doc) => doc.id) };
   } catch (error) {
     console.error('Error duplicating workout:', error);
     throw error;
   }
 };
 
-/* ------------------------------------------------------
-   Add or update REST items between all exercises
-   - Removes existing rest entries (athlete === 'Rest' or title contains 'rest') for this workout
-   - Inserts a rest (time in seconds) between every adjacent pair
-   - Reorders all items to interleave: ex, rest, ex, rest, ...
-------------------------------------------------------- */
 export const setRestsBetweenExercises = async (userName, workoutName, restSeconds) => {
   try {
-    const toPositiveInt = (v) => {
-      const n = Number(v);
-      if (!isFinite(n) || n <= 0) return null;
-      return Math.floor(n);
-    };
-    const restTime = toPositiveInt(restSeconds);
+    const userId = normalizeUserId(userName);
+    const { data, error } = await supabase
+      .from('workout_exercises')
+      .select('*')
+      .eq('user_id', userId)
+      .eq('workout_name', workoutName)
+      .order('order_index', { ascending: true });
 
-    // Load all exercises sorted by order
-    const all = await listAllDocuments([
-      Query.equal('userId', userName),
-      Query.equal('workoutName', workoutName),
-      Query.orderAsc('order'),
-    ]);
+    if (error) throw error;
 
-    // Separate non-rest and rest items (we consider athlete === 'Rest' as REST)
-    const isRestDoc = (d) => String(d.athlete) === 'Rest' || String(d.exerciseTitle || '').toLowerCase().includes('rest');
-    const base = all.filter(d => !isRestDoc(d));
-    const rests = all.filter(isRestDoc);
+    const rows = data || [];
+    const baseRows = rows.filter((row) => !(String(row.athlete) === 'Rest' || String(row.exercise_title || '').toLowerCase().includes('rest')));
+    const restRows = rows.filter((row) => String(row.athlete) === 'Rest' || String(row.exercise_title || '').toLowerCase().includes('rest'));
 
-    // If no or one base exercise, just delete any existing rests and return
-    if (base.length <= 1) {
-      for (const r of rests) {
-        await databases.deleteDocument(DATABASE_ID, COLLECTION_ID, r.$id);
+    if (restRows.length) {
+      const restIds = restRows.map((row) => row.id);
+      const { error: deleteError } = await supabase.from('workout_exercises').delete().in('id', restIds);
+      if (deleteError) throw deleteError;
+    }
+
+    const restTime = Number(restSeconds);
+    if (!Number.isFinite(restTime) || restTime <= 0 || baseRows.length <= 1) {
+      const reordered = baseRows.map((row, index) => ({ ...row, order_index: index }));
+      for (const row of reordered) {
+        await supabase.from('workout_exercises').update({ order_index: row.order_index }).eq('id', row.id);
       }
-      // Re-pack order of base only (0..n-1)
-      if (base.length) {
-        await updateExerciseOrder(userName, workoutName, base.map(b => b.$id));
-      }
-      return { created: 0, updatedOrder: base.map(b => b.$id) };
+      return { created: 0, updatedOrder: reordered.map((row) => String(row.id)) };
     }
 
-    // Remove previous rest docs to avoid duplicates
-    for (const r of rests) {
-      await databases.deleteDocument(DATABASE_ID, COLLECTION_ID, r.$id);
-    }
-
-    // If restTime is null (invalid or <= 0), we only removed previous rests
-    if (restTime == null) {
-      // Re-pack order of base only (0..n-1)
-      await updateExerciseOrder(userName, workoutName, base.map(b => b.$id));
-      return { created: 0, updatedOrder: base.map(b => b.$id) };
-    }
-
-    // Create rest docs: need base.length - 1 of them
     const createdRestIds = [];
-    for (let i = 0; i < base.length - 1; i++) {
-      const res = await databases.createDocument(
-        DATABASE_ID,
-        COLLECTION_ID,
-        ID.unique(),
-        {
-          userId: userName,
-          workoutName,
-          exerciseId: 'rest',
-          exerciseTitle: 'Rest',
+    for (let i = 0; i < baseRows.length - 1; i += 1) {
+      const { data: newRow, error: insertError } = await supabase
+        .from('workout_exercises')
+        .insert({
+          user_id: userId,
+          workout_name: workoutName,
+          exercise_id: 'rest',
+          exercise_title: 'Rest',
           athlete: 'Rest',
-          athletesSport: '',
-          videoURL: null,
-          videoURL_360p: null,
-          poster: null,
-          folderId: '',
-          userBoard: '',
+          athletes_sport: '',
+          video_url: null,
+          video_url_360p: null,
+          poster_url: null,
+          folder_id: '',
+          user_board: '',
           reps: null,
           time: restTime,
           load: null,
           equipment: '',
           notes: '',
-          order: START_FROM + i // temporary, will be re-ordered below
-        }
-      );
-      createdRestIds.push(res.$id);
+          order_index: i,
+        })
+        .select()
+        .single();
+
+      if (insertError) throw insertError;
+      createdRestIds.push(newRow.id);
     }
 
-    // Build new order: interleave base and rests
-    const newOrderIds = [];
-    for (let i = 0; i < base.length; i++) {
-      newOrderIds.push(base[i].$id);
-      if (i < base.length - 1) newOrderIds.push(createdRestIds[i]);
+    const reordered = [];
+    for (let i = 0; i < baseRows.length; i += 1) {
+      reordered.push(baseRows[i].id);
+      if (i < baseRows.length - 1) reordered.push(createdRestIds[i]);
     }
 
-    await updateExerciseOrder(userName, workoutName, newOrderIds);
+    for (let i = 0; i < reordered.length; i += 1) {
+      const currentId = reordered[i];
+      await supabase.from('workout_exercises').update({ order_index: i }).eq('id', currentId);
+    }
 
-    return { created: createdRestIds.length, updatedOrder: newOrderIds };
+    return { created: createdRestIds.length, updatedOrder: reordered.map((id) => String(id)) };
   } catch (error) {
     console.error('Error setting rests between exercises:', error);
     throw error;

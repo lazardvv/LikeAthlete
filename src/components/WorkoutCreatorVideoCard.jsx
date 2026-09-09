@@ -9,7 +9,7 @@ import FullScreenVideoModal from './FullScreenVideoModal';
 const WorkoutCreatorVideoCard = ({ exercise, currentWorkout, onAddedToWorkout }) => {
   const [isSaved, setIsSaved] = useState(false);
   const { user } = useAuth();
-  const userId = user?.name;
+  const userId = user?.id || user?.name || 'dev-user-1';
   const videoRef = useRef(null);
   const loadedVideos = useRef({});
   const [quality, setQuality] = useState('360p');

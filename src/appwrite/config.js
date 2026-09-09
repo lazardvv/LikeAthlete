@@ -1,48 +1,19 @@
-import { useState } from "react";
-import { Client, Account } from "appwrite";
+export {
+  supabase,
+  DEV_USER_ID,
+  isDevMode,
+  getCurrentUserId,
+} from '../../services/appwriteConfig';
 
-const client = new Client()
-  .setEndpoint(import.meta.env.VITE_APPWRITE_ENDPOINT) // e.g. "https://cloud.appwrite.io/v1"
-  .setProject(import.meta.env.VITE_APPWRITE_PROJECT_ID); // e.g. "PROJECT_ID"
+export const account = {
+  getSession: async () => ({ data: { session: null } }),
+  get: async () => ({
+    id: 'dev-user-1',
+    name: 'Developer',
+    email: 'dev@local.test',
+  }),
+  createEmailPasswordSession: async () => ({ data: { session: { user: { id: 'dev-user-1' } } } }),
+  deleteSession: async () => ({ data: null }),
+};
 
-const account = new Account(client);
-
-export default function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-
-  const handleLogin = async (e) => {
-    e.preventDefault();
-    try {
-      await account.createEmailPasswordSession({
-        email,
-        password,
-      });
-      console.log("Logged in!");
-      // navigate or update UI here
-    } catch (err) {
-      console.error("Login error:", err);
-      // show error message to user
-    }
-  };
-
-  return (
-    <form onSubmit={handleLogin}>
-      <input
-        type="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        placeholder="Email"
-        required
-      />
-      <input
-        type="password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        placeholder="Password"
-        required
-      />
-      <button type="submit">Log in</button>
-    </form>
-  );
-}
+export const client = null;

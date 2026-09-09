@@ -8,7 +8,7 @@ import FullScreenVideoModal from './FullScreenVideoModal';
 const VideoCard = ({ exercise }) => {
   const [isSaved, setIsSaved] = useState(false);
   const { user } = useAuth();
-  const userId = user?.name;
+  const userId = user?.id || user?.name || 'dev-user-1';
   const videoRef = useRef(null);
   const mediaRef = useRef(null);
   const loadedVideos = useRef({});

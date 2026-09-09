@@ -9,7 +9,7 @@ import { useAuth } from '../context/AuthContext';
 
 const BoardManager = ({ exerciseId, onBoardChange }) => {
   const { user } = useAuth();
-  const userId = user?.name;
+  const userId = user?.id || user?.name || 'dev-user-1';
 
   const [boards, setBoards] = useState([]);
   const [input, setInput] = useState('');

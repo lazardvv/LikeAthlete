@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { ID } from 'appwrite';
-import { account } from '../../services/appwriteConfig';
+import { useAuth } from '../context/AuthContext';
 
 const Signup = () => {
   const [email, setEmail] = useState('');
@@ -9,22 +8,14 @@ const Signup = () => {
   const [name, setName] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
+  const { signup } = useAuth();
 
   const handleSignup = async (e) => {
     e.preventDefault();
     setError('');
 
     try {
-      const response = await account.create(ID.unique(), email, password, name);
-      console.log('Account created:', response);
-
-      const session = await account.createEmailPasswordSession({
-        email,
-        password
-      });
-      console.log('Logged in:', session);
-
-      console.log('Navigating to dashboard');
+      await signup(email, password, name);
       navigate('/dashboard');
     } catch (error) {
       console.error('Signup error:', error);

@@ -2,24 +2,39 @@ import React, { useState, useEffect, useRef, useMemo } from 'react';
 import Masonry from 'react-masonry-css';
 import VideoCard from '../components/VideoCard';
 import SearchBar from '../components/SearchBar';
-import exercises from '../data/exercises';
+import { getExercises } from '../../services/exerciseCatalog';
 
 const Exercises = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [page, setPage] = useState(1);
   const [loadedExercises, setLoadedExercises] = useState([]);
+  const [allExercises, setAllExercises] = useState([]);
   const [hasMore, setHasMore] = useState(true);
   const loaderRef = useRef(null);
   const pageSize = 10;
 
+  useEffect(() => {
+    const fetchExercises = async () => {
+      try {
+        const data = await getExercises();
+        setAllExercises(data);
+      } catch (error) {
+        console.error('Failed to fetch exercises from Supabase:', error);
+        setAllExercises([]);
+      }
+    };
+
+    fetchExercises();
+  }, []);
+
   const shuffledExercises = useMemo(() => {
-    const arr = [...exercises];
+    const arr = [...allExercises];
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [arr[i], arr[j]] = [arr[j], arr[i]];
     }
     return arr;
-  }, []);
+  }, [allExercises]);
 
   // 🔍 Tokenizacija i normalizacija teksta
   const normalize = (text) =>
