@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import {
-  uploadVideoToCatbox,
   saveUploadedExercise,
+  resolveRemoteMediaUrls,
   generatePosterFileFromVideo,
-  uploadPosterToCatbox,
+  saveExerciseFromStagedFiles,
 } from '../../services/exerciseUpload';
 
 const Payments = () => {
@@ -20,6 +20,9 @@ const Payments = () => {
   const [uploadProgress, setUploadProgress] = useState(0);
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
+  const [useRemoteUrl, setUseRemoteUrl] = useState(false);
+  const [videoRemoteUrl, setVideoRemoteUrl] = useState('');
+  const [posterRemoteUrl, setPosterRemoteUrl] = useState('');
 
   useEffect(() => {
     return () => {
@@ -44,6 +47,19 @@ const Payments = () => {
     }
   };
 
+  const resetForm = (form) => {
+    setTitle('');
+    setAthlete('');
+    setAthletesSports('');
+    setFile(null);
+    setSelectedVideoUrl('');
+    setVideoRemoteUrl('');
+    setPosterRemoteUrl('');
+    if (form) {
+      form.reset();
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -52,7 +68,7 @@ const Payments = () => {
       return;
     }
 
-    if (!file || !title.trim() || !athlete.trim() || !athletesSports.trim()) {
+    if (!title.trim() || !athlete.trim() || !athletesSports.trim()) {
       setError('Unesite naziv vježbe, sportistu i sport.');
       return;
     }
@@ -63,35 +79,59 @@ const Payments = () => {
       setError('');
       setMessage('');
 
-      const posterFile = await generatePosterFileFromVideo(file, title);
+      let uploadedUrl = '';
+      let posterUrl = '';
 
-      const [uploadedUrl, posterUrl] = await Promise.all([
-        uploadVideoToCatbox(file, (value) => setUploadProgress(Math.round(value * 0.6))),
-        uploadPosterToCatbox(posterFile, (value) => setUploadProgress(60 + Math.round(value * 0.4))),
-      ]);
+      if (!useRemoteUrl) {
+        if (!file) {
+          setError('Odaberite video fajl ili uključite URL mod za remote upload.');
+          return;
+        }
 
-      const generatedId = Date.now();
+        const posterFile = await generatePosterFileFromVideo(file, title);
+        const stagedResult = await saveExerciseFromStagedFiles({
+          athlete,
+          title,
+          athletes_sports: athletesSports,
+          videoFile: file,
+          posterFile,
+          onProgress: (value) => setUploadProgress(Math.round(value)),
+        });
 
-      await saveUploadedExercise({
-        id: generatedId,
-        athlete,
-        title,
-        athletes_sports: athletesSports,
-        video_url: uploadedUrl,
-        video_url_360p: uploadedUrl,
-        poster_url: posterUrl,
-      });
+        uploadedUrl = stagedResult.video_url;
+        posterUrl = stagedResult.poster_url || '';
+      } else {
+        if (!videoRemoteUrl.trim()) {
+          setError('Unesite raw video URL ili Vidhold URL koji treba importovati.');
+          return;
+        }
+
+        const remoteMedia = await resolveRemoteMediaUrls({
+          videoUrl: videoRemoteUrl,
+          posterUrl: posterRemoteUrl,
+          onProgress: (value) => setUploadProgress(value),
+        });
+
+        uploadedUrl = remoteMedia.video_url;
+        posterUrl = remoteMedia.poster_url || '';
+
+        const generatedId = Date.now();
+        await saveUploadedExercise({
+          id: generatedId,
+          athlete,
+          title,
+          athletes_sports: athletesSports,
+          video_url: uploadedUrl,
+          video_url_360p: uploadedUrl,
+          poster_url: posterUrl || null,
+        });
+      }
 
       setUploadedVideoUrl(uploadedUrl);
       setUploadedPosterUrl(posterUrl);
       setUploadProgress(100);
       setMessage('Vježba je uspješno uploadovana i spremljena.');
-      setTitle('');
-      setAthlete('');
-      setAthletesSports('');
-      setFile(null);
-      setSelectedVideoUrl('');
-      e.target.reset();
+      resetForm(e.target);
     } catch (err) {
       console.error(err);
       setError(err.message || 'Greška pri uploadu vježbe.');
@@ -105,7 +145,7 @@ const Payments = () => {
       <div style={{ marginBottom: 20 }}>
         <h2 style={{ margin: 0, fontSize: 'clamp(1.8rem, 3vw, 2.5rem)' }}>Upload video</h2>
         <p style={{ marginTop: 12, color: '#4b5563', lineHeight: 1.6 }}>
-          Ulogovani korisnik može uploadovati video i odmah ga povezati sa posterom i Supabase zapisom.
+          Ulogovani korisnik može uploadovati video preko lokalnog fajla ili koristiti postojeći raw URL. Kada je URL mod uključen, aplikacija može direktno da poveže video/poster sa Supabase zapisom bez zavisnosti od lokalne mreže.
         </p>
       </div>
 
@@ -138,24 +178,59 @@ const Payments = () => {
             style={inputStyle}
           />
 
-          <label style={{ display: 'grid', gap: 8 }}>
-            <span style={{ fontWeight: 600 }}>Odaberi video</span>
+          <label style={{ display: 'flex', alignItems: 'center', gap: 10, fontWeight: 600 }}>
             <input
-              type="file"
-              accept="video/*"
-              onChange={handleFileChange}
-              required
-              style={{ width: '100%' }}
+              type="checkbox"
+              checked={useRemoteUrl}
+              onChange={(e) => setUseRemoteUrl(e.target.checked)}
             />
+            Koristi postojeći video/poster URL
           </label>
 
-          {selectedVideoUrl && (
-            <video
-              src={selectedVideoUrl}
-              controls
-              playsInline
-              style={{ width: '100%', maxHeight: 220, borderRadius: 12, background: '#111827' }}
-            />
+          {useRemoteUrl ? (
+            <>
+              <input
+                type="url"
+                placeholder="Raw video URL"
+                value={videoRemoteUrl}
+                onChange={(e) => setVideoRemoteUrl(e.target.value)}
+                required
+                style={inputStyle}
+              />
+
+              <input
+                type="url"
+                placeholder="Raw poster URL (opciono)"
+                value={posterRemoteUrl}
+                onChange={(e) => setPosterRemoteUrl(e.target.value)}
+                style={inputStyle}
+              />
+
+              <small style={{ color: '#4b5563', lineHeight: 1.5 }}>
+                Ako postoji VITE_VIDHOLD_API_KEY u .env-u, aplikacija će pokušati da importuje video preko Vidhold API-ja. Ako API ne vrati direktni URL, koristi se raw URL koji ste uneli.
+              </small>
+            </>
+          ) : (
+            <>
+              <label style={{ display: 'grid', gap: 8 }}>
+                <span style={{ fontWeight: 600 }}>Odaberi video</span>
+                <input
+                  type="file"
+                  accept="video/*"
+                  onChange={handleFileChange}
+                  style={{ width: '100%' }}
+                />
+              </label>
+
+              {selectedVideoUrl && (
+                <video
+                  src={selectedVideoUrl}
+                  controls
+                  playsInline
+                  style={{ width: '100%', maxHeight: 220, borderRadius: 12, background: '#111827' }}
+                />
+              )}
+            </>
           )}
 
           {uploading && (
@@ -179,7 +254,7 @@ const Payments = () => {
           )}
 
           <button type="submit" disabled={uploading} style={{ ...buttonStyle, opacity: uploading ? 0.7 : 1 }}>
-            {uploading ? 'Uploadujem...' : 'Upload video'}
+            {uploading ? 'Uploadujem...' : useRemoteUrl ? 'Dodaj sa URL-a' : 'Upload video'}
           </button>
         </form>
 

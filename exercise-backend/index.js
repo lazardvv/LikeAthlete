@@ -3,8 +3,10 @@ const cors = require('cors');
 const multer = require('multer');
 const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
+const path = require('path');
 const { Client, Storage } = require('node-appwrite');
-require('dotenv').config();
+require('dotenv').config({ path: path.resolve(__dirname, '.env') });
+require('dotenv').config({ path: path.resolve(__dirname, '..', '.env') });
 
 const app = express();
 const port = 3001;
@@ -12,6 +14,8 @@ const port = 3001;
 fs.mkdirSync('uploads', { recursive: true });
 
 app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Multer setup
 const upload = multer({ dest: 'uploads/' });
@@ -78,6 +82,89 @@ app.post('/upload-catbox', upload.single('file'), async (req, res) => {
 });
 
 // Upload route
+app.post('/api/vidhold/upload-url', async (req, res) => {
+  const remoteUrl = String(req.body?.url || '').trim();
+  const apiKey = String(process.env.VIDHOLD_API_KEY || '').trim();
+
+  if (!remoteUrl) {
+    return res.status(400).json({ error: 'Nedostaje url parametar.' });
+  }
+
+  if (!apiKey) {
+    return res.status(500).json({ error: 'Vidhold API key nije konfigurisan na serveru.' });
+  }
+
+  try {
+    const endpoint = `https://vidhold.com/api/upload/url?${new URLSearchParams({ key: apiKey, url: remoteUrl }).toString()}`;
+    const response = await fetch(endpoint, { method: 'GET', headers: { Accept: 'application/json' } });
+    const payload = await response.json().catch(() => ({}));
+
+    if (!response.ok) {
+      return res.status(response.status).json({
+        error: payload?.msg || payload?.error || 'Vidhold remote upload nije uspio.',
+      });
+    }
+
+    const fileCode = payload?.result?.filecode || payload?.filecode || payload?.result?.file_code || payload?.result?.id;
+    const resolvedUrl = fileCode ? `https://vidhold.com/${fileCode}` : remoteUrl;
+
+    return res.json({
+      ok: true,
+      url: resolvedUrl,
+      fileCode,
+    });
+  } catch (error) {
+    console.error('Vidhold remote upload error:', error);
+    return res.status(500).json({ error: error.message || 'Vidhold remote upload nije uspio.' });
+  }
+});
+
+app.post('/api/vidhold/upload-file', upload.single('file'), async (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ error: 'Fajl je obavezan.' });
+  }
+
+  const apiKey = String(process.env.VIDHOLD_API_KEY || '').trim();
+  if (!apiKey) {
+    return res.status(500).json({ error: 'Vidhold API key nije konfigurisan na serveru.' });
+  }
+
+  try {
+    const formData = new FormData();
+    formData.append('api_key', apiKey);
+    formData.append('file', new Blob([fs.readFileSync(req.file.path)], { type: req.file.mimetype || 'application/octet-stream' }), req.file.originalname);
+
+    const response = await fetch('https://vidhold.com/api/upload/file', {
+      method: 'POST',
+      body: formData,
+    });
+
+    const payload = await response.json().catch(() => ({}));
+
+    if (!response.ok) {
+      return res.status(response.status).json({
+        error: payload?.msg || payload?.error || 'Vidhold upload nije uspio.',
+      });
+    }
+
+    const fileCode = payload?.result?.filecode || payload?.filecode || payload?.result?.file_code || payload?.result?.id;
+    const resolvedUrl = fileCode ? `https://vidhold.com/${fileCode}` : '';
+
+    if (!resolvedUrl) {
+      return res.status(500).json({ error: 'Vidhold nije vratio validan URL nakon upload-a.' });
+    }
+
+    return res.json({ ok: true, url: resolvedUrl, fileCode });
+  } catch (error) {
+    console.error('Vidhold direct upload error:', error);
+    return res.status(500).json({ error: error.message || 'Vidhold upload nije uspio.' });
+  } finally {
+    if (req.file?.path && fs.existsSync(req.file.path)) {
+      fs.unlinkSync(req.file.path);
+    }
+  }
+});
+
 app.post('/upload', upload.single('file'), async (req, res) => {
   const inputPath = req.file.path;
   const originalName = req.file.originalname;
@@ -97,7 +184,6 @@ app.post('/upload', upload.single('file'), async (req, res) => {
         .on('error', reject);
     });
 
-    // Generate thumbnail (original resolution)
     await new Promise((resolve, reject) => {
       ffmpeg(inputPath)
         .screenshots({
@@ -109,14 +195,12 @@ app.post('/upload', upload.single('file'), async (req, res) => {
         .on('error', reject);
     });
 
-    // Upload files to Appwrite
     const [originalURL, video360pURL, thumbnailURL] = await Promise.all([
       uploadToAppwrite(inputPath, originalName),
       uploadToAppwrite(output360p, `${baseName}_360p.${ext}`),
       uploadToAppwrite(thumbnail, `${baseName}_thumb.jpg`),
     ]);
 
-    // Cleanup local files
     fs.unlinkSync(inputPath);
     fs.unlinkSync(output360p);
     fs.unlinkSync(thumbnail);
@@ -127,10 +211,10 @@ app.post('/upload', upload.single('file'), async (req, res) => {
       thumbnailURL,
     });
 
-} catch (err) {
-  console.error('Greška u obradi:', err);
-  res.status(500).json({ error: err.message || 'Upload failed' });
-}
+  } catch (err) {
+    console.error('Greška u obradi:', err);
+    res.status(500).json({ error: err.message || 'Upload failed' });
+  }
 
 });
 
